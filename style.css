@@ -1,11 +1,15 @@
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("font/bahnschrift.ttf") format("TrueType");
+}
 
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #200800;
+    background-color: black;
     color: white;
-    font-family: sans-serif;
+    font-family: "star_rail_font", Bahnschrift, sans-serif;
 }
 
 
@@ -17,13 +21,13 @@ header {
 
 
 a {
-    color: #ffc000;
+    color: wheat;
     text-decoration: none;
 }
 
 a:hover {
     color: #000020;
-    background-color: #ffc000;
+    background-color: wheat;
     border-radius: 10px;
 }
 
@@ -46,4 +50,17 @@ header li a {
     font-size: 2em;
     width: 10em;
     text-align: center;
+}
+
+
+#grille_cv {
+    display: grid;
+}
+
+li h4 {
+    margin-bottom: 0;
+}
+
+li p {
+    margin-top: 0;
 }
