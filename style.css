@@ -7,6 +7,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    /* background-image: url("https://live.staticflickr.com/65535/53072881464_d0a95851f1_k_d.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: white;
     font-family: "star_rail_font", Bahnschrift, sans-serif;
 }
@@ -16,8 +20,15 @@ header {
     background-color: #000020;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
+main {
+    width: 75vw;
+    margin: auto;
+}
 
 a {
     color: wheat;
@@ -39,6 +50,8 @@ header a#logo {
     font-size: 3rem;
     width: 5em;
     text-align: center;
+    margin: auto 0;
+    /* border-radius: 0; */
 }
 
 header li {
@@ -51,6 +64,11 @@ header li a {
     text-align: center;
 }
 
+article {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 2rem;
+}
 
 #grille_cv {
     display: grid;
@@ -84,6 +102,11 @@ a * {
     padding: 0.5rem;
     justify-content: center;
     border-radius: 5px;
+    color: white;
+}
+
+#projets a:hover {
+    background-color: rgba(127, 127, 127, 0.5);
 }
 
 address a:hover {
@@ -92,5 +115,15 @@ address a:hover {
 
 #contact {
     border: 2px solid wheat;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#contact h3 {
+    margin-top: 0;
+}
+
+address * {
+    padding: 0.2rem;
 }
 
