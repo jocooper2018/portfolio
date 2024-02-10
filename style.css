@@ -3,7 +3,6 @@
     src: url("font/bahnschrift.ttf") format("TrueType");
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -37,7 +36,7 @@ header a {
 
 header a#logo {
     display: inline-block;
-    font-size: 3em;
+    font-size: 3rem;
     width: 5em;
     text-align: center;
 }
@@ -47,7 +46,7 @@ header li {
 }
 
 header li a {
-    font-size: 2em;
+    font-size: 2rem;
     width: 10em;
     text-align: center;
 }
@@ -64,3 +63,34 @@ li h4 {
 li p {
     margin-top: 0;
 }
+
+#gauche {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#droite {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+a * {
+    margin: 0;
+}
+
+#projets a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+address a:hover {
+    border-radius: 2px;
+}
+
+#contact {
+    border: 2px solid wheat;
+}
+
