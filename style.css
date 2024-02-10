@@ -7,7 +7,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    /* background-image: url("https://live.staticflickr.com/65535/53072881464_d0a95851f1_k_d.jpg"); */
+    background-image: url("https://live.staticflickr.com/65535/53072881464_d0a95851f1_k_d.jpg");
+    /* background-image: url("https://live.staticflickr.com/65535/53519420679_116d4a2b8f_k_d.jpg"); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -17,11 +18,11 @@ body {
 
 
 header {
-    background-color: #000020;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: sticky;
     top: 0;
 }
 
@@ -68,6 +69,7 @@ article {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding: 2rem;
+    backdrop-filter: blur(20px);
 }
 
 #grille_cv {
@@ -97,10 +99,8 @@ a * {
 }
 
 #projets a {
-    display: flex;
-    flex-direction: column;
+    display: block;
     padding: 0.5rem;
-    justify-content: center;
     border-radius: 5px;
     color: white;
 }
