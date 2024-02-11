@@ -76,6 +76,10 @@ article {
     backdrop-filter: blur(20px);
 }
 
+article > h2 {
+    margin-top: 0;
+}
+
 #grille_cv {
     display: grid;
 }
