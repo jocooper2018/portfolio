@@ -7,6 +7,8 @@
     --home-section-heigt: 100vh;
     --home-section-heigt: 100dvh;
     --bgc: rgba(0, 0, 0, 0.5);
+    --color1: #E55532;
+    --color2: #235078;
 }
 
 
@@ -69,6 +71,12 @@ a * {
 
 /********************* Header *********************/
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 header a {
     display: inline-block;
 }
@@ -108,13 +116,18 @@ article > h2 {
 
 p {
     text-align: justify;
+    margin: 0;
 }
 
+strong {
+    color: var(--color1);
+}
 
 /****************** index ******************/
 
 h1 {
     font-size: 3rem;
+    margin: 0;
 }
 
 #home-section {
@@ -123,7 +136,7 @@ h1 {
 
 #banner {
     width: fit-content;
-    margin: calc(calc(100vh - 3rem) / 2 - calc(4rem * 4));
+    margin: calc(calc(100vh - 3rem) / 2 - calc(3rem * 4));
 }
 
 #banner h1 {
@@ -146,6 +159,10 @@ h1 {
     bottom: 0;
 }
 
+#about {
+    margin: 3rem 0 5rem;
+}
+
 #about > article {
     display: flex;
     flex-direction: column;
@@ -161,6 +178,10 @@ h1 {
 
 .sub_article div {
     width: 50%;
+}
+
+.sub_article p {
+    font-size: 1.25rem;
 }
 
 
