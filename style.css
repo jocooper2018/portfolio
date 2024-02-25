@@ -95,7 +95,7 @@ header li a {
 
 /****************** Article ******************/
 
-article {
+.bg {
     background-color: var(--bgc);
     border-radius: 20px;
     padding: 2rem;
@@ -113,13 +113,16 @@ p {
 
 /****************** index ******************/
 
+h1 {
+    font-size: 3rem;
+}
+
 #home-section {
     height: var(--home-section-heigt);
 }
 
 #banner {
     width: fit-content;
-    font-size: 4rem;
     margin: calc(calc(100vh - 3rem) / 2 - calc(4rem * 4));
 }
 
@@ -138,7 +141,35 @@ p {
     background-color: white;
 }
 
+#banner + .sep {
+    position: absolute;
+    bottom: 0;
+}
+
+#about > article {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 75vw;
+    margin: auto;
+}
+
+.sub_article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_article div {
+    width: 50%;
+}
+
+
 /****************** CV ******************/
+
+body > main {
+    width: 75vw;
+    margin: auto;
+}
 
 #grille_cv {
     display: grid;
