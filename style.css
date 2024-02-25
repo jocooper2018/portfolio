@@ -7,23 +7,35 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    background-image: url("https://live.staticflickr.com/65535/53072881464_d0a95851f1_k_d.jpg");
     background-image: url("images/Herbig-Haro 46 47 (NIRCam Image).png");
-    /* background-image: url("https://live.staticflickr.com/65535/53072881464_d0a95851f1_k_d.jpg"); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: white;
     font-family: "Bahnschrift", Bahnschrift, sans-serif;
+    display: block;
+    min-height: 100vh;
 }
 
 
 header {
-    background-color: transparent;
-    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     top: 0;
+    margin-bottom: 2rem;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 main {
@@ -36,7 +48,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a.current {
     background-color: rgba(255, 255, 255, 0.25);
     border-radius: 10px;
     text-shadow: 5px 5px 3px black;
@@ -73,7 +85,7 @@ article {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding: 2rem;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
 
 article > h2 {
@@ -115,7 +127,8 @@ address a:hover {
 #contact {
     margin-top: 2rem;
     padding: 2rem;
-    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
     border-top: 2px solid white;
 }
 
