@@ -3,6 +3,15 @@
     src: url("font/bahnschrift.ttf") format("TrueType");
 }
 
+:root {
+    --home-section-heigt: 100vh;
+    --home-section-heigt: 100dvh;
+    --bgc: rgba(0, 0, 0, 0.5);
+}
+
+
+/****************** Corp de la page ******************/
+
 body {
     margin: 0;
     padding: 0;
@@ -15,12 +24,11 @@ body {
     color: white;
     font-family: "Bahnschrift", Bahnschrift, sans-serif;
     display: block;
-    min-height: 100vh;
 }
 
 
 header {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--bgc);
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: row;
@@ -38,7 +46,7 @@ header ul {
     flex-grow: 1;
 }
 
-main {
+main section {
     width: 75vw;
     margin: auto;
 }
@@ -57,6 +65,9 @@ a:hover, a.current {
 a * {
     margin: 0;
 }
+
+
+/********************* Header *********************/
 
 header a {
     display: inline-block;
@@ -81,8 +92,11 @@ header li a {
     text-align: center;
 }
 
+
+/****************** Article ******************/
+
 article {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--bgc);
     border-radius: 20px;
     padding: 2rem;
     backdrop-filter: blur(10px);
@@ -92,16 +106,42 @@ article > h2 {
     margin-top: 0;
 }
 
+p {
+    text-align: justify;
+}
+
+
+/****************** index ******************/
+
+#home-section {
+    height: var(--home-section-heigt);
+}
+
+#banner {
+    width: fit-content;
+    font-size: 4rem;
+    margin: calc(calc(100vh - 3rem) / 2 - calc(4rem * 4));
+}
+
+#banner h1 {
+    margin: 0;
+}
+
+#firstname, #job {
+    font-weight: lighter;
+}
+
+.sep {
+    height: 2px;
+    width: 90%;
+    margin: 2rem 5%;
+    background-color: white;
+}
+
+/****************** CV ******************/
+
 #grille_cv {
     display: grid;
-}
-
-li h4 {
-    margin-bottom: 0;
-}
-
-li p {
-    margin-top: 0;
 }
 
 #gauche {
@@ -120,6 +160,17 @@ li p {
     border-radius: 5px;
 }
 
+li h4 {
+    margin-bottom: 0;
+}
+
+li p {
+    margin-top: 0;
+}
+
+
+/****************** Footer ******************/
+
 address a:hover {
     border-radius: 2px;
 }
@@ -127,7 +178,7 @@ address a:hover {
 #contact {
     margin-top: 2rem;
     padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--bgc);
     backdrop-filter: blur(10px);
     border-top: 2px solid white;
 }
