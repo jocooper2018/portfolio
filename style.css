@@ -9,6 +9,9 @@
     --bgc: rgba(0, 0, 0, 0.5);
     --color1: #E55532;
     --color2: #235078;
+    --blur-amount: 10px;
+    --border-radius-bg: 20px;
+    --border-radius-button: 10px;
 }
 
 
@@ -31,7 +34,7 @@ body {
 
 header {
     background-color: var(--bgc);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur-amount));
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -56,12 +59,16 @@ main section {
 a {
     color: white;
     text-decoration: none;
+    border-radius: var(--border-radius-button);
 }
 
-a:hover, a.current {
+a:hover {
     background-color: rgba(255, 255, 255, 0.25);
-    border-radius: 10px;
     text-shadow: 5px 5px 3px black;
+}
+
+a.current {
+    color: var(--color1);
 }
 
 a * {
@@ -105,9 +112,9 @@ header li a {
 
 .bg {
     background-color: var(--bgc);
-    border-radius: 20px;
+    border-radius: var(--border-radius-bg);
     padding: 2rem;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur-amount));
 }
 
 article > h2 {
@@ -184,6 +191,20 @@ h1 {
     font-size: 1.25rem;
 }
 
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    width: 50%;
+    padding: 0 2rem;
+}
+
+.button_bg {
+    padding: 1rem;
+    background-color: var(--bgc);
+    backdrop-filter: blur(var(--blur-amount));
+}
+
 
 /****************** CV ******************/
 
@@ -223,23 +244,35 @@ li p {
 
 /****************** Footer ******************/
 
-address a:hover {
+footer a:hover {
     border-radius: 2px;
 }
 
-#contact {
+footer {
     margin-top: 2rem;
     padding: 2rem;
     background-color: var(--bgc);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur-amount));
     border-top: 2px solid white;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
 }
 
-#contact h3 {
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3 {
     margin-top: 0;
 }
 
-address * {
+footer * {
     padding: 0.2rem;
+}
+
+address, address a {
+    display: block;
 }
 
