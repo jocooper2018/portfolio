@@ -4,8 +4,8 @@
 }
 
 :root {
-    --home-section-heigt: 100vh;
-    --home-section-heigt: 100dvh;
+    --home-section-height: 100vh;
+    --home-section-height: 100dvh;
     --bgc: rgba(0, 0, 0, 0.5);
     --color1: #E55532;
     --color2: #235078;
@@ -138,7 +138,7 @@ h1 {
 }
 
 #home-section {
-    height: var(--home-section-heigt);
+    height: var(--home-section-height);
 }
 
 #banner {
@@ -150,7 +150,7 @@ h1 {
     margin: 0;
 }
 
-#firstname, #job {
+#first_name, #job {
     font-weight: lighter;
 }
 
