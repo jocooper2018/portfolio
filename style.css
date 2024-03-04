@@ -117,10 +117,6 @@ header li a {
     backdrop-filter: blur(var(--blur-amount));
 }
 
-article > h2 {
-    margin-top: 0;
-}
-
 p {
     text-align: justify;
     margin: 0;
@@ -213,6 +209,22 @@ body > main {
     margin: auto;
 }
 
+#title_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+#title h2 {
+    margin-top: 0;
+}
+
+#title_container a {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
 #grille_cv {
     display: grid;
 }
@@ -257,11 +269,15 @@ li p {
     font-size: 1rem;
 }
 
+#langue p, #experience_pro p {
+    padding-left: 2.5rem;
+}
+
 .code {
     font-family: Consolas, monospace;
 }
 
-#competences p, #experience_pro p {
+#competences p {
     padding-left: 2rem;
 }
 
