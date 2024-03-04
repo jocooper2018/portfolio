@@ -233,12 +233,36 @@ body > main {
     border-radius: 5px;
 }
 
-li h4 {
-    margin-bottom: 0;
+li {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.inline {
+    display: inline-block;
 }
 
 li p {
-    margin-top: 0;
+    margin: 0.25rem 0;
+    font-size: 1rem;
+}
+
+.code {
+    font-family: Consolas, monospace;
+}
+
+#competences p, #experience_pro p {
+    padding-left: 2rem;
 }
 
 
