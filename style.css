@@ -7,13 +7,12 @@
     --home-section-height: 100vh;
     --home-section-height: 100dvh;
     --bgc: rgba(0, 0, 0, 0.5);
-    --color1: #E55532;
+    --color1: #e55532;
     --color2: #235078;
     --blur-amount: 10px;
     --border-radius-bg: 20px;
     --border-radius-button: 10px;
 }
-
 
 /****************** Corp de la page ******************/
 
@@ -30,7 +29,6 @@ body {
     font-family: "Bahnschrift", Bahnschrift, sans-serif;
     display: block;
 }
-
 
 header {
     background-color: var(--bgc);
@@ -75,7 +73,6 @@ a * {
     margin: 0;
 }
 
-
 /********************* Header *********************/
 
 header {
@@ -106,7 +103,6 @@ header li a {
     width: 10em;
     text-align: center;
 }
-
 
 /****************** Article ******************/
 
@@ -146,7 +142,8 @@ h1 {
     margin: 0;
 }
 
-#first_name, #job {
+#first_name,
+#job {
     font-weight: lighter;
 }
 
@@ -200,7 +197,6 @@ h1 {
     background-color: var(--bgc);
     backdrop-filter: blur(var(--blur-amount));
 }
-
 
 /****************** CV ******************/
 
@@ -269,7 +265,8 @@ li p {
     font-size: 1rem;
 }
 
-#langue p, #experience_pro p {
+#langue p,
+#experience_pro p {
     padding-left: 2.5rem;
 }
 
@@ -280,7 +277,6 @@ li p {
 #competences p {
     padding-left: 2rem;
 }
-
 
 /****************** Footer ******************/
 
@@ -312,7 +308,7 @@ footer * {
     padding: 0.2rem;
 }
 
-address, address a {
+address,
+address a {
     display: block;
 }
-
