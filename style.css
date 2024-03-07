@@ -230,6 +230,7 @@ body > main {
 
 #grille_cv {
     display: grid;
+    gap: 1rem;
 }
 
 #gauche {
