@@ -385,6 +385,22 @@ a:active {
     footer {
         gap: 7.5rem;
     }
+
+    /* Index banner */
+
+    /* Index section about */
+
+    .sub_article {
+        flex-direction: column;
+    }
+
+    .sub_article div {
+        width: 80%;
+    }
+
+    #about h1 {
+        padding-bottom: 3rem;
+    }
 }
 
 @media screen and (max-width: 700px) {
