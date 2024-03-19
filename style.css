@@ -353,3 +353,73 @@ a:active {
     background-color: white;
     color: black;
 }
+
+/* responsive */
+
+@media screen and (max-width: 1400px) {
+    
+    /* Header */
+
+    header li a {
+        width: 7.5em;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    
+    /* Header */
+
+    header li a {
+        width: 5em;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    
+    /* Header */
+
+    /* TODO Menu Burger */
+
+    /* Footer */
+
+    footer {
+        gap: 7.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    /* Footer */
+
+    footer {
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Footer */
+
+    footer {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    /* Footer */
+
+    footer {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /* Footer */
+
+    footer {
+        gap: 0.25rem;
+    }
+}
+
