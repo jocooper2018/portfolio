@@ -13,6 +13,7 @@
     --blur-amount: 10px;
     --border-radius-bg: 20px;
     --border-radius-button: 10px;
+    --burger-button-size: 5rem;
 }
 
 /****************** Corp de la page ******************/
@@ -98,7 +99,7 @@ header a {
     display: inline-block;
 }
 
-header a#logo {
+#logo {
     display: inline-block;
     font-size: 3rem;
     width: 5em;
@@ -115,6 +116,32 @@ header li a {
     font-size: 2rem;
     width: 10em;
     text-align: center;
+}
+
+#burger_button {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    padding: calc(var(--burger-button-size) * 0.15);
+    height: var(--burger-button-size);
+    width: var(--burger-button-size);
+    background-color: transparent;
+    border: none;
+    border-radius: var(--border-radius-button);
+    gap: calc(var(--burger-button-size) * 0.12);
+}
+
+#burger_button:hover {
+    background-color: var(--bgc-a-hover);
+}
+
+.burger_icon {
+    background-color: white;
+    height: calc(var(--burger-button-size) * 0.12);
+}
+
+#burger_button:hover .burger_icon {
+    box-shadow: 5px 5px 3px black;
 }
 
 /****************** Article ******************/
@@ -397,6 +424,14 @@ a:active {
     /* Header */
 
     /* TODO Menu Burger */
+    
+    header nav {
+        display: none;
+    }
+
+    #burger_button {
+        display: flex;
+    }
 
     /* Footer */
 
