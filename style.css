@@ -67,7 +67,19 @@ a:hover {
 }
 
 a.current {
-    color: var(--color1);
+    position: relative;
+}
+
+a.current::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: var(--color1);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    transform: translate(0%, 200%)
 }
 
 a * {
