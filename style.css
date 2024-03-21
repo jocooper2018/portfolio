@@ -11,8 +11,9 @@
     --color1: #e55532;
     --color2: #235078;
     --blur-amount: 10px;
-    --border-radius-bg: 20px;
-    --border-radius-button: 10px;
+    --border-radius-bg: 2rem;
+    --border-radius-button: 0.75rem;
+    --border-radius-img: 1rem;
     --burger-button-size: 5rem;
 }
 
@@ -377,8 +378,12 @@ li p {
 /* Platformer2D */
 
 #main_image {
-    width: calc(100% - 4rem);
-    margin: 1rem 2rem;
+    width: calc(100% - 6rem);
+    margin: 1rem 3rem;
+}
+
+img {
+    border-radius: var(--border-radius-img);
 }
 
 /****************** Footer ******************/
