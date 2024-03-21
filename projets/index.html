@@ -6,7 +6,7 @@
     </head>
     <body>
         <header id="header">
-            <button id="burger_button">
+            <button onclick="openBurgerMenu();" id="burger_button">
                 <div id="burger_icon_top" class="burger_icon"></div>
                 <div id="burger_icon_middle" class="burger_icon"></div>
                 <div id="burger_icon_bottom" class="burger_icon"></div>
@@ -21,11 +21,28 @@
                         <a href="../projets/" class="current">Projets</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="./#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        <nav id="burger_menu">
+            <ul>
+                <li>
+                    <a href="../">Accueil</a>
+                </li>
+                <li>
+                    <a href="../cv/">CV</a>
+                </li>
+                <li>
+                    <a href="../projets/">Projets</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="../scripts/burger.js"></script>
         <main id="projets" class="bg">
             <ul>
                 <li>
