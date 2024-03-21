@@ -374,6 +374,13 @@ li p {
     margin: 0;
 }
 
+/* Platformer2D */
+
+#main_image {
+    width: calc(100% - 4rem);
+    margin: 1rem 2rem;
+}
+
 /****************** Footer ******************/
 
 footer a:hover {
