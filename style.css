@@ -229,18 +229,9 @@ body > main {
 }
 
 #grille_cv {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     gap: 1rem;
-}
-
-#gauche {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-#droite {
-    grid-column: 2;
-    grid-row: 1;
 }
 
 #projets_cv a {
@@ -363,6 +354,14 @@ a:active {
     header li a {
         width: 7.5em;
     }
+
+    /* CV */
+
+    #title_container {
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
 }
 
 @media screen and (max-width: 1120px) {
@@ -371,6 +370,13 @@ a:active {
 
     header li a {
         width: 5em;
+    }
+
+    /* CV */
+
+    #grille_cv {
+        flex-direction: column;
+        gap: 0;
     }
 }
 
@@ -398,12 +404,23 @@ a:active {
         width: 80%;
     }
 
+    #about .buttons {
+        width: 80%;
+    }
+
     #about h1 {
         padding-bottom: 3rem;
     }
 }
 
 @media screen and (max-width: 700px) {
+
+    /* Index */
+
+    #banner {
+        width: 75vw;
+        margin: 0 auto;
+    }
 
     /* Footer */
 
