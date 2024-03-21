@@ -386,6 +386,22 @@ img {
     border-radius: var(--border-radius-img);
 }
 
+.detail_projet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail_projet img {
+    width: 40%;
+    flex-shrink: 0;
+}
+
+.detail_projet p {
+    padding: 2rem;
+}
+
 /****************** Footer ******************/
 
 footer a:hover {
