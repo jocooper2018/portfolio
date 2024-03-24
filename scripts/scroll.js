@@ -6,7 +6,7 @@ window.addEventListener(
         let currentScroll =
             window.scrollY || document.documentElement.scrollTop;
 
-        if (currentScroll > lastScrollTop) {
+        if (currentScroll > lastScrollTop && document.getElementById("burger_menu").style.display == "none") {
             // Faites défiler vers le bas
             document.getElementById("header").style.position = "unset";
         } else {
