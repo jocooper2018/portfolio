@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Portfolio • Matthieu LE BOUT</title>
+        <link rel="stylesheet" href="../../style.css" />
+    </head>
+    <body>
+        <header id="header">
+            <button onclick="openBurgerMenu();" id="burger_button">
+                <div id="burger_icon_top" class="burger_icon"></div>
+                <div id="burger_icon_middle" class="burger_icon"></div>
+                <div id="burger_icon_bottom" class="burger_icon"></div>
+            </button>
+            <a href="../../" id="logo">Portfolio</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../../cv/">CV</a>
+                    </li>
+                    <li>
+                        <a href="../" class="current">Projets</a>
+                    </li>
+                    <li>
+                        <a href="./#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="burger_menu" style="display: none">
+            <ul>
+                <li>
+                    <a href="../../">Accueil</a>
+                </li>
+                <li>
+                    <a href="../../cv/">CV</a>
+                </li>
+                <li>
+                    <a href="../">Projets</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="../../scripts/burger.js"></script>
+        <main class="bg">
+            <h1>Sudoku</h1>
+            <h2>
+                Compétence associé&nbsp;: Réaliser un développement
+                d’application
+            </h2>
+            <p>
+                J’ai réaliser ce projet dans le cadre de mes études dans le but
+                d’implémenter un besoin client. J’ai premièrement conçu et écris
+                en C un programme permettant de compléter une grille de Sudoku.
+                Dans une deuxième partie, j’ai développer un programme
+                permettant de compléter n’importe quelle grille de Sudoku.
+            </p>
+            <img
+                src="../../images/sudoku.png"
+                alt="Écran principal du jeu"
+                id="main_image"
+            />
+            <div class="detail_projet">
+                <p>
+                    J’ai commencer par réaliser une maquette du sudoku. La
+                    maquette permet de visualiser à quoi pourrai ressembler le
+                    résultat final.
+                </p>
+                <img
+                    src="../../images/sudoku_maquette.png"
+                    alt="Écrans de selection du niveau"
+                />
+            </div>
+            <div class="detail_projet">
+                <img src="../../images/sudoku_algo.png" alt="Début du niveau" />
+                <p>
+                    J’ai ensuite réfléchi sur l’algorithme à utiliser pour faire
+                    fonctionner le programme.
+                </p>
+            </div>
+            <div class="detail_projet">
+                <p>
+                    Afin de pouvoir m’organiser sur les objectifs de chaque
+                    parties de mon code, j’ai réaliser un cahier de test qui
+                    recense les différentes situations qui pourrai se produire
+                    et le comportement attendu pour chacune de ces situations.
+                </p>
+                <img
+                    src="../../images/sudoku_tests.png"
+                    alt="Un ennemi"
+                />
+            </div>
+            <div class="detail_projet">
+                <img
+                    src="../../images/sudoku_code.png"
+                    alt="Une échelle"
+                />
+                <p>
+                    Enfin, j’ai écris le code du programme en C en respectant les
+                    contraintes du cahier de tests.
+                </p>
+            </div>
+            <div class="detail_projet">
+                <p>
+                    Afin de rendre mon code maintenable, j’ai réaliser la documentation
+                    du projet au format rtf.
+                </p>
+                <img
+                    src="../../images/sudoku_documentation.png"
+                    alt="Un ennemi"
+                />
+            </div>
+        </main>
+        <footer>
+            <div id="contact">
+                <h3>Contact</h3>
+                <!-- TODO Formulaire de contacte -->
+            </div>
+            <nav>
+                <h3>Navigation</h3>
+                <a href="../../">Accueil</a>
+                <a href="../../cv/">CV</a>
+                <a href="../">Projets</a>
+            </nav>
+            <div>
+                <h3>Réseaux</h3>
+                <a href="https://github.com/jocooper2018" target="_blank"
+                    >GitHub</a
+                >
+                <a
+                    href="https://www.linkedin.com/in/matthieu-le-bout/"
+                    target="_blank"
+                >
+                    LinkedIn
+                </a>
+            </div>
+        </footer>
+        <script src="../../scripts/scroll.js"></script>
+    </body>
+</html>
