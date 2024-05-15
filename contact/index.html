@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Portfolio • Matthieu LE BOUT</title>
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <header id="header">
+            <button onclick="openBurgerMenu();" id="burger_button">
+                <div id="burger_icon_top" class="burger_icon"></div>
+                <div id="burger_icon_middle" class="burger_icon"></div>
+                <div id="burger_icon_bottom" class="burger_icon"></div>
+            </button>
+            <a href="./" id="logo" class="current">Portfolio</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="cv/">CV</a>
+                    </li>
+                    <li>
+                        <a href="projets/">Projets</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="burger_menu" style="display: none">
+            <ul>
+                <li>
+                    <a href="./">Accueil</a>
+                </li>
+                <li>
+                    <a href="cv/">CV</a>
+                </li>
+                <li>
+                    <a href="projets/">Projets</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="scripts/burger.js"></script>
+        <main>
+            <form action="/" method="post" class="bg">
+                <h1>Me Contacter</h1>
+                <ul>
+                    <li>
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li>
+                        <label for="msg">Message</label>
+                        <textarea name="user_message" id="msg"></textarea>
+                    </li>
+                </ul>
+                <button type="submit">Envoyer</button>
+            </form>
+        </main>
+        <footer>
+            <div id="contact">
+                <h3>Contact</h3>
+                <!-- TODO Formulaire de contacte -->
+            </div>
+            <nav>
+                <h3>Navigation</h3>
+                <a href="./">Accueil</a>
+                <a href="cv/">CV</a>
+                <a href="projets/">Projets</a>
+            </nav>
+            <div>
+                <h3>Réseaux</h3>
+                <a href="https://github.com/jocooper2018" target="_blank"
+                    >GitHub</a
+                >
+                <a
+                    href="https://www.linkedin.com/in/matthieu-le-bout/"
+                    target="_blank"
+                >
+                    LinkedIn
+                </a>
+            </div>
+        </footer>
+        <script src="scripts/scroll.js"></script>
+    </body>
+</html>

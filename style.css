@@ -437,6 +437,57 @@ address a {
     display: block;
 }
 
+/****************** Contact ******************/
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form ul {
+    padding: 0;
+}
+
+form li {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    padding-left: var(--border-radius-button);
+}
+
+form input, form textarea {
+    background-color: var(--bgc-a-hover);
+    border: none;
+    border-radius: var(--border-radius-button);
+    padding: 0.5rem;
+    color: white;
+}
+
+form textarea {
+    height: 10rem;
+    max-width: 100%;
+    min-width: 95%;
+}
+
+form button {
+    width: 5rem;
+    align-self: flex-end;
+    padding: 0.5rem;
+    border: var(--bgc-a-hover) solid 2px;
+    background-color: transparent;
+    border-radius: var(--border-radius-button);
+    color: white;
+}
+
+form button:hover {
+    border: transparent solid 2px;
+    background-color: var(--bgc-a-hover);
+}
+
 /* azerty */
 
 a:active {
