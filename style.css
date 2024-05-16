@@ -63,7 +63,7 @@ a {
     border-radius: var(--border-radius-button);
 }
 
-a:hover {
+a:hover, button:hover {
     background-color: var(--bgc-a-hover);
     text-shadow: 5px 5px 3px black;
 }
@@ -469,9 +469,9 @@ form input, form textarea {
 
 form textarea {
     height: 10rem;
-    max-width: 100%;
-    min-width: 95%;
     min-height: 2rem;
+    font-family: "Bahnschrift", Bahnschrift, sans-serif;
+    resize: vertical;
 }
 
 form button {
@@ -484,14 +484,13 @@ form button {
     color: white;
 }
 
-form button:hover {
+button:hover {
     border: transparent solid 2px;
-    background-color: var(--bgc-a-hover);
 }
 
 /* azerty */
 
-a:active {
+a:active, button:active {
     background-color: white;
     color: black;
 }
