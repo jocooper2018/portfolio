@@ -475,7 +475,6 @@ form textarea {
 }
 
 form button {
-    width: 5rem;
     align-self: flex-end;
     padding: 0.5rem;
     border: var(--bgc-a-hover) solid 2px;
@@ -485,6 +484,23 @@ form button {
 }
 
 button:hover {
+    border: transparent solid 2px;
+}
+
+._404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem;
+}
+
+._404 .button {
+    padding: 1rem;
+    border: var(--bgc-a-hover) solid 2px;
+}
+
+._404 .button:hover {
     border: transparent solid 2px;
 }
 
