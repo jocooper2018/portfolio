@@ -455,7 +455,7 @@ form li {
     flex-direction: column;
 }
 
-form label {
+form label, form p {
     padding-left: var(--border-radius-button);
 }
 
