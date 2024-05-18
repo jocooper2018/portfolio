@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Suika • Matthieu</title>
+        <link rel="stylesheet" href="../../style.css" >
+    </head>
+    <body>
+        <header id="header">
+            <button onclick="openBurgerMenu();" id="burger_button">
+                <div id="burger_icon_top" class="burger_icon"></div>
+                <div id="burger_icon_middle" class="burger_icon"></div>
+                <div id="burger_icon_bottom" class="burger_icon"></div>
+            </button>
+            <a href="../../" id="logo">Portfolio</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../../cv/">CV</a>
+                    </li>
+                    <li>
+                        <a href="../" class="current">Projets</a>
+                    </li>
+                    <li>
+                        <a href="../../contact/">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="burger_menu" style="display: none">
+            <ul>
+                <li>
+                    <a href="../../">Accueil</a>
+                </li>
+                <li>
+                    <a href="../../cv/">CV</a>
+                </li>
+                <li>
+                    <a href="../">Projets</a>
+                </li>
+                <li>
+                    <a href="../../contact/">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="../../scripts/burger.js"></script>
+        <main class="bg">
+            <h1>Suika</h1>
+            <h2>
+                Compétence associé&nbsp;: Réaliser un développement
+                d’application
+            </h2>
+            <p>
+                Entre les cours, j'ai vu des étudiants jouer à un jeu&nbsp;:
+                Suika Game, le jeu de la pastèque. J'ai trouvé le concept du
+                jeu intéressant. J'ai donc essayé de refaire le jeu. Lors de
+                ce projet, je me suis concentré sur la partie fonctionnelle
+                du jeu. Les visuels ne sont donc pas très poussé.
+            </p>
+            <img
+                src="../../images/suika_main_menu.png"
+                alt="Écran principal du jeu"
+                id="main_image"
+            >
+            <div class="detail_projet">
+                <p>
+                    Le concept du jeu est simple&nbsp; Une boite dans laquelle
+                    on peut faire tomber des fruits. Le triangle représente
+                    l'endroit d'où on va faire tombé le prochain fruit. On
+                    peut le déplacé avec la souris ou le clavier pour choisir
+                    où faire tomber le fruit. Les fruits sont représenté par
+                    les cercles de couleur.
+                </p>
+                <img
+                    src="../../images/suika_before_drop.png"
+                    alt="Écrans de selection du niveau"
+                >
+            </div>
+            <div class="detail_projet">
+                <img src="../../images/suka_during_drop.png" alt="Début du niveau" >
+                <p>
+                    La ligne verticale en dessous du triangle permet de voir
+                    où le fruit va tomber. Le fruit peut être lâcher en
+                    cliquant ou en appuyant sur le touche espace.
+                </p>
+            </div>
+            <div class="detail_projet">
+                <p>
+                    Lorsqu'un fruit touche un autre fruit identique, les
+                    deux fruits fusionne pour donner un autre fruit plus
+                    gros.
+                </p>
+                <img
+                    src="../../images/suika_after_drop.png"
+                    alt="Un ennemi"
+                >
+            </div>
+            <div class="detail_projet">
+                <img
+                    src="../../images/suika_game.png"
+                    alt="Une échelle"
+                >
+                <p>
+                    L'objectif du jeu est de faire le plus de combinaisons
+                    de fruit possible sans faire déborder la boîte. Lorsqu'un
+                    fruit touche la barre du haut pendant trop longtemps,
+                    la partie s'achève.
+                </p>
+            </div>
+            <div class="detail_projet">
+                <p>
+                    Le projet à été réaliser avec le logiciel Unity.
+                </p>
+                <img
+                    src="../../images/suika_unity_editor.png"
+                    alt="Un ennemi"
+                >
+            </div>
+            <div class="detail_projet">
+                <img
+                    src="../../images/suika_visual_studio.png"
+                    alt="Une échelle"
+                >
+                <p>
+                    Le code source est en C#.
+                </p>
+            </div>
+        </main>
+        <footer>
+            <div id="contact">
+                <h3>Contact</h3>
+                <a href="../../contact/">Me contacter</a>
+            </div>
+            <nav>
+                <h3>Navigation</h3>
+                <a href="../../">Accueil</a>
+                <a href="../../cv/">CV</a>
+                <a href="../">Projets</a>
+                <a href="../../contact/">Contact</a>
+                <a href="../../mentions/">Mentions légales</a>
+            </nav>
+            <div>
+                <h3>Réseaux</h3>
+                <a href="https://github.com/jocooper2018" target="_blank">
+                    GitHub
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/matthieu-le-bout/"
+                    target="_blank"
+                >
+                    LinkedIn
+                </a>
+            </div>
+        </footer>
+        <script src="../../scripts/scroll.js"></script>
+    </body>
+</html>
