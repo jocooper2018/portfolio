@@ -391,7 +391,7 @@ li p {
     margin: 0;
 }
 
-/* Platformer2D */
+/* Détails des projets */
 
 #main_image {
     width: calc(100% - 6rem);
@@ -416,6 +416,14 @@ img {
 
 .detail_projet p {
     padding: 2rem;
+}
+
+.test_button {
+    display: block;
+    margin: 5rem auto 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: fit-content;
 }
 
 /****************** Footer ******************/
@@ -489,7 +497,7 @@ form textarea {
     resize: vertical;
 }
 
-form button {
+form button, .test_button {
     align-self: flex-end;
     padding: 0.5rem;
     border: var(--bgc-a-hover) solid 2px;
@@ -498,7 +506,7 @@ form button {
     color: white;
 }
 
-button:hover {
+button:hover, .test_button:hover {
     border: transparent solid 2px;
 }
 
