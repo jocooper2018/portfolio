@@ -391,6 +391,10 @@ li p {
     margin: 0;
 }
 
+#projets h2 {
+    margin: 2rem;
+}
+
 /* Détails des projets */
 
 #main_image {
