@@ -422,6 +422,18 @@ img {
     padding: 2rem;
 }
 
+.detail_projet div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+.detail_projet div img {
+    width: 49%;
+    border-radius: calc(var(--border-radius-img) / 2);
+}
+
 .test_button {
     display: block;
     margin: 5rem auto 2rem;

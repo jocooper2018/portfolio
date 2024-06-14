@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Le problème du cavalier • Matthieu</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <header id="header">
+            <button onclick="openBurgerMenu();" id="burger_button">
+                <div id="burger_icon_top" class="burger_icon"></div>
+                <div id="burger_icon_middle" class="burger_icon"></div>
+                <div id="burger_icon_bottom" class="burger_icon"></div>
+            </button>
+            <a href="/" id="logo">Portfolio</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/cv/">CV</a>
+                    </li>
+                    <li>
+                        <a href="/projets/" class="current">Projets</a>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="burger_menu" style="display: none">
+            <ul>
+                <li>
+                    <a href="/">Accueil</a>
+                </li>
+                <li>
+                    <a href="/cv/">CV</a>
+                </li>
+                <li>
+                    <a href="/projets/">Projets</a>
+                </li>
+                <li>
+                    <a href="/contact/">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="/scripts/burger.js"></script>
+        <main class="bg">
+            <section>
+                <h1>Le problème du cavalier</h1>
+                <h2>
+                    Compétence associé&nbsp;: Optimiser des applications 
+                    informatiques
+                </h2>
+                <p>
+                    Dans ce projet, je me suis intéressé au problème du cavalier.
+                    On dispose d’un échiquier, et on souhaite savoir si il est 
+                    possible qu’un cavalier passe par toutes les cases de l’échiquier
+                    sans passer deux fois par la même case, tout en respectant les
+                    règles des échecs concernant les déplacement du cavalier.
+                    J’ai donc réaliser un programme en python pour trouver une 
+                    solution à ce problème, et comparer différents algorithmes.
+                </p>
+                <img
+                    src="/images/probleme_du_cavalier_intro.webp"
+                    alt="Écran principal du jeu"
+                    id="main_image"
+                >
+            </section>
+            <article>
+                <div class="detail_projet">
+                    <img
+                        src="/images/probleme_du_cavalier_trouver_chemin_util.png"
+                        alt="Écrans de selection du niveau"
+                    >
+                    <p>
+                        La première stratégie que j’ai utiliser est uun parcours en 
+                        profondeur, en marquant les cases visitées, et de retourner 
+                        en arrière si le chemin emprunté conduit à une impasse. On 
+                        parle alors d’algorithme de type "retour ur trace" ou 
+                        "retour arrière" (backtracking en anglais).
+                    </p>
+                </div>
+                <div class="detail_projet">
+                    <p>
+                        L’avantage de cette approche est qu’on est sure de trouver 
+                        une solution si il en existe une. Cependant, cet algorithme
+                        a aussi un très gros point faible. Comme il consiste à 
+                        tester toutes les possibilités, il est donc extrêmement
+                        lent.
+                    </p>
+                    <img 
+                        src="/images/probleme_du_cavalier_trouver_chemin_hamiltonien.png" 
+                        alt="Début du niveau"
+                    >
+                </div>
+                <div class="detail_projet">
+                    <img src="/images/probleme_du_cavalier_solve_cavalier.png" alt="Début du niveau" >
+                    <p>
+                        Ma seconde stratégie à été d’utiliser l’algorithme de Warnsdorf.
+                        Le cavalier est déplacé de façon à toujours se rendre sur la case 
+                        à partir de laquelle il aura le moins de déplacements ultérieurs.
+                    </p>
+                </div>
+                <div class="detail_projet">
+                    <p>
+                        Afin de pouvoir m’organiser sur les objectifs de chaque
+                        parties de mon code, j’ai réaliser un cahier de test qui
+                        recense les différentes situations qui pourrai se produire
+                        et le comportement attendu pour chacune de ces situations.
+                    </p>
+                    <img
+                        src="/images/probleme_du_cavalier_knight_tour.png"
+                        alt="Un ennemi"
+                    >
+                </div>
+                <div class="detail_projet">
+                    <div>
+                        <img
+                            src="/images/probleme_du_cavalier_result_backtracking_5.png"
+                            alt="Une échelle"
+                        >
+                        <img
+                            src="/images/probleme_du_cavalier_result_warnsdorff_5.png"
+                            alt="Une échelle"
+                        >
+                    </div>
+                    <p>
+                        Lorsqu’on met les résultats des deux algorithmes côte à côte,
+                        la différence de temps d’execution est significative. Sur 
+                        cet échiquier de 5×5, l’algorithme de backtracking (à gauche) 
+                        met 0.059 secondes, alors que celui de Warnsdorf (à droite) 
+                        ne met que 0.001 secondes.
+                    </p>
+                </div>
+                <div class="detail_projet">
+                    <p>
+                        Sur un échiquier de taille 8×8, la différence de temps d’execution
+                        est encore plus frappante. 33 secondes d’un côté, 0.003 de l’autre.
+                        La différence est d’un facteur 10&nbsp;000.
+                    </p>
+                    <div>
+                        <img
+                            src="/images/probleme_du_cavalier_result_backtracking_8.png"
+                            alt="Une échelle"
+                        >
+                        <img
+                            src="/images/probleme_du_cavalier_result_warnsdorff_8.png"
+                            alt="Une échelle"
+                        >
+                    </div>
+                </div>
+            </article>
+            <section class="test_section">
+                <a 
+                    href="https://github.com/jocooper2018/probleme_du_cavalier" 
+                    target="_blank" 
+                    class="test_button"
+                >
+                    Tester le programme
+                </a>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <h3>Contact</h3>
+                <a href="/contact/">Me contacter</a>
+                <a
+                    href="/ressources/CV_LE_BOUT_Matthieu_v12.pdf"
+                    target="_blank"
+                >
+                    Télécharger mon CV
+                </a>
+            </div>
+            <nav>
+                <h3>Navigation</h3>
+                <a href="/">Accueil</a>
+                <a href="/cv/">CV</a>
+                <a href="/projets/">Projets</a>
+                <a href="/contact/">Contact</a>
+                <a href="/mentions/">Mentions légales</a>
+            </nav>
+            <div>
+                <h3>Réseaux</h3>
+                <a href="https://github.com/jocooper2018" target="_blank">
+                    GitHub
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/matthieu-le-bout/"
+                    target="_blank"
+                >
+                    LinkedIn
+                </a>
+            </div>
+        </footer>
+        <script src="/scripts/scroll.js"></script>
+    </body>
+</html>
