@@ -59,7 +59,7 @@
                 </p>
                 <img
                     src="/images/resolveur_de_sudoku.webp"
-                    alt="Écran principal du jeu"
+                    alt="Grille de sudoku 4×4"
                     id="main_image"
                 >
             </section>
@@ -67,15 +67,22 @@
                 <div class="detail_projet">
                     <img
                         src="/images/resolveur_de_sudoku_struct_1.webp"
-                        alt="Écrans de selection du niveau"
+                        alt="Valeurs candidates dans un tableau"
                     >
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, at ab vitae labore fuga error perferendis placeat possimus, ut recusandae natus, quibusdam tempora eum iure illum commodi vel quos maxime.
+                        Lorsqu'on joue au sudoku, on a dans chaque cases vides des 
+                        valeurs candidates. J'ai tester deux manières d'implémenter
+                        le système de valeurs candidates. La première façons (dans 
+                        l'image à gauche) consiste à stocker les valeurs candidates
+                        dans un tableau.
                     </p>
                 </div>
                 <div class="detail_projet">
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel reiciendis aliquid dignissimos cum reprehenderit, quo non explicabo sequi amet exercitationem et delectus necessitatibus at, maxime saepe fugiat impedit, repellendus illum!
+                        La deuxième façon (dans l'image à droite) consiste à utiliser
+                        un tableau de booléens. Chaque booléen du tableau correspond
+                        à une valeur candidate et indique si oui ou non elle est 
+                        candidate.
                     </p>
                     <img 
                         src="/images/resolveur_de_sudoku_struct_2.webp" 
