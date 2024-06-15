@@ -384,7 +384,7 @@ li p {
 
 #projets ul {
     padding: 0;
-    margin: 2rem;
+    margin: 1rem 2rem 3rem;
 }
 
 #projets li {
@@ -392,7 +392,8 @@ li p {
 }
 
 #projets h2 {
-    margin: 2rem;
+    margin: 1rem 2rem;
+    font-size: 2rem;
 }
 
 /* Détails des projets */
