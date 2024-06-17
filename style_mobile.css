@@ -56,8 +56,8 @@ footer > * {
 
 #projets a {
     padding: 2rem 0;
-    /* border-top: var(--bgc-a-hover) solid 1px; */
-    /* border-bottom: var(--bgc-a-hover) solid 1px; */
+    border-top: var(--bgc-a-hover) solid 2px;
+    border-bottom: var(--bgc-a-hover) solid 2px;
 }
 
 /* Détails des projets */
