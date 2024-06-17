@@ -381,11 +381,6 @@ li p {
     border-radius: 0;
 }
 
-#projets .sep {
-    margin: 0 5%;
-    background-color: var(--bgc-a-hover);
-}
-
 #projets ul {
     padding: 0;
     margin: 1rem 2rem 3rem;
