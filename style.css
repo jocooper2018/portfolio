@@ -435,6 +435,14 @@ img {
     border-radius: calc(var(--border-radius-img) / 2);
 }
 
+.detail_projet div.v {
+    flex-direction: column;
+}
+
+.detail_projet div.v img {
+    width: 100%;
+}
+
 .test_button {
     display: block;
     margin: 5rem auto 2rem;
