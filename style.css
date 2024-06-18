@@ -226,9 +226,19 @@ h1 {
     height: var(--home-section-height);
 }
 
+#home-section main {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 #banner {
     width: fit-content;
-    margin: calc(calc(100vh - 3rem) / 2 - calc(3rem * 4));
+    margin-left: 15vw;
 }
 
 #banner h1 {
