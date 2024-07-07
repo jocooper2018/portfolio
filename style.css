@@ -55,10 +55,14 @@ header ul {
     flex-grow: 1;
 }
 
-main section {
+main {
+    min-height: calc(100vh - 24.8777761111rem);
+}
+
+/* main section {
     width: 75vw;
     margin: auto;
-}
+} */
 
 a {
     color: white;
@@ -291,45 +295,27 @@ h1 {
     backdrop-filter: blur(var(--blur-amount));
 }
 
-/****************** CV ******************/
+/************** Formation **************/
 
 body > main {
     width: 75vw;
     margin: auto;
 }
 
-#title_container {
+#formation div {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#title h2 {
-    margin-top: 0;
+#formation article {
+    margin: 1rem;
+    width: min(17rem, 100%);
 }
 
-#title_container a {
-    padding: 1rem;
-    font-size: 1.5rem;
-    border: var(--bgc-a-hover) solid 2px;
-    /* background-color: var(--bgc); */
-}
-
-#title_container a:hover {
-    border: transparent solid 2px;
-}
-
-#grille_cv {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-#projets_cv a {
-    display: block;
-    padding: 0.5rem;
-    border-radius: 5px;
+#formation article h2 {
+    margin: 0;
 }
 
 li {
@@ -337,39 +323,12 @@ li {
     margin: 0.5rem 0;
 }
 
-h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-h4 {
-    margin: 0;
-    font-size: 1.25rem;
-}
-
-.inline {
-    display: inline-block;
-}
-
 li p {
     margin: 0.25rem 0;
     font-size: 1rem;
 }
 
-#langue p,
-#experience_pro p {
-    padding-left: 2.5rem;
-}
-
-.code {
-    font-family: Consolas, monospace;
-}
-
-#competences p {
-    padding-left: 2rem;
-}
-
-/******************Projets *****************/
+/***************** Projets *****************/
 
 #projets a {
     display: flex;
@@ -388,6 +347,7 @@ li p {
 
 #projets li {
     margin: 0;
+    list-style: none;
 }
 
 #projets h2 {
