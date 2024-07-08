@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Formation • Matthieu</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <link 
+        rel="stylesheet" 
+        media="screen and (orientation: portrait)" 
+        href="/style_mobile.css"
+    >
+    <body>
+        <header id="header">
+            <button onclick="openBurgerMenu();" id="burger_button">
+                <div id="burger_icon_top" class="burger_icon"></div>
+                <div id="burger_icon_middle" class="burger_icon"></div>
+                <div id="burger_icon_bottom" class="burger_icon"></div>
+            </button>
+        <a href="/" id="logo">Portfolio</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/formation/" class="current">Formation</a>
+                    </li>
+                    <li>
+                        <a href="/projets">Projets</a>
+                    </li>
+                    <li>
+                        <a href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="burger_menu" style="display: none;">
+            <ul>
+                <li>
+                    <a href="/">Accueil</a>
+                </li>
+                <li>
+                    <a href="/formation/">Formation</a>
+                </li>
+                <li>
+                    <a href="/projets/">Projets</a>
+                </li>
+                <li>
+                    <a href="/contact/">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="/scripts/burger.js"></script>
+        <main>
+            <section id="formation" class="bg">
+                <h1>Ma formation</h1>
+                <div>
+                    <article>
+                        <span class="date">2023 - 2027</span>
+                        <h2>BUT Informatique</h2>
+                        <span class="comment">En cours</span>
+                        <h3>IUT de Lannion</h3>
+                        <ul>
+                            <li>
+                                Développement logiciel et web
+                            </li>
+                            <li>
+                                Gestion de bases de données
+                            </li>
+                            <li>
+                                Gestion de projets
+                            </li>
+                            <li>
+                                Administration de systèmes
+                            </li>
+                        </ul>
+                        <a 
+                            href="https://iut-lannion.univ-rennes.fr" 
+                            class="button"
+                            target="_blank"
+                        >
+                            Site de l'IUT
+                        </a>
+                    </article>
+                    <article>
+                        <span class="date">2024</span>
+                        <h2>PSC1</h2>
+                        <img src="/images/psc1.webp" alt="PSC1">
+                    </article>
+                    <article>
+                        <span class="date">2020 - 2023</span>
+                        <h2>Baccalauréat général</h2>
+                        <span class="comment">Mention assez bien</span>
+                        <h3>Lycée Notre Dame du Vœux à Hennebont</h3>
+                        <ul>
+                            <li>
+                                Spécialité Numérique et Sciences Informatiques
+                            </li>
+                            <li>
+                                Spécialité Mathématiques
+                            </li>
+                            <li>
+                                Spécialité Physique Chimie en 1<sup>ère</sup>
+                            </li>
+                        </ul>
+                        <a 
+                            href="https://www.lyceeduvoeu.fr" 
+                            class="button"
+                            target="_blank"
+                        >
+                            Site du lycée
+                        </a>
+                    </article>
+                    <article>
+                        <span class="date">2023</span>
+                        <h2>TOEIC</h2>
+                        <span class="comment">Score&nbsp;: 600/990</span>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <h3>Contact</h3>
+                <a href="/contact/">Me contacter</a>
+                <a
+                    href="/ressources/CV_LE_BOUT_Matthieu_v12.pdf"
+                    target="_blank"
+                >
+                    Télécharger mon CV
+                </a>
+            </div>
+            <nav>
+                <h3>Navigation</h3>
+                <a href="/">Accueil</a>
+                <a href="/formation/">Formation</a>
+                <a href="/projets/">Projets</a>
+                <a href="/contact/">Contact</a>
+                <a href="/mentions/">Mentions légales</a>
+            </nav>
+            <div>
+                <h3>Réseaux</h3>
+                <a href="https://github.com/jocooper2018" target="_blank">
+                    GitHub
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/matthieu-le-bout/"
+                    target="_blank"
+                >
+                    LinkedIn
+                </a>
+            </div>
+        </footer>
+        <script src="/scripts/scroll.js"></script>
+    </body>
+</html>
