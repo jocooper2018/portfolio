@@ -1,7 +1,14 @@
 import "./index.css";
+import ThemeProvider from "../../contexts/ThemeContext";
+import ThemeSelect from "../ThemeSelect";
 
-function App() {
-  return <></>;
+const App: React.FC = () => {
+  return (
+    <ThemeProvider>
+      Bonjour
+      <ThemeSelect />
+    </ThemeProvider>
+  );
 }
 
 export default App;
