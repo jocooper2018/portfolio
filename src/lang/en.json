@@ -1,5 +1,6 @@
 {
   "systemTheme": "Device theme",
   "lightTheme": "Light theme",
-  "darkTheme": "Dark theme"
+  "darkTheme": "Dark theme",
+  "hello": "Hi, my name is"
 }

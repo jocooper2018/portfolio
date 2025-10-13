@@ -1,5 +1,6 @@
 {
   "systemTheme": "Thème de l'appareil",
   "lightTheme": "Thème clair",
-  "darkTheme": "Thème sombre"
+  "darkTheme": "Thème sombre",
+  "hello": "Bonjour, je m'appelle"
 }
