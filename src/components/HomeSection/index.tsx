@@ -6,7 +6,7 @@ import getRessource from "../../utils/getRessource";
 
 const HomeSection: React.FC = () => {
   const { t, lang } = useLanguage();
-  const [personalInfos, setPersonalInfo] = useState<PersonalInfosData | undefined>(
+  const [personalInfosData, setPersonalInfoData] = useState<PersonalInfosData | undefined>(
     undefined
   );
 
@@ -18,20 +18,20 @@ const HomeSection: React.FC = () => {
       if (!response) {
         return;
       }
-      setPersonalInfo(response);
+      setPersonalInfoData(response);
     })();
   }, [lang]);
 
   return (
     <section id="home">
-      {personalInfos && (
+      {personalInfosData && (
         <div className="content">
           <span>{t("hello")}</span>
           <h1>
-            {personalInfos.data.firstName} {personalInfos.data.name}
+            {personalInfosData.personalInfos.firstName} {personalInfosData.personalInfos.name}
           </h1>
-          <span>{personalInfos.data.status}</span>
-          <p>{personalInfos.data.pitch}</p>
+          <span>{personalInfosData.personalInfos.status}</span>
+          <p>{personalInfosData.personalInfos.pitch}</p>
         </div>
       )}
     </section>

@@ -27,7 +27,7 @@ const ProjectsSection: React.FC = () => {
       <h2>{t("projects")}</h2>
       <ul>
         {projectsData &&
-          projectsData.data.map((project: Project) => (
+          projectsData.projects.map((project: Project) => (
             <li>
               <h3>{project.name}</h3>
               <ul>

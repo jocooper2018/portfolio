@@ -1,3 +1,3 @@
 export default interface AboutMeData {
-  readonly data: string[];
+  readonly aboutMe: string[];
 }

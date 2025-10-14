@@ -1,5 +1,5 @@
 export default interface PersonalInfosData {
-  readonly data: {
+  readonly personalInfos: {
     readonly name: string;
     readonly firstName: string;
     readonly status: string;
