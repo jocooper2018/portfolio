@@ -1,19 +1,19 @@
 import "./index.css";
 import { useLanguage } from "../../contexts/LanguageContext";
 import { useEffect, useState } from "react";
-import type PersonalInfos from "../../interfaces/PersonalInfos";
+import type PersonalInfosData from "../../interfaces/PersonalInfosData";
 import getRessource from "../../utils/getRessource";
 
-const Home: React.FC = () => {
+const HomeSection: React.FC = () => {
   const { t, lang } = useLanguage();
-  const [personalInfos, setPersonalInfo] = useState<PersonalInfos | undefined>(
+  const [personalInfos, setPersonalInfo] = useState<PersonalInfosData | undefined>(
     undefined
   );
 
   useEffect(() => {
     (async () => {
       const response = (await getRessource("personal-infos", lang)) as
-        | PersonalInfos
+        | PersonalInfosData
         | false;
       if (!response) {
         return;
@@ -38,4 +38,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default HomeSection;

@@ -1,0 +1,31 @@
+import "./index.css";
+import { useEffect, useState } from "react";
+import type AboutMeData from "../../interfaces/AboutMeData";
+import { useLanguage } from "../../contexts/LanguageContext";
+import getRessource from "../../utils/getRessource";
+
+const AboutMeSection: React.FC = () => {
+  const { t, lang } = useLanguage();
+  const [aboutMeData, setAboutMeData] = useState<AboutMeData | undefined>(
+    undefined
+  );
+
+  useEffect(() => {
+    (async () => {
+      const response = await getRessource("about-me", lang);
+      if (!response) {
+        return;
+      }
+      setAboutMeData(response);
+    })();
+  }, [lang]);
+
+  return (
+    <section id="#about-me">
+      <h2>{t("aboutMe")}</h2>
+      {aboutMeData && aboutMeData.data.map((p) => <p>{p}</p>)}
+    </section>
+  );
+};
+
+export default AboutMeSection;

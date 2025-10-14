@@ -2,5 +2,6 @@
   "systemTheme": "Thème de l'appareil",
   "lightTheme": "Thème clair",
   "darkTheme": "Thème sombre",
-  "hello": "Bonjour, je m'appelle"
+  "hello": "Bonjour, je m'appelle",
+  "aboutMe": "Qui suis-je ?"
 }

@@ -1,4 +1,4 @@
-export default interface PersonalInfos {
+export default interface PersonalInfosData {
   readonly data: {
     readonly name: string;
     readonly firstName: string;
