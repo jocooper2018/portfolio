@@ -4,6 +4,7 @@ import { LanguageProvider } from "../../contexts/LanguageContext";
 import Header from "../Header";
 import HomeSection from "../HomeSection";
 import AboutMeSection from "../AboutMeSection";
+import ProjectsSection from "../ProjectsSection";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Header />
         <HomeSection />
         <AboutMeSection />
+        <ProjectsSection />
       </ThemeProvider>
     </LanguageProvider>
   );

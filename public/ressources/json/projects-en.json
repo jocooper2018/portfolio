@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "name": "Démineur web",
+      "startDate": "2025-07-27",
+      "endDate": "2025-07-31",
+      "description": "An online minesweeper game created with Vite and TypeScript.",
+      "tools": [
+        {
+          "name": "Vite"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "git"
+        },
+        {
+          "name": "GitHub"
+        }
+      ]
+    },
+    {
+      "name": "PACT by TripEnArvor",
+      "startDate": "2024-09-16",
+      "endDate": "2025-04-02",
+      "description": "Development of a Tourist Advice and Information Platform (PACT) using the Agile Scrum method.",
+      "tools": [
+        {
+          "name": "Jira"
+        },
+        {
+          "name": "Figma"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "PHP"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "git"
+        },
+        {
+          "name": "GitHub"
+        }
+      ]
+    }
+  ]
+}
