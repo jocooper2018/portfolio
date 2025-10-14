@@ -28,10 +28,10 @@ const Home: React.FC = () => {
         <div className="content">
           <span>{t("hello")}</span>
           <h1>
-            {personalInfos.firstName} {personalInfos.name}
+            {personalInfos.data.firstName} {personalInfos.data.name}
           </h1>
-          <span>{personalInfos.status}</span>
-          <p>{personalInfos.pitch}</p>
+          <span>{personalInfos.data.status}</span>
+          <p>{personalInfos.data.pitch}</p>
         </div>
       )}
     </section>
