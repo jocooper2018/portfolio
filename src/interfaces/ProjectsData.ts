@@ -1,14 +1,4 @@
-interface Tool {
-  readonly name: string;
-}
-
-interface Project {
-  readonly name: string;
-  readonly startDate: string;
-  readonly endDate: string;
-  readonly description: string;
-  readonly tools: Tool[];
-}
+import type Project from "./Project";
 
 export default interface ProjectsData {
   readonly data: Project[];
