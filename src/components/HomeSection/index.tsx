@@ -6,13 +6,13 @@ import getRessource from "../../utils/getRessource";
 
 const HomeSection: React.FC = () => {
   const { t, lang } = useLanguage();
-  const [personalInfosData, setPersonalInfoData] = useState<PersonalInfosData | undefined>(
-    undefined
-  );
+  const [personalInfosData, setPersonalInfoData] = useState<
+    PersonalInfosData | undefined
+  >(undefined);
 
   useEffect(() => {
     (async () => {
-      const response = (await getRessource("personal-infos", lang)) as
+      const response = (await getRessource("personal-infos")) as
         | PersonalInfosData
         | false;
       if (!response) {
@@ -28,10 +28,11 @@ const HomeSection: React.FC = () => {
         <div className="content">
           <span>{t("hello")}</span>
           <h1>
-            {personalInfosData.personalInfos.firstName} {personalInfosData.personalInfos.name}
+            {personalInfosData.personalInfos.firstName}{" "}
+            {personalInfosData.personalInfos.name}
           </h1>
-          <span>{personalInfosData.personalInfos.status}</span>
-          <p>{personalInfosData.personalInfos.pitch}</p>
+          <span>{personalInfosData.personalInfos.status[lang]}</span>
+          <p>{personalInfosData.personalInfos.pitch[lang]}</p>
         </div>
       )}
     </section>

@@ -1,0 +1,25 @@
+{
+  "trainings": [
+    {
+      "schoolName": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "certificateName": {
+        "en": "BUT Informatique (Computer Science Bachelor's degree)",
+        "fr": "BUT informatique"
+      },
+      "specialty": {
+        "en": "Data administration, management, and operation",
+        "fr": "Administration, gestion et exploitation des données"
+      },
+      "description": {
+        "en": "The BUT Informatique is a three-year program that trains computer scientists to design, develop, and maintain computer applications in consultation with users, while ensuring the proper functioning of computer systems.",
+        "fr": "Le BUT Informatique forme en 3 ans des informaticiens capables de concevoir, développer et maintenir des applications informatiques, en concertation avec les utilisateurs tout en garantissant le bon fonctionnement des installations informatiques."
+      },
+      "startDate": "2023-09-01",
+      "endDate": "2026-05-30",
+      "url": "https://formations.univ-rennes.fr/mention/bachelor-universitaire-de-technologie-mention-informatique"
+    }
+  ]
+}

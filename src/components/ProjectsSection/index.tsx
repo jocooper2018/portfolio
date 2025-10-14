@@ -5,6 +5,7 @@ import getRessource from "../../utils/getRessource";
 import type ProjectsData from "../../interfaces/ProjectsData";
 import type Project from "../../interfaces/Project";
 import type Tool from "../../interfaces/Tool";
+import type ButSkill from "../../interfaces/ButSkill";
 
 const ProjectsSection: React.FC = () => {
   const { t, lang } = useLanguage();
@@ -14,7 +15,7 @@ const ProjectsSection: React.FC = () => {
 
   useEffect(() => {
     (async () => {
-      const response = await getRessource("projects", lang);
+      const response = (await getRessource("projects")) as ProjectsData | false;
       if (!response) {
         return;
       }
@@ -31,11 +32,11 @@ const ProjectsSection: React.FC = () => {
             <li>
               <h3>{project.name}</h3>
               <ul>
-                {project.butSkills.map((butSkill: string) => (
-                  <li>{butSkill}</li>
+                {project.butSkills.map((butSkill: ButSkill) => (
+                  <li>{butSkill.shortName[lang]}</li>
                 ))}
               </ul>
-              <p>{project.description}</p>
+              <p>{project.description[lang]}</p>
               <ul>
                 {project.tools.map((tool: Tool) => (
                   <li>{tool.name}</li>

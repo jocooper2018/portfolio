@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import type AboutMeData from "../../interfaces/AboutMeData";
 import { useLanguage } from "../../contexts/LanguageContext";
 import getRessource from "../../utils/getRessource";
+import type { TranslatedString } from "../../types/Language";
 
 const AboutMeSection: React.FC = () => {
   const { t, lang } = useLanguage();
@@ -12,7 +13,7 @@ const AboutMeSection: React.FC = () => {
 
   useEffect(() => {
     (async () => {
-      const response = await getRessource("about-me", lang);
+      const response = await getRessource("about-me");
       if (!response) {
         return;
       }
@@ -23,7 +24,8 @@ const AboutMeSection: React.FC = () => {
   return (
     <section id="about-me">
       <h2>{t("aboutMe")}</h2>
-      {aboutMeData && aboutMeData.aboutMe.map((p) => <p>{p}</p>)}
+      {aboutMeData &&
+        aboutMeData.aboutMe.map((p: TranslatedString) => <p>{p[lang]}</p>)}
     </section>
   );
 };

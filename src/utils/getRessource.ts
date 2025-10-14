@@ -1,9 +1,7 @@
-import type { Language } from "../contexts/LanguageContext";
-
-const getRessource = async (ressourceName: string, lang: Language): Promise<any> => {
+const getRessource = async (ressourceName: string): Promise<any> => {
   try {
     const response = await fetch(
-      `${import.meta.env.BASE_URL}ressources/json/${lang}/${ressourceName}.json`
+      `${import.meta.env.BASE_URL}ressources/json/${ressourceName}.json`
     );
     return await response.json();
   } catch (error) {

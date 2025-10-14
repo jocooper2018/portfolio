@@ -13,7 +13,9 @@ const TrainingsSection: React.FC = () => {
 
   useEffect(() => {
     (async () => {
-      const response = await getRessource("trainings", lang);
+      const response = (await getRessource("trainings")) as
+        | TrainingsData
+        | false;
       if (!response) {
         return;
       }
@@ -28,11 +30,13 @@ const TrainingsSection: React.FC = () => {
         {trainingsData &&
           trainingsData.trainings.map((training: Training) => (
             <li>
-              <h3>{training.certificateName}</h3>
-              <div>{training.specialty}</div>
-              <div>{training.schoolName}</div>
-              <p>{training.description}</p>
-              <a href={training.url} target="_blank">{t("webSite")}</a>
+              <h3>{training.certificateName[lang]}</h3>
+              <div>{training.specialty[lang]}</div>
+              <div>{training.schoolName[lang]}</div>
+              <p>{training.description[lang]}</p>
+              <a href={training.url} target="_blank">
+                {t("webSite")}
+              </a>
             </li>
           ))}
       </ul>

@@ -14,9 +14,7 @@ const SkillsSection: React.FC = () => {
 
   useEffect(() => {
     (async () => {
-      const response = (await getRessource("skills", lang)) as
-        | SkillsData
-        | false;
+      const response = (await getRessource("skills")) as SkillsData | false;
       if (!response) {
         return;
       }
@@ -35,7 +33,7 @@ const SkillsSection: React.FC = () => {
         {skillsData &&
           skillsData.skills.map((skill: Skill) => (
             <li>
-              <h3>{skill.name}</h3>
+              <h3>{skill.name[lang]}</h3>
               <ul>
                 {skill.tools.map((tool: Tool) => (
                   <li>{tool.name}</li>

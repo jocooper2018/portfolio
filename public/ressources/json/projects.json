@@ -1,0 +1,145 @@
+{
+  "projects": [
+    {
+      "name": "Démineur web",
+      "startDate": "2025-07-27",
+      "endDate": "2025-07-31",
+      "description": {
+        "en": "An online minesweeper game created with Vite and TypeScript.",
+        "fr": "Un jeu de démineur en ligne créer avec Vite et TypeScript."
+      },
+      "tools": [
+        {
+          "name": "Vite"
+        },
+        {
+          "name": "TypeScript"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "git"
+        },
+        {
+          "name": "GitHub"
+        }
+      ],
+      "butSkills": [
+        {
+          "fullName": {
+            "en": "Develop an application",
+            "fr": "Réaliser un développement d'application"
+          },
+          "shortName": {
+            "en": "Develop",
+            "fr": "Réaliser"
+          }
+        }
+      ]
+    },
+    {
+      "name": "PACT by TripEnArvor",
+      "startDate": "2024-09-16",
+      "endDate": "2025-04-02",
+      "description": {
+        "en": "Development of a Tourist Advice and Information Platform (PACT) using the Agile Scrum method.",
+        "fr": "Développement d'une Plateforme d'Avis et Conseils Touristiques (PACT) en utilisant la méthode Agile Scrum."
+      },
+      "tools": [
+        {
+          "name": "Jira"
+        },
+        {
+          "name": "Figma"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "PHP"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "git"
+        },
+        {
+          "name": "GitHub"
+        }
+      ],
+      "butSkills": [
+        {
+          "fullName": {
+            "en": "Develop an application",
+            "fr": "Réaliser un développement d'application"
+          },
+          "shortName": {
+            "en": "Develop",
+            "fr": "Réaliser"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Optimize computer applications",
+            "fr": "Optimiser des applications informatiques"
+          },
+          "shortName": {
+            "en": "Optimize",
+            "fr": "Optimiser"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Administer complex communicating computer systems",
+            "fr": "Administrer des systèmes informatiques communicants complexes"
+          },
+          "shortName": {
+            "en": "Administer",
+            "fr": "Administrer"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Manage information data",
+            "fr": "Gérer des données de l'information"
+          },
+          "shortName": {
+            "en": "Manage",
+            "fr": "Gérer"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Lead a project",
+            "fr": "Conduire un projet"
+          },
+          "shortName": {
+            "en": "Lead",
+            "fr": "Conduire"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Collaborate in an IT team",
+            "fr": "Collaborer dans une équipe informatique"
+          },
+          "shortName": {
+            "en": "Collaborate",
+            "fr": "Collaborer"
+          }
+        }
+      ]
+    }
+  ]
+}

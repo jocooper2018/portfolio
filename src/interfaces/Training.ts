@@ -1,8 +1,10 @@
+import type { TranslatedString } from "../types/Language";
+
 export default interface Training {
-  readonly schoolName: string;
-  readonly certificateName: string;
-  readonly specialty: string;
-  readonly description: string;
+  readonly schoolName: TranslatedString;
+  readonly certificateName: TranslatedString;
+  readonly specialty: TranslatedString;
+  readonly description: TranslatedString;
   readonly startDate: string;
   readonly endDate: string;
   readonly url: string;

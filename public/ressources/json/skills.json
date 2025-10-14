@@ -1,7 +1,10 @@
 {
   "skills": [
     {
-      "name": "Développement web",
+      "name": {
+        "en": "Web development",
+        "fr": "Développement web"
+      },
       "description": "",
       "tools": [
         {
@@ -34,7 +37,10 @@
       ]
     },
     {
-      "name": "Développement logiciel",
+      "name": {
+        "en": "Software development",
+        "fr": "Développement logiciel"
+      },
       "description": "",
       "tools": [
         {

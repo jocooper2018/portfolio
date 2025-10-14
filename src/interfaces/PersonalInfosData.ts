@@ -1,8 +1,10 @@
+import type { TranslatedString } from "../types/Language";
+
 export default interface PersonalInfosData {
   readonly personalInfos: {
     readonly name: string;
     readonly firstName: string;
-    readonly status: string;
-    readonly pitch: string;
+    readonly status: TranslatedString;
+    readonly pitch: TranslatedString;
   };
 }
