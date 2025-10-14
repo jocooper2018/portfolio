@@ -1,5 +1,6 @@
 import "./index.css";
-import { useLanguage, type Language } from "../../contexts/LanguageContext";
+import { useLanguage } from "../../contexts/LanguageContext";
+import type { Language } from "../../types/Language";
 
 const LanguageSelect: React.FC = () => {
   const { lang, setLang } = useLanguage();
