@@ -24,6 +24,10 @@
         {
           "name": "GitHub"
         }
+      ],
+      "butSkills": [
+        "Réaliser",
+        "Optimiser"
       ]
     },
     {
@@ -59,6 +63,14 @@
         {
           "name": "GitHub"
         }
+      ],
+      "butSkills": [
+        "Réaliser",
+        "Optimiser",
+        "Administrer",
+        "Gérer",
+        "Conduire",
+        "Collaborer"
       ]
     }
   ]

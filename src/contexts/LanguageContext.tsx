@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { translations } from "../lang/translations";
+import { translations } from "../langs/translations";
 
 export type Language = "en" | "fr";
 

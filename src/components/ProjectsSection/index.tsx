@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import getRessource from "../../utils/getRessource";
 import type ProjectsData from "../../interfaces/ProjectsData";
+import type Project from "../../interfaces/Project";
+import type Tool from "../../interfaces/Tool";
 
 const ProjectsSection: React.FC = () => {
   const { t, lang } = useLanguage();
@@ -21,16 +23,21 @@ const ProjectsSection: React.FC = () => {
   }, [lang]);
 
   return (
-    <section id="#projects">
+    <section id="projects">
       <h2>{t("projects")}</h2>
       <ul>
         {projectsData &&
-          projectsData.data.map((project) => (
+          projectsData.data.map((project: Project) => (
             <li>
               <h3>{project.name}</h3>
+              <ul>
+                {project.butSkills.map((butSkill: string) => (
+                  <li>{butSkill}</li>
+                ))}
+              </ul>
               <p>{project.description}</p>
               <ul>
-                {project.tools.map((tool) => (
+                {project.tools.map((tool: Tool) => (
                   <li>{tool.name}</li>
                 ))}
               </ul>

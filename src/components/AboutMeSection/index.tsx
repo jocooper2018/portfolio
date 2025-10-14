@@ -21,7 +21,7 @@ const AboutMeSection: React.FC = () => {
   }, [lang]);
 
   return (
-    <section id="#about-me">
+    <section id="about-me">
       <h2>{t("aboutMe")}</h2>
       {aboutMeData && aboutMeData.data.map((p) => <p>{p}</p>)}
     </section>

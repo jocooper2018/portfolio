@@ -6,4 +6,5 @@ export default interface Project {
   readonly endDate: string;
   readonly description: string;
   readonly tools: Tool[];
+  readonly butSkills: string[];
 }
