@@ -5,6 +5,7 @@ import Header from "../Header";
 import HomeSection from "../HomeSection";
 import AboutMeSection from "../AboutMeSection";
 import ProjectsSection from "../ProjectsSection";
+import TrainingsSection from "../TrainingsSection";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <HomeSection />
         <AboutMeSection />
         <ProjectsSection />
+        <TrainingsSection />
       </ThemeProvider>
     </LanguageProvider>
   );

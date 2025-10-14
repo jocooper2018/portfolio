@@ -2,9 +2,11 @@
 [data-theme="light"] {
   --bg: white;
   --text: black;
+  --main-color: #0000ff;
 }
 
 [data-theme="dark"] {
   --bg: black;
   --text: white;
+  --main-color: #7f7fff;
 }
