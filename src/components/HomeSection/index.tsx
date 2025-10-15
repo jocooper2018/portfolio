@@ -20,7 +20,7 @@ const HomeSection: React.FC = () => {
       }
       setPersonalInfoData(response);
     })();
-  }, [lang]);
+  }, []);
 
   return (
     <section id="home">

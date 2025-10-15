@@ -21,7 +21,7 @@ const TrainingsSection: React.FC = () => {
       }
       setTrainingsData(response);
     })();
-  }, [lang]);
+  }, []);
 
   return (
     <section id="trainings">

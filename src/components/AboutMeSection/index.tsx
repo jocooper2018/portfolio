@@ -19,7 +19,7 @@ const AboutMeSection: React.FC = () => {
       }
       setAboutMeData(response);
     })();
-  }, [lang]);
+  }, []);
 
   return (
     <section id="about-me">

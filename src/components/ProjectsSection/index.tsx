@@ -21,7 +21,7 @@ const ProjectsSection: React.FC = () => {
       }
       setProjectsData(response);
     })();
-  }, [lang]);
+  }, []);
 
   return (
     <section id="projects">

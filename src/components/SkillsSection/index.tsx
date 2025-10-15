@@ -20,11 +20,7 @@ const SkillsSection: React.FC = () => {
       }
       setSkillsData(response);
     })();
-  }, [lang]);
-
-  useEffect(() => {
-    console.log(skillsData);
-  }, [skillsData]);
+  }, []);
 
   return (
     <section id="skills">

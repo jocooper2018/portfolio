@@ -6,6 +6,6 @@ export default interface Training {
   readonly specialty: TranslatedString;
   readonly description: TranslatedString;
   readonly startDate: string;
-  readonly endDate: string;
+  readonly endDate: string | null;
   readonly url: string;
 }
