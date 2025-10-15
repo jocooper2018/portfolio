@@ -8,6 +8,7 @@ import ProjectsSection from "../ProjectsSection";
 import TrainingsSection from "../TrainingsSection";
 import SkillsSection from "../SkillsSection";
 import WorkExperiencesSection from "../WorkExperiencesSection";
+import ContactSection from "../ContactSection";
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <SkillsSection />
         <TrainingsSection />
         <WorkExperiencesSection />
+        <ContactSection />
       </ThemeProvider>
     </LanguageProvider>
   );
