@@ -7,9 +7,9 @@ import type ContactInfos from "../../interfaces/ContactInfos";
 
 const ContactSection: React.FC = () => {
   const { t } = useLanguage();
-  const [contactDatas, setContactDatas] = useState<
-    ContactDatas | undefined
-  >(undefined);
+  const [contactDatas, setContactDatas] = useState<ContactDatas | undefined>(
+    undefined
+  );
 
   useEffect(() => {
     (async () => {
@@ -30,7 +30,10 @@ const ContactSection: React.FC = () => {
         {contactDatas &&
           contactDatas.contactInfos.map((contact: ContactInfos) => (
             <div>
-              {contact.name}: <a href={contact.url}>{contact.urlText}</a>
+              {contact.name}:{" "}
+              <a href={contact.url} target="_blank">
+                {contact.urlText}
+              </a>
             </div>
           ))}
       </address>
