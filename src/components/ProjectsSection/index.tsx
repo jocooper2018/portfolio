@@ -3,12 +3,11 @@ import { useEffect, useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import getRessource from "../../utils/getRessource";
 import type ProjectsData from "../../interfaces/ProjectsData";
-import type Project from "../../interfaces/Project";
-import type Tool from "../../interfaces/Tool";
-import type ButSkill from "../../interfaces/ButSkill";
+import type ProjectData from "../../interfaces/Project";
+import Project from "../Project";
 
 const ProjectsSection: React.FC = () => {
-  const { t, lang } = useLanguage();
+  const { t } = useLanguage();
   const [projectsData, setProjectsData] = useState<ProjectsData | undefined>(
     undefined
   );
@@ -26,25 +25,10 @@ const ProjectsSection: React.FC = () => {
   return (
     <section id="projects">
       <h2>{t("projects")}</h2>
-      <ul>
-        {projectsData &&
-          projectsData.projects.map((project: Project, i: number) => (
-            <li key={`project-${i}`}>
-              <h3>{project.name}</h3>
-              <ul>
-                {project.butSkills.map((butSkill: ButSkill, j: number) => (
-                  <li key={`but-skill-${j}`}>{butSkill.shortName[lang]}</li>
-                ))}
-              </ul>
-              <p>{project.description[lang]}</p>
-              <ul>
-                {project.tools.map((tool: Tool, k: number) => (
-                  <li key={`tool-${k}`}>{tool.name}</li>
-                ))}
-              </ul>
-            </li>
-          ))}
-      </ul>
+      {projectsData &&
+        projectsData.projects.map((project: ProjectData, i: number) => (
+          <Project data={project} key={`project-${i}`} position={i} />
+        ))}
     </section>
   );
 };

@@ -38,6 +38,25 @@
             "en": "Develop",
             "fr": "Réaliser"
           }
+        },
+        {
+          "fullName": {
+            "en": "Optimize computer applications",
+            "fr": "Optimiser des applications informatiques"
+          },
+          "shortName": {
+            "en": "Optimize",
+            "fr": "Optimiser"
+          }
+        }
+      ],
+      "images": [
+        {
+          "url": "ressources/images/projects/Démineur web/Screenshot_20251016_151310.webp",
+          "alt": {
+            "en": "Screenshot of a game",
+            "fr": "Capture d'écrans d'une partie"
+          }
         }
       ]
     },
@@ -137,6 +156,15 @@
           "shortName": {
             "en": "Collaborate",
             "fr": "Collaborer"
+          }
+        }
+      ],
+      "images": [
+        {
+          "url": "ressources/images/projects/Démineur web/Screenshot_20251016_151310.webp",
+          "alt": {
+            "en": "Screenshot of a game",
+            "fr": "Capture d'écrans d'une partie"
           }
         }
       ]

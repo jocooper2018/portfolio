@@ -26,7 +26,7 @@ const AboutMeSection: React.FC = () => {
       <h2>{t("aboutMe")}</h2>
       {aboutMeData && (
         <div>
-          <div>
+          <div className="card">
             {aboutMeData.aboutMe.paragraphs.map(
               (p: TranslatedString, i: number) => (
                 <p key={`p-${i}`}>{p[lang]}</p>

@@ -11,10 +11,6 @@
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  padding: 2rem;
-  border-radius: 1rem;
-  background-color: var(--bg);
-  box-shadow: var(--shadow-s);
 }
 
 #about-me img {
