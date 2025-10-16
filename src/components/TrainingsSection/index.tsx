@@ -28,8 +28,8 @@ const TrainingsSection: React.FC = () => {
       <h2>{t("trainings")}</h2>
       <ul>
         {trainingsData &&
-          trainingsData.trainings.map((training: Training) => (
-            <li>
+          trainingsData.trainings.map((training: Training, i: number) => (
+            <li key={`training-${i}`}>
               <h3>{training.certificateName[lang]}</h3>
               <div>{training.specialty[lang]}</div>
               <div>{training.schoolName[lang]}</div>

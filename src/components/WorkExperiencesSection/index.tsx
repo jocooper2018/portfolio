@@ -29,8 +29,8 @@ const WorkExperiencesSection: React.FC = () => {
       <ul>
         {workExperiencesData &&
           workExperiencesData.workExperiences.map(
-            (workExperience: WorkExperience) => (
-              <li>
+            (workExperience: WorkExperience, i: number) => (
+              <li key={`work-experience-${i}`}>
                 <h3>{workExperience.companyName}</h3>
                 <div>{workExperience.post[lang]}</div>
                 <div>{workExperience.type[lang]}</div>

@@ -28,8 +28,8 @@ const ContactSection: React.FC = () => {
       <h2>{t("contact")}</h2>
       <address>
         {contactDatas &&
-          contactDatas.contactInfos.map((contact: ContactInfos) => (
-            <div>
+          contactDatas.contactInfos.map((contact: ContactInfos, i: number) => (
+            <div key={`contact-info-${i}`}>
               {contact.name}:{" "}
               <a href={contact.url} target="_blank">
                 {contact.urlText}

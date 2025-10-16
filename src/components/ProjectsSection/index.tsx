@@ -28,18 +28,18 @@ const ProjectsSection: React.FC = () => {
       <h2>{t("projects")}</h2>
       <ul>
         {projectsData &&
-          projectsData.projects.map((project: Project) => (
-            <li>
+          projectsData.projects.map((project: Project, i: number) => (
+            <li key={`project-${i}`}>
               <h3>{project.name}</h3>
               <ul>
-                {project.butSkills.map((butSkill: ButSkill) => (
-                  <li>{butSkill.shortName[lang]}</li>
+                {project.butSkills.map((butSkill: ButSkill, j: number) => (
+                  <li key={`but-skill-${j}`}>{butSkill.shortName[lang]}</li>
                 ))}
               </ul>
               <p>{project.description[lang]}</p>
               <ul>
-                {project.tools.map((tool: Tool) => (
-                  <li>{tool.name}</li>
+                {project.tools.map((tool: Tool, k: number) => (
+                  <li key={`tool-${k}`}>{tool.name}</li>
                 ))}
               </ul>
             </li>

@@ -27,12 +27,12 @@ const SkillsSection: React.FC = () => {
       <h2>{t("skills")}</h2>
       <ul>
         {skillsData &&
-          skillsData.skills.map((skill: Skill) => (
-            <li>
+          skillsData.skills.map((skill: Skill, i: number) => (
+            <li key={`skill-${i}`}>
               <h3>{skill.name[lang]}</h3>
               <ul>
-                {skill.tools.map((tool: Tool) => (
-                  <li>{tool.name}</li>
+                {skill.tools.map((tool: Tool, j: number) => (
+                  <li key={`tool-${j}`}>{tool.name}</li>
                 ))}
               </ul>
             </li>
