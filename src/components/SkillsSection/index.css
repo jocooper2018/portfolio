@@ -1,0 +1,50 @@
+.skills-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.skills-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 15rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.skills-buttons button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.skills-buttons button.selected:not(:hover) {
+  background-color: var(--bg-dark);
+}
+
+.skills-box .tools {
+  width: 100%;
+}
+
+.skills-box .tools ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skills-box .tools img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: contain;
+}
+
+.skills-box .tools li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}

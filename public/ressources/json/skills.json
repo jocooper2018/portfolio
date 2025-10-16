@@ -8,31 +8,44 @@
       "description": "",
       "tools": [
         {
-          "name": "HTML"
+          "name": "HTML",
+          "logo": "ressources/images/tools/html-logo.svg"
         },
         {
-          "name": "CSS"
+          "name": "CSS",
+          "logo": "ressources/images/tools/css-logo.svg"
         },
         {
-          "name": "JavaScript"
+          "name": "JavaScript",
+          "logo": "ressources/images/tools/javascript-logo.svg"
         },
         {
-          "name": "TypeScript"
+          "name": "TypeScript",
+          "logo": "ressources/images/tools/typescript-logo.svg"
         },
         {
-          "name": "PHP"
+          "name": "PHP",
+          "logo": "ressources/images/tools/php-logo.svg"
         },
         {
-          "name": "Next.js"
+          "name": "Node.js",
+          "logo": "ressources/images/tools/nodejs-logo.svg"
         },
         {
-          "name": "React"
+          "name": "NestJS",
+          "logo": "ressources/images/tools/nestjs-logo.svg"
         },
         {
-          "name": "Vite"
+          "name": "React",
+          "logo": "ressources/images/tools/react-logo.svg"
         },
         {
-          "name": "GraphQL"
+          "name": "Vite",
+          "logo": "ressources/images/tools/vite-logo.svg"
+        },
+        {
+          "name": "GraphQL",
+          "logo": "ressources/images/tools/graphql-logo.svg"
         }
       ]
     },
@@ -44,16 +57,20 @@
       "description": "",
       "tools": [
         {
-          "name": "C"
+          "name": "C",
+          "logo": "ressources/images/tools/c-logo.svg"
         },
         {
-          "name": "Java"
+          "name": "Java",
+          "logo": "ressources/images/tools/java-logo.svg"
         },
         {
-          "name": "C#"
+          "name": "C#",
+          "logo": "ressources/images/tools/c-sharp-logo.svg"
         },
         {
-          "name": "Python"
+          "name": "Python",
+          "logo": "ressources/images/tools/python-logo.svg"
         }
       ]
     }

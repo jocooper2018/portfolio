@@ -11,6 +11,7 @@ const SkillsSection: React.FC = () => {
   const [skillsData, setSkillsData] = useState<SkillsData | undefined>(
     undefined
   );
+  const [skillSelected, setSkillSelected] = useState<number>(0);
 
   useEffect(() => {
     (async () => {
@@ -25,19 +26,36 @@ const SkillsSection: React.FC = () => {
   return (
     <section id="skills">
       <h2>{t("skills")}</h2>
-      <ul>
-        {skillsData &&
-          skillsData.skills.map((skill: Skill, i: number) => (
-            <li key={`skill-${i}`}>
-              <h3>{skill.name[lang]}</h3>
-              <ul>
-                {skill.tools.map((tool: Tool, j: number) => (
-                  <li key={`tool-${j}`}>{tool.name}</li>
-                ))}
-              </ul>
-            </li>
-          ))}
-      </ul>
+      {skillsData && (
+        <div className="skills-box">
+          <div className="skills-buttons">
+            {skillsData.skills.map((skill: Skill, i: number) => (
+              <button
+                type="button"
+                key={i}
+                className={skillSelected === i ? "selected" : ""}
+                onClick={() => {
+                  setSkillSelected(i);
+                }}
+              >
+                {skill.name[lang]}
+              </button>
+            ))}
+          </div>
+          <div className="tools card">
+            <ul>
+              {skillsData.skills[skillSelected].tools.map(
+                (tool: Tool, i: number) => (
+                  <li key={i}>
+                    <img src={tool.logo} alt={`${tool.name} logo`} />
+                    <span>{tool.name}</span>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

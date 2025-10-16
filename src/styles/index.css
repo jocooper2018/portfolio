@@ -28,20 +28,23 @@ a {
   color: var(--main-color);
 }
 
-select {
+select,
+button {
   cursor: pointer;
   font: inherit;
-  background-color: var(--bg-light);
+  background-color: var(--bg);
   color: var(--text);
   padding: 0.25rem 0.5rem;
   border: none;
   border-radius: 0.25rem;
   box-shadow: var(--shadow-s);
-  transition: box-shadow 250ms ease-out;
+  transition: box-shadow 250ms ease-out, background-color 250ms ease-out;
 }
 
-select:hover {
+select:hover,
+button:hover {
   box-shadow: var(--shadow-m);
+  background-color: var(--bg-light);
 }
 
 section {

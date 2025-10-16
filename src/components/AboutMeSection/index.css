@@ -17,4 +17,7 @@
   width: 20rem;
   border-radius: 50%;
   box-shadow: var(--shadow-s);
+  box-shadow: var(--shadow-s);
+  padding: 2px;
+  background-color: var(--bg);
 }
