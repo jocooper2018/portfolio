@@ -1,12 +1,36 @@
-:root,
+:root {
+  --shadow-s: inset 0 1px 1px #ffffff30, 0 1px 2px #00000030,
+    0 2px 4px #00000015;
+  --shadow-m: inset 0 1px 2px #ffffff30, 0 2px 4px #00000030,
+    0 4px 8px #00000015;
+  --shadow-l: inset 0 1px 2px #ffffff30, 0 4px 6px #00000030,
+    0 6px 10px #00000015;
+}
+
 [data-theme="light"] {
-  --bg: white;
-  --text: black;
-  --main-color: #0000ff;
+  --bg-dark: oklch(95% 0 0);
+  --bg: oklch(97.5% 0 0);
+  --bg-light: oklch(100% 0 0);
+  --bg-dark-transparent: oklch(95% 0 0 / 75%);
+  --bg-transparent: oklch(97.5% 0 0 / 75%);
+  --bg-light-transparent: oklch(100% 0 0 / 75%);
+
+  --text: oklch(0% 0 0);
+  --text-muted: oklch(35% 0 0);
+
+  --main-color: oklch(40.82% 0.09719 250.142);
 }
 
 [data-theme="dark"] {
-  --bg: black;
-  --text: white;
-  --main-color: #7f7fff;
+  --bg-dark: oklch(0% 0 0);
+  --bg: oklch(20% 0 0);
+  --bg-light: oklch(25% 0 0);
+  --bg-dark-transparent: oklch(0% 0 0 / 75%);
+  --bg-transparent: oklch(15% 0 0 / 75%);
+  --bg-light-transparent: oklch(30% 0 0 / 75%);
+
+  --text: oklch(100% 0 0);
+  --text-muted: oklch(90% 0 0);
+
+  --main-color: oklch(85.202% 0.07325 249.35);
 }

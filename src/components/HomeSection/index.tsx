@@ -31,7 +31,7 @@ const HomeSection: React.FC = () => {
             {personalInfosData.personalInfos.firstName}{" "}
             {personalInfosData.personalInfos.name}
           </h1>
-          <span>{personalInfosData.personalInfos.status[lang]}</span>
+          <span className="status">{personalInfosData.personalInfos.status[lang]}</span>
           <p>{personalInfosData.personalInfos.pitch[lang]}</p>
         </div>
       )}

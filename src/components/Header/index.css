@@ -6,7 +6,13 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 2rem;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--bg-transparent);
+  backdrop-filter: blur(1rem);
+  box-shadow: var(--shadow-s);
 }
 
 header > div {
