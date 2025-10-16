@@ -43,3 +43,15 @@ select {
 select:hover {
   box-shadow: var(--shadow-m);
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem 10rem;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}

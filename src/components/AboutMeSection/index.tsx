@@ -24,10 +24,21 @@ const AboutMeSection: React.FC = () => {
   return (
     <section id="about-me">
       <h2>{t("aboutMe")}</h2>
-      {aboutMeData &&
-        aboutMeData.aboutMe.map((p: TranslatedString, i: number) => (
-          <p key={`p-${i}`}>{p[lang]}</p>
-        ))}
+      {aboutMeData && (
+        <div>
+          <div>
+            {aboutMeData.aboutMe.paragraphs.map(
+              (p: TranslatedString, i: number) => (
+                <p key={`p-${i}`}>{p[lang]}</p>
+              )
+            )}
+          </div>
+          <img
+            src={`${import.meta.env.BASE_URL}${aboutMeData.aboutMe.photo.url}`}
+            alt={aboutMeData.aboutMe.photo.alt[lang]}
+          />
+        </div>
+      )}
     </section>
   );
 };
