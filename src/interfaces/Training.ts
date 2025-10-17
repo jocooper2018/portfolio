@@ -7,5 +7,5 @@ export default interface Training {
   readonly description: TranslatedString;
   readonly startDate: string;
   readonly endDate: string | null;
-  readonly url: string;
+  readonly url: TranslatedString;
 }

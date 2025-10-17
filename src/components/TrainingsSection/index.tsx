@@ -3,10 +3,11 @@ import { useEffect, useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import getRessource from "../../utils/getRessource";
 import type TrainingsData from "../../interfaces/TrainingsData";
-import type Training from "../../interfaces/Training";
+import type TrainingData from "../../interfaces/Training";
+import Training from "../Training";
 
 const TrainingsSection: React.FC = () => {
-  const { t, lang } = useLanguage();
+  const { t } = useLanguage();
   const [trainingsData, setTrainingsData] = useState<TrainingsData | undefined>(
     undefined
   );
@@ -26,20 +27,10 @@ const TrainingsSection: React.FC = () => {
   return (
     <section id="trainings">
       <h2>{t("trainings")}</h2>
-      <ul>
-        {trainingsData &&
-          trainingsData.trainings.map((training: Training, i: number) => (
-            <li key={`training-${i}`}>
-              <h3>{training.certificateName[lang]}</h3>
-              <div>{training.specialty[lang]}</div>
-              <div>{training.schoolName[lang]}</div>
-              <p>{training.description[lang]}</p>
-              <a href={training.url} target="_blank">
-                {t("webSite")}
-              </a>
-            </li>
-          ))}
-      </ul>
+      {trainingsData &&
+        trainingsData.trainings.map((training: TrainingData, i: number) => (
+          <Training data={training} key={i} />
+        ))}
     </section>
   );
 };

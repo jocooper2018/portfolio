@@ -18,12 +18,12 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
   const { resolvedTheme } = useContext(ThemeContext);
 
   const startDate: string = new Date(props.data.startDate).toLocaleDateString(
-    undefined,
+    lang,
     formatDateOption
   );
   const endDate: string = props.data.endDate
     ? new Date(props.data.endDate).toLocaleDateString(
-        undefined,
+        lang,
         formatDateOption
       )
     : t("today");

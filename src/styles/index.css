@@ -29,7 +29,8 @@ a {
 }
 
 select,
-button {
+button,
+.button {
   cursor: pointer;
   font: inherit;
   background-color: var(--bg);
@@ -42,7 +43,8 @@ button {
 }
 
 select:hover,
-button:hover {
+button:hover,
+.button:hover {
   box-shadow: var(--shadow-m);
   background-color: var(--bg-light);
 }
@@ -64,4 +66,8 @@ h2 {
   border-radius: 1rem;
   background-color: var(--bg);
   box-shadow: var(--shadow-s);
+}
+
+svg.icon {
+  fill: var(--text-muted);
 }

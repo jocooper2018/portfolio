@@ -18,8 +18,11 @@
         "fr": "Le BUT Informatique forme en 3 ans des informaticiens capables de concevoir, développer et maintenir des applications informatiques, en concertation avec les utilisateurs tout en garantissant le bon fonctionnement des installations informatiques."
       },
       "startDate": "2023-09-01",
-      "endDate": "2026-05-30",
-      "url": "https://formations.univ-rennes.fr/mention/bachelor-universitaire-de-technologie-mention-informatique"
+      "endDate": "2026-06-30",
+      "url": {
+        "en": "https://iut-lannion.univ-rennes.fr/lannion-institute-technology-university-rennes",
+        "fr": "https://iut-lannion.univ-rennes.fr/"
+      }
     }
   ]
 }
