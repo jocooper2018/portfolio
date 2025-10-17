@@ -1,8 +1,8 @@
 import "./index.css";
-import { formatDateOption } from "../../consts";
 import { useLanguage } from "../../contexts/LanguageContext";
 import type TrainingData from "../../interfaces/Training";
 import OpenInNewIcon from "../../assets/icons/OpenInNew";
+import DateRange from "../DateRange";
 
 interface TrainingProps {
   readonly data: TrainingData;
@@ -11,21 +11,15 @@ interface TrainingProps {
 const Training: React.FC<TrainingProps> = (props: TrainingProps) => {
   const { t, lang } = useLanguage();
 
-  const startDate: string = new Date(props.data.startDate).toLocaleDateString(
-    lang,
-    formatDateOption
-  );
-  const endDate: string = props.data.endDate
-    ? new Date(props.data.endDate).toLocaleDateString(lang, formatDateOption)
-    : t("today");
-
   return (
     <article className="training card">
       <div className="line">
         <div>{props.data.schoolName[lang]}</div>
         <div>
-          {startDate}
-          {startDate !== endDate && ` - ${endDate}`}
+          <DateRange
+            startDate={props.data.startDate}
+            endDate={props.data.endDate}
+          />
         </div>
       </div>
       <div className="line">
@@ -35,7 +29,7 @@ const Training: React.FC<TrainingProps> = (props: TrainingProps) => {
       <p>{props.data.description[lang]}</p>
       <a href={props.data.url[lang]} target="_blank" className="button">
         {t("webSite")}
-        <OpenInNewIcon /> 
+        <OpenInNewIcon />
       </a>
     </article>
   );

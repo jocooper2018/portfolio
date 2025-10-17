@@ -3,10 +3,10 @@ import type ProjectData from "../../interfaces/Project";
 import type ButSkill from "../../interfaces/ButSkill";
 import { useLanguage } from "../../contexts/LanguageContext";
 import type Tool from "../../interfaces/Tool";
-import { formatDateOption } from "../../consts";
 import { useContext } from "react";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import getLogoForTheme from "../../utils/getLogoForTheme";
+import DateRange from "../DateRange";
 
 interface ProjectProps {
   readonly data: ProjectData;
@@ -14,19 +14,8 @@ interface ProjectProps {
 }
 
 const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
-  const { t, lang } = useLanguage();
+  const { lang } = useLanguage();
   const { resolvedTheme } = useContext(ThemeContext);
-
-  const startDate: string = new Date(props.data.startDate).toLocaleDateString(
-    lang,
-    formatDateOption
-  );
-  const endDate: string = props.data.endDate
-    ? new Date(props.data.endDate).toLocaleDateString(
-        lang,
-        formatDateOption
-      )
-    : t("today");
 
   return (
     <article className={`project${props.position % 2 !== 0 ? " reverse" : ""}`}>
@@ -34,8 +23,10 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         <div className="header">
           <h3>{props.data.name}</h3>
           <div>
-            {startDate}
-            {endDate !== startDate && ` - ${endDate}`}
+            <DateRange
+              startDate={props.data.startDate}
+              endDate={props.data.endDate}
+            />
           </div>
         </div>
         <ul className="but-skills">
