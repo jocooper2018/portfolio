@@ -4,6 +4,9 @@ import type ButSkill from "../../interfaces/ButSkill";
 import { useLanguage } from "../../contexts/LanguageContext";
 import type Tool from "../../interfaces/Tool";
 import { formatDateOption } from "../../consts";
+import { useContext } from "react";
+import { ThemeContext } from "../../contexts/ThemeContext";
+import getLogoForTheme from "../../utils/getLogoForTheme";
 
 interface ProjectProps {
   readonly data: ProjectData;
@@ -12,6 +15,7 @@ interface ProjectProps {
 
 const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
   const { t, lang } = useLanguage();
+  const { resolvedTheme } = useContext(ThemeContext);
 
   const startDate: string = new Date(props.data.startDate).toLocaleDateString(
     undefined,
@@ -42,7 +46,9 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         <p>{props.data.description[lang]}</p>
         <ul className="tools">
           {props.data.tools.map((tool: Tool, i: number) => (
-            <li key={`tool-${i}`}>{tool.name}</li>
+            <li key={`tool-${i}`}>
+              <img src={getLogoForTheme(tool, resolvedTheme)} alt={tool.name} />
+            </li>
           ))}
         </ul>
       </div>

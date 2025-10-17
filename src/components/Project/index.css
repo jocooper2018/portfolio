@@ -47,3 +47,12 @@
   overflow-x: scroll;
   scrollbar-width: none;
 }
+
+.project .tools img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0  ;
+}

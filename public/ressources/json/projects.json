@@ -10,22 +10,29 @@
       },
       "tools": [
         {
-          "name": "Vite"
+          "name": "Vite",
+          "logo": "ressources/images/tools/vite-logo.svg"
         },
         {
-          "name": "TypeScript"
+          "name": "TypeScript",
+          "logo": "ressources/images/tools/typescript-logo.svg"
         },
         {
-          "name": "HTML"
+          "name": "HTML",
+          "logo": "ressources/images/tools/html-logo.svg"
         },
         {
-          "name": "CSS"
+          "name": "CSS",
+          "logo": "ressources/images/tools/css-logo.svg"
         },
         {
-          "name": "git"
+          "name": "git",
+          "logo": "ressources/images/tools/git-logo.svg"
         },
         {
-          "name": "GitHub"
+          "name": "GitHub",
+          "logo": "ressources/images/tools/github-logo.svg",
+          "logoLight": "ressources/images/tools/github-logo-white.svg"
         }
       ],
       "butSkills": [
@@ -70,31 +77,41 @@
       },
       "tools": [
         {
-          "name": "Jira"
+          "name": "Jira",
+          "logo": "ressources/images/tools/jira-logo.svg"
         },
         {
-          "name": "Figma"
+          "name": "Figma",
+          "logo": "ressources/images/tools/figma-logo.svg"
         },
         {
-          "name": "PostgreSQL"
+          "name": "PostgreSQL",
+          "logo": "ressources/images/tools/postgresql-logo.svg"
         },
         {
-          "name": "PHP"
+          "name": "PHP",
+          "logo": "ressources/images/tools/php-logo.svg"
         },
         {
-          "name": "HTML"
+          "name": "HTML",
+          "logo": "ressources/images/tools/html-logo.svg"
         },
         {
-          "name": "CSS"
+          "name": "CSS",
+          "logo": "ressources/images/tools/css-logo.svg"
         },
         {
-          "name": "JavaScript"
+          "name": "JavaScript",
+          "logo": "ressources/images/tools/javascript-logo.svg"
         },
         {
-          "name": "git"
+          "name": "git",
+          "logo": "ressources/images/tools/git-logo.svg"
         },
         {
-          "name": "GitHub"
+          "name": "GitHub",
+          "logo": "ressources/images/tools/github-logo.svg",
+          "logoLight": "ressources/images/tools/github-logo-white.svg"
         }
       ],
       "butSkills": [
