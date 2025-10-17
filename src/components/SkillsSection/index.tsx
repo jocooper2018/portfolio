@@ -1,13 +1,16 @@
 import "./index.css";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import getRessource from "../../utils/getRessource";
 import type SkillsData from "../../interfaces/SkillsData";
 import type Skill from "../../interfaces/Skill";
 import type Tool from "../../interfaces/Tool";
+import { ThemeContext } from "../../contexts/ThemeContext";
+import getLogoForTheme from "../../utils/getLogoForTheme";
 
 const SkillsSection: React.FC = () => {
   const { t, lang } = useLanguage();
+  const { resolvedTheme } = useContext(ThemeContext);
   const [skillsData, setSkillsData] = useState<SkillsData | undefined>(
     undefined
   );
@@ -47,7 +50,10 @@ const SkillsSection: React.FC = () => {
               {skillsData.skills[skillSelected].tools.map(
                 (tool: Tool, i: number) => (
                   <li key={i}>
-                    <img src={tool.logo} alt={`${tool.name} logo`} />
+                    <img
+                      src={getLogoForTheme(tool, resolvedTheme)}
+                      alt={`${tool.name} logo`}
+                    />
                     <span>{tool.name}</span>
                   </li>
                 )
