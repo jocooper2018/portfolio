@@ -9,43 +9,63 @@
       "tools": [
         {
           "name": "HTML",
-          "logo": "ressources/images/tools/html-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/html-logo.svg"
+          }
         },
         {
           "name": "CSS",
-          "logo": "ressources/images/tools/css-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/css-logo.svg"
+          }
         },
         {
           "name": "JavaScript",
-          "logo": "ressources/images/tools/javascript-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/javascript-logo.svg"
+          }
         },
         {
           "name": "TypeScript",
-          "logo": "ressources/images/tools/typescript-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/typescript-logo.svg"
+          }
         },
         {
           "name": "PHP",
-          "logo": "ressources/images/tools/php-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/php-logo.svg"
+          }
         },
         {
           "name": "Node.js",
-          "logo": "ressources/images/tools/nodejs-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/nodejs-logo.svg"
+          }
         },
         {
           "name": "NestJS",
-          "logo": "ressources/images/tools/nestjs-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/nestjs-logo.svg"
+          }
         },
         {
           "name": "React",
-          "logo": "ressources/images/tools/react-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/react-logo.svg"
+          }
         },
         {
           "name": "Vite",
-          "logo": "ressources/images/tools/vite-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/vite-logo.svg"
+          }
         },
         {
           "name": "GraphQL",
-          "logo": "ressources/images/tools/graphql-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/graphql-logo.svg"
+          }
         }
       ]
     },
@@ -58,19 +78,27 @@
       "tools": [
         {
           "name": "C",
-          "logo": "ressources/images/tools/c-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/c-logo.svg"
+          }
         },
         {
           "name": "Java",
-          "logo": "ressources/images/tools/java-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/java-logo.svg"
+          }
         },
         {
           "name": "C#",
-          "logo": "ressources/images/tools/c-sharp-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/c-sharp-logo.svg"
+          }
         },
         {
           "name": "Python",
-          "logo": "ressources/images/tools/python-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/python-logo.svg"
+          }
         }
       ]
     }

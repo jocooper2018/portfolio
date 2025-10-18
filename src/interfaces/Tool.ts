@@ -1,6 +1,6 @@
+import type Icon from "./Icon";
+
 export default interface Tool {
   readonly name: string;
-  readonly logo: string;
-  readonly logoLight?: string;
-  readonly logoDark?: string;
+  readonly logo: Icon;
 }

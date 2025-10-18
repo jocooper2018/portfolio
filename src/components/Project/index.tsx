@@ -5,7 +5,7 @@ import { useLanguage } from "../../contexts/LanguageContext";
 import type Tool from "../../interfaces/Tool";
 import { useContext } from "react";
 import { ThemeContext } from "../../contexts/ThemeContext";
-import getLogoForTheme from "../../utils/getLogoForTheme";
+import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
 import DateRange from "../DateRange";
 
 interface ProjectProps {
@@ -38,7 +38,7 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         <ul className="tools">
           {props.data.tools.map((tool: Tool, i: number) => (
             <li key={`tool-${i}`}>
-              <img src={getLogoForTheme(tool, resolvedTheme)} alt={tool.name} />
+              <img src={getIconUrlForTheme(tool.logo, resolvedTheme)} alt={tool.name} />
             </li>
           ))}
         </ul>

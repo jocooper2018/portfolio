@@ -1,7 +1,7 @@
 import "./index.css";
 import { useLanguage } from "../../contexts/LanguageContext";
 import type TrainingData from "../../interfaces/Training";
-import OpenInNewIcon from "../../assets/icons/OpenInNew";
+import OpenInNewIcon from "../../assets/icons/OpenInNewIcon";
 import DateRange from "../DateRange";
 
 interface TrainingProps {

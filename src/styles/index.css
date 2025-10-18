@@ -40,6 +40,7 @@ button,
   border-radius: 0.25rem;
   box-shadow: var(--shadow-s);
   transition: box-shadow 250ms ease-out, background-color 250ms ease-out;
+  text-decoration: none;
 }
 
 select:hover,

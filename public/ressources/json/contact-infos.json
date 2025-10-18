@@ -3,17 +3,28 @@
     {
       "name": "Email",
       "url": "mailto:matthieu.le-bout@etudiant.univ-rennes.fr",
-      "urlText": "matthieu.le-bout@etudiant.univ-rennes.fr"
+      "urlText": "matthieu.le-bout@etudiant.univ-rennes.fr",
+      "icon": {
+        "url": "ressources/images/icons/mail-filled-icon-black.svg",
+        "urlLight": "ressources/images/icons/mail-filled-icon-white.svg"
+      }
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/matthieu-le-bout/",
-      "urlText": "in/matthieu-le-bout"
+      "urlText": "in/matthieu-le-bout",
+      "icon": {
+        "url": "ressources/images/icons/linkedin-logo.svg"
+      }
     },
     {
       "name": "GitHub",
       "url": "https://github.com/jocooper2018",
-      "urlText": "jocooper2018"
+      "urlText": "jocooper2018",
+      "icon": {
+        "url": "ressources/images/icons/github-logo.svg",
+        "urlLight": "ressources/images/icons/github-logo-white.svg"
+      }
     }
   ]
 }

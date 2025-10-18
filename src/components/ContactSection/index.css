@@ -1,0 +1,23 @@
+#contact address {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 30rem;
+  margin: 0 auto;
+  font-style: normal;
+}
+
+#contact address a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#contact address a img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+}

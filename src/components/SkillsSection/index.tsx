@@ -6,7 +6,7 @@ import type SkillsData from "../../interfaces/SkillsData";
 import type Skill from "../../interfaces/Skill";
 import type Tool from "../../interfaces/Tool";
 import { ThemeContext } from "../../contexts/ThemeContext";
-import getLogoForTheme from "../../utils/getLogoForTheme";
+import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
 
 const SkillsSection: React.FC = () => {
   const { t, lang } = useLanguage();
@@ -51,7 +51,7 @@ const SkillsSection: React.FC = () => {
                 (tool: Tool, i: number) => (
                   <li key={i}>
                     <img
-                      src={getLogoForTheme(tool, resolvedTheme)}
+                      src={getIconUrlForTheme(tool.logo, resolvedTheme)}
                       alt={`${tool.name} logo`}
                     />
                     <span>{tool.name}</span>

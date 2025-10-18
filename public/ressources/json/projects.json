@@ -11,28 +11,40 @@
       "tools": [
         {
           "name": "Vite",
-          "logo": "ressources/images/tools/vite-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/vite-logo.svg"
+          }
         },
         {
           "name": "TypeScript",
-          "logo": "ressources/images/tools/typescript-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/typescript-logo.svg"
+          }
         },
         {
           "name": "HTML",
-          "logo": "ressources/images/tools/html-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/html-logo.svg"
+          }
         },
         {
           "name": "CSS",
-          "logo": "ressources/images/tools/css-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/css-logo.svg"
+          }
         },
         {
           "name": "git",
-          "logo": "ressources/images/tools/git-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/git-logo.svg"
+          }
         },
         {
           "name": "GitHub",
-          "logo": "ressources/images/tools/github-logo.svg",
-          "logoLight": "ressources/images/tools/github-logo-white.svg"
+          "logo": {
+            "url": "ressources/images/icons/github-logo.svg",
+            "urlLight": "ressources/images/icons/github-logo-white.svg"
+          }
         }
       ],
       "butSkills": [
@@ -78,40 +90,58 @@
       "tools": [
         {
           "name": "Jira",
-          "logo": "ressources/images/tools/jira-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/jira-logo.svg"
+          }
         },
         {
           "name": "Figma",
-          "logo": "ressources/images/tools/figma-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/figma-logo.svg"
+          }
         },
         {
           "name": "PostgreSQL",
-          "logo": "ressources/images/tools/postgresql-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/postgresql-logo.svg"
+          }
         },
         {
           "name": "PHP",
-          "logo": "ressources/images/tools/php-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/php-logo.svg"
+          }
         },
         {
           "name": "HTML",
-          "logo": "ressources/images/tools/html-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/html-logo.svg"
+          }
         },
         {
           "name": "CSS",
-          "logo": "ressources/images/tools/css-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/css-logo.svg"
+          }
         },
         {
           "name": "JavaScript",
-          "logo": "ressources/images/tools/javascript-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/javascript-logo.svg"
+          }
         },
         {
           "name": "git",
-          "logo": "ressources/images/tools/git-logo.svg"
+          "logo": {
+            "url": "ressources/images/icons/git-logo.svg"
+          }
         },
         {
           "name": "GitHub",
-          "logo": "ressources/images/tools/github-logo.svg",
-          "logoLight": "ressources/images/tools/github-logo-white.svg"
+          "logo": {
+            "url": "ressources/images/icons/github-logo.svg",
+            "urlLight": "ressources/images/icons/github-logo-white.svg"
+          }
         }
       ],
       "butSkills": [
