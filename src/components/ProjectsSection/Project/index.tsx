@@ -1,12 +1,12 @@
 import "./index.css";
-import type ProjectData from "../../interfaces/Project";
-import type ButSkill from "../../interfaces/ButSkill";
-import { useLanguage } from "../../contexts/LanguageContext";
-import type Tool from "../../interfaces/Tool";
+import type ProjectData from "../../../interfaces/Project";
+import type ButSkill from "../../../interfaces/ButSkill";
+import { useLanguage } from "../../../contexts/LanguageContext";
+import type Tool from "../../../interfaces/Tool";
 import { useContext } from "react";
-import { ThemeContext } from "../../contexts/ThemeContext";
-import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
-import DateRange from "../DateRange";
+import { ThemeContext } from "../../../contexts/ThemeContext";
+import getIconUrlForTheme from "../../../utils/getIconUrlForTheme";
+import DateRange from "../../DateRange";
 
 interface ProjectProps {
   readonly data: ProjectData;

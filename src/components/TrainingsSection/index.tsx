@@ -4,7 +4,7 @@ import { useLanguage } from "../../contexts/LanguageContext";
 import getRessource from "../../utils/getRessource";
 import type TrainingsData from "../../interfaces/TrainingsData";
 import type TrainingData from "../../interfaces/Training";
-import Training from "../Training";
+import Training from "./Training";
 
 const TrainingsSection: React.FC = () => {
   const { t } = useLanguage();
