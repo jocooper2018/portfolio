@@ -50,10 +50,13 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
             }
             return (
               <li key={`tool-${i}`}>
-                <img
-                  src={getIconUrlForTheme(tool.logo, resolvedTheme)}
-                  alt={tool.name}
-                />
+                <a href={tool.url[lang]} target="_blank">
+                  <img
+                    src={getIconUrlForTheme(tool.logo, resolvedTheme)}
+                    alt={tool.name}
+                  />
+                  <div className="popup">{tool.name}</div>
+                </a>
               </li>
             );
           })}

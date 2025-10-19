@@ -48,13 +48,23 @@
   scrollbar-width: none;
 }
 
+.project .tools {
+  padding: 0.5rem 2rem 2rem 2rem;
+  margin: -0.5rem -2rem -2rem -2rem;
+}
+
 .project .tools img {
   width: 2rem;
   height: 2rem;
   object-fit: contain;
   padding: 0;
   box-shadow: none;
-  border-radius: 0  ;
+  border-radius: 0;
+  transition: transform 250ms ease-out;
+}
+
+.project .tools a:hover img {
+  transform: scale(1.1);
 }
 
 .project .tools .loader {
@@ -63,4 +73,30 @@
   height: 1rem;
   margin: 0.5rem;
 }
-  
+
+.project .tools a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  overflow: visible;
+}
+
+.project .tools a .popup {
+  pointer-events: none;
+  position: absolute;
+  left: 1rem;
+  transform: translate(-50%, -0.5rem);
+  background-color: var(--bg-light);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: var(--shadow-s);
+  opacity: 0;
+  transition: opacity 250ms ease-out, transform 250ms ease-out;
+}
+
+.project .tools a:hover .popup {
+  display: block;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}

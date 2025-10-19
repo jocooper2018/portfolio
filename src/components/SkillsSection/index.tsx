@@ -67,11 +67,13 @@ const SkillsSection: React.FC<SkillsSectionProps> = (
                   }
                   return (
                     <li key={i}>
-                      <img
-                        src={getIconUrlForTheme(tool.logo, resolvedTheme)}
-                        alt={`${tool.name} logo`}
-                      />
-                      <span>{tool.name}</span>
+                      <a href={tool.url[lang]} target="_blank">
+                        <img
+                          src={getIconUrlForTheme(tool.logo, resolvedTheme)}
+                          alt={`${tool.name} logo`}
+                        />
+                        <span>{tool.name}</span>
+                      </a>
                     </li>
                   );
                 }

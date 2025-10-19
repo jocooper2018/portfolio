@@ -5,6 +5,10 @@
       "name": "HTML",
       "logo": {
         "url": "ressources/images/icons/html-logo.svg"
+      },
+      "url": {
+        "en": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "fr": "https://developer.mozilla.org/fr/docs/Web/HTML"
       }
     },
     {
@@ -12,6 +16,10 @@
       "name": "CSS",
       "logo": {
         "url": "ressources/images/icons/css-logo.svg"
+      },
+      "url": {
+        "en": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "fr": "https://developer.mozilla.org/fr/docs/Web/CSS"
       }
     },
     {
@@ -19,6 +27,10 @@
       "name": "JavaScript",
       "logo": {
         "url": "ressources/images/icons/javascript-logo.svg"
+      },
+      "url": {
+        "en": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "fr": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
       }
     },
     {
@@ -26,6 +38,10 @@
       "name": "TypeScript",
       "logo": {
         "url": "ressources/images/icons/typescript-logo.svg"
+      },
+      "url": {
+        "en": "https://www.typescriptlang.org/",
+        "fr": "https://www.typescriptlang.org/fr/"
       }
     },
     {
@@ -33,6 +49,10 @@
       "name": "PHP",
       "logo": {
         "url": "ressources/images/icons/php-logo.svg"
+      },
+      "url": {
+        "en": "https://www.php.net/",
+        "fr": "https://www.php.net/"
       }
     },
     {
@@ -40,6 +60,10 @@
       "name": "Node.js",
       "logo": {
         "url": "ressources/images/icons/nodejs-logo.svg"
+      },
+      "url": {
+        "en": "https://nodejs.org/en",
+        "fr": "https://nodejs.org/fr"
       }
     },
     {
@@ -47,6 +71,10 @@
       "name": "NestJS",
       "logo": {
         "url": "ressources/images/icons/nestjs-logo.svg"
+      },
+      "url": {
+        "en": "https://nestjs.com/",
+        "fr": "https://nestjs.com/"
       }
     },
     {
@@ -54,6 +82,10 @@
       "name": "React",
       "logo": {
         "url": "ressources/images/icons/react-logo.svg"
+      },
+      "url": {
+        "en": "https://react.dev/",
+        "fr": "https://fr.react.dev/"
       }
     },
     {
@@ -61,6 +93,10 @@
       "name": "Vite",
       "logo": {
         "url": "ressources/images/icons/vite-logo.svg"
+      },
+      "url": {
+        "en": "https://vite.dev/",
+        "fr": "https://vite.dev/"
       }
     },
     {
@@ -68,6 +104,10 @@
       "name": "GraphQL",
       "logo": {
         "url": "ressources/images/icons/graphql-logo.svg"
+      },
+      "url": {
+        "en": "https://graphql.org/",
+        "fr": "https://graphql.org/"
       }
     },
     {
@@ -75,6 +115,10 @@
       "name": "C",
       "logo": {
         "url": "ressources/images/icons/c-logo.svg"
+      },
+      "url": {
+        "en": "https://www.c-language.org/",
+        "fr": "https://www.c-language.org/"
       }
     },
     {
@@ -82,6 +126,10 @@
       "name": "Java",
       "logo": {
         "url": "ressources/images/icons/java-logo.svg"
+      },
+      "url": {
+        "en": "https://www.oracle.com/java/",
+        "fr": "https://www.oracle.com/fr/java/"
       }
     },
     {
@@ -89,6 +137,10 @@
       "name": "C#",
       "logo": {
         "url": "ressources/images/icons/c-sharp-logo.svg"
+      },
+      "url": {
+        "en": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "fr": "https://learn.microsoft.com/fr-fr/dotnet/csharp/"
       }
     },
     {
@@ -96,6 +148,10 @@
       "name": "Python",
       "logo": {
         "url": "ressources/images/icons/python-logo.svg"
+      },
+      "url": {
+        "en": "https://www.python.org/",
+        "fr": ""
       }
     },
     {
@@ -103,6 +159,10 @@
       "name": "PostgreSQL",
       "logo": {
         "url": "ressources/images/icons/postgresql-logo.svg"
+      },
+      "url": {
+        "en": "https://www.postgresql.org/",
+        "fr": "https://www.postgresql.org/"
       }
     },
     {
@@ -110,6 +170,10 @@
       "name": "git",
       "logo": {
         "url": "ressources/images/icons/git-logo.svg"
+      },
+      "url": {
+        "en": "https://git-scm.com/",
+        "fr": "https://git-scm.com/"
       }
     },
     {
@@ -118,6 +182,10 @@
       "logo": {
         "url": "ressources/images/icons/github-logo.svg",
         "urlLight": "ressources/images/icons/github-logo-white.svg"
+      },
+      "url": {
+        "en": "https://github.com/",
+        "fr": "https://github.com/"
       }
     },
     {
@@ -125,6 +193,10 @@
       "name": "Jira",
       "logo": {
         "url": "ressources/images/icons/jira-logo.svg"
+      },
+      "url": {
+        "en": "https://www.atlassian.com/software/jira",
+        "fr": "https://www.atlassian.com/fr/software/jira"
       }
     },
     {
@@ -132,6 +204,10 @@
       "name": "Figma",
       "logo": {
         "url": "ressources/images/icons/figma-logo.svg"
+      },
+      "url": {
+        "en": "https://www.figma.com/",
+        "fr": "https://www.figma.com/fr-fr/"
       }
     }
   ]

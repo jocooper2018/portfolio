@@ -1,7 +1,9 @@
+import type { TranslatedString } from "../types/Language";
 import type Icon from "./Icon";
 
 export default interface Tool {
   readonly id: string;
   readonly name: string;
   readonly logo: Icon;
+  readonly url: TranslatedString;
 }
