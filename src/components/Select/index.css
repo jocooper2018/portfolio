@@ -1,0 +1,38 @@
+.select {
+  position: relative;
+}
+
+.select-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding-right: 0.25rem;
+}
+
+.select-menu {
+  position: absolute;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: var(--bg-dark);
+  box-shadow: var(--shadow-s);
+}
+
+.select-menu.align-left {
+  left: 0;
+  right: unset;
+}
+
+.select-menu.align-right {
+  right: 0;
+  left: unset;
+}
+
+.select-menu button {
+  white-space: nowrap;
+}
