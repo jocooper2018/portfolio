@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="32"
-   height="32"
-   viewBox="0 0 76 32"
+   width="75"
+   height="75"
+   viewBox="0 0 75 75"
    fill="none"
    version="1.1"
-   id="svg7"
-   sodipodi:docname="Jira_Logo.svg"
+   id="svg15"
+   sodipodi:docname="Jira_attribution_center_dark.svg"
    inkscape:version="1.4 (e7c3feb, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview7"
+     id="namedview15"
      pagecolor="#505050"
      bordercolor="#eeeeee"
      borderopacity="1"
@@ -21,69 +21,40 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="16"
-     inkscape:cx="16.75"
-     inkscape:cy="23.84375"
+     inkscape:zoom="4.9573171"
+     inkscape:cx="45.690037"
+     inkscape:cy="35.805658"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="logo-gradient-blue-jira" />
+     inkscape:current-layer="svg15" />
+  <path
+     d="M 0,18.75 C 0,8.39466 8.3947,0 18.75,0 h 37.5 C 66.6053,0 75,8.39466 75,18.75 v 37.5 C 75,66.6053 66.6053,75 56.25,75 H 18.75 C 8.3947,75 0,66.6053 0,56.25 Z"
+     fill="#1868db"
+     id="path14" />
   <g
-     id="logo-gradient-blue-jira">
-    <g
-       id="Icon"
-       transform="matrix(2.9524155,0,0,2.9524155,0,-29.757359)">
-      <path
-         id="Vector"
-         d="M 24.664,3 H 12.2603 c 0,2.99443 2.5094,5.43176 5.5924,5.43176 h 2.2943 v 2.12394 c 0,2.9944 2.5095,5.4318 5.5925,5.4318 V 4.04457 C 25.7395,3.45265 25.2735,3 24.664,3 Z"
-         fill="#2684ff" />
-      <path
-         id="Vector_2"
-         d="M 18.5339,8.98877 H 6.13013 c 0,2.99443 2.50943,5.43173 5.59247,5.43173 h 2.2943 v 2.1588 c 0,2.9944 2.5095,5.4318 5.5925,5.4318 V 10.0333 c 0,-0.55707 -0.4661,-1.04453 -1.0755,-1.04453 z"
-         fill="url(#paint0_linear)"
-         style="fill:url(#paint0_linear)" />
-      <path
-         id="Vector_3"
-         d="M 12.4038,15.0125 H 0 c 0,2.9944 2.50943,5.4317 5.59245,5.4317 h 2.29434 v 2.124 c 0,2.9944 2.50941,5.4317 5.59241,5.4317 V 16.057 c 0,-0.5919 -0.5018,-1.0445 -1.0754,-1.0445 z"
-         fill="url(#paint1_linear)"
-         style="fill:url(#paint1_linear)" />
-    </g>
+     clip-path="url(#clip0_55714_36330)"
+     id="g15"
+     transform="translate(-33)">
+    <path
+       d="M 61.0429,48.5103 H 56.817 c -6.3736,0 -10.9459,-3.9039 -10.9459,-9.6203 h 22.7231 c 1.1778,0 1.9398,0.8365 1.9398,2.0216 v 22.8657 c -5.6808,0 -9.4911,-4.601 -9.4911,-11.0145 z M 72.266,37.1472 H 68.04 c -6.3736,0 -10.9459,-3.8342 -10.9459,-9.5507 h 22.7231 c 1.1778,0 2.0091,0.7669 2.0091,1.952 v 22.8657 c -5.6808,0 -9.5603,-4.601 -9.5603,-11.0146 z M 83.5582,25.8537 h -4.2259 c -6.3736,0 -10.9459,-3.9039 -10.9459,-9.6203 h 22.7231 c 1.1778,0 1.9398,0.8365 1.9398,1.9519 v 22.8658 c -5.6808,0 -9.4911,-4.6011 -9.4911,-11.0146 z"
+       fill="#ffffff"
+       id="path15" />
   </g>
   <defs
-     id="defs7">
-    <linearGradient
-       id="paint0_linear"
-       x1="19.3455"
-       y1="9.01882"
-       x2="14.2302"
-       y2="14.45"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0.176"
-         stop-color="#0052CC"
-         id="stop4" />
-      <stop
-         offset="1"
-         stop-color="#2684FF"
-         id="stop5" />
-    </linearGradient>
-    <linearGradient
-       id="paint1_linear"
-       x1="13.5601"
-       y1="15.0525"
-       x2="7.63562"
-       y2="20.9874"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0.176"
-         stop-color="#0052CC"
-         id="stop6" />
-      <stop
-         offset="1"
-         stop-color="#2684FF"
-         id="stop7" />
-    </linearGradient>
+     id="defs15">
+    <clipPath
+       id="clip0_55714_36330">
+      <rect
+         width="47.1782"
+         height="47.5439"
+         fill="#ffffff"
+         transform="translate(45.8711,16.2344)"
+         id="rect15"
+         x="0"
+         y="0" />
+    </clipPath>
   </defs>
 </svg>

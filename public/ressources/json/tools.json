@@ -100,6 +100,18 @@
       }
     },
     {
+      "id": "prisma",
+      "name": "Prisma",
+      "logo": {
+        "urlDark": "ressources/images/icons/prisma-logo-black.svg",
+        "urlLight": "ressources/images/icons/prisma-logo-white.svg"
+      },
+      "url": {
+        "en": "https://www.prisma.io/",
+        "fr": "https://www.prisma.io/"
+      }
+    },
+    {
       "id": "graphql",
       "name": "GraphQL",
       "logo": {
@@ -163,6 +175,53 @@
       "url": {
         "en": "https://www.postgresql.org/",
         "fr": "https://www.postgresql.org/"
+      }
+    },
+    {
+      "id": "mariadb",
+      "name": "MariaDB",
+      "logo": {
+        "url": "ressources/images/icons/mariadb-logo.svg",
+        "urlLight": "ressources/images/icons/mariadb-logo-white.svg"
+      },
+      "url": {
+        "en": "https://mariadb.org/",
+        "fr": "https://mariadb.org/"
+      }
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "logo": {
+        "url": "ressources/images/icons/mongodb-logo-light.svg",
+        "urlDark": "ressources/images/icons/mongodb-logo-dark.svg"
+      },
+      "url": {
+        "en": "https://www.mongodb.com/",
+        "fr": "https://www.mongodb.com/fr-fr"
+      }
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "logo": {
+        "url": "ressources/images/icons/docker-logo-blue.svg",
+        "urlLight": "ressources/images/icons/docker-logo-white.svg"
+      },
+      "url": {
+        "en": "https://www.docker.com/",
+        "fr": "https://www.docker.com/"
+      }
+    },
+    {
+      "id": "linux",
+      "name": "GNU/Linux",
+      "logo": {
+        "url": "ressources/images/icons/tux.svg"
+      },
+      "url": {
+        "en": "https://www.gnu.org/home.en.html",
+        "fr": "https://www.gnu.org/home.fr.html"
       }
     },
     {

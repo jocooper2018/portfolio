@@ -9,6 +9,7 @@
         "fr": "Un jeu de démineur en ligne créer avec Vite et TypeScript."
       },
       "toolsIds": [
+        "nodejs",
         "vite",
         "typescript",
         "html",
@@ -58,14 +59,15 @@
       },
       "toolsIds": [
         "jira",
-        "figma",
         "postgresql",
         "php",
         "html",
         "css",
         "javascript",
+        "docker",
         "git",
-        "github"
+        "github",
+        "figma"
       ],
       "butSkills": [
         {

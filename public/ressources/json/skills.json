@@ -13,10 +13,12 @@
         "typescript",
         "php",
         "nodejs",
-        "nestjs",
-        "react",
         "vite",
-        "graphql"
+        "react",
+        "nestjs",
+        "prisma",
+        "graphql",
+        "git"
       ]
     },
     {
@@ -29,7 +31,54 @@
         "c",
         "java",
         "csharp",
-        "python"
+        "python",
+        "git"
+      ]
+    },
+    {
+      "name": {
+        "en": "Database",
+        "fr": "Base de données"
+      },
+      "description": "",
+      "toolsIds": [
+        "postgresql",
+        "mariadb",
+        "mongodb",
+        "prisma"
+      ]
+    },
+    {
+      "name": {
+        "en": "Systems",
+        "fr": "Systèmes"
+      },
+      "description": "",
+      "toolsIds": [
+        "linux",
+        "docker"
+      ]
+    },
+    {
+      "name": {
+        "en": "Project management",
+        "fr": "Gestion de projets"
+      },
+      "description": "",
+      "toolsIds": [
+        "jira",
+        "git",
+        "github"
+      ]
+    },
+    {
+      "name": {
+        "en": "Design",
+        "fr": "Design"
+      },
+      "description": "",
+      "toolsIds": [
+        "figma"
       ]
     }
   ]
