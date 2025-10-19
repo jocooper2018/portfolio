@@ -48,3 +48,9 @@
   align-items: center;
   gap: 1rem;
 }
+
+.skills-box .tools .loader {
+  width: 4rem;
+  height: 4rem;
+  margin: 2rem;
+}

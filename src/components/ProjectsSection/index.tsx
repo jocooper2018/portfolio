@@ -5,8 +5,16 @@ import getRessource from "../../utils/getRessource";
 import type ProjectsData from "../../interfaces/ProjectsData";
 import type ProjectData from "../../interfaces/Project";
 import Project from "./Project";
+import type Tool from "../../interfaces/Tool";
 
-const ProjectsSection: React.FC = () => {
+interface ProjectsSectionProps {
+  readonly allTools: Tool[];
+  readonly isToolsLoading: boolean;
+}
+
+const ProjectsSection: React.FC<ProjectsSectionProps> = (
+  props: ProjectsSectionProps
+) => {
   const { t } = useLanguage();
   const [projectsData, setProjectsData] = useState<ProjectsData | undefined>(
     undefined
@@ -27,7 +35,13 @@ const ProjectsSection: React.FC = () => {
       <h2>{t("projects")}</h2>
       {projectsData &&
         projectsData.projects.map((project: ProjectData, i: number) => (
-          <Project data={project} key={`project-${i}`} position={i} />
+          <Project
+            data={project}
+            key={`project-${i}`}
+            position={i}
+            allTools={props.allTools}
+            isToolsLoading={props.isToolsLoading}
+          />
         ))}
     </section>
   );

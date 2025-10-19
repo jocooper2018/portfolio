@@ -56,3 +56,11 @@
   box-shadow: none;
   border-radius: 0  ;
 }
+
+.project .tools .loader {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+}
+  

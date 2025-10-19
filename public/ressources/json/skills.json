@@ -6,67 +6,17 @@
         "fr": "Développement web"
       },
       "description": "",
-      "tools": [
-        {
-          "name": "HTML",
-          "logo": {
-            "url": "ressources/images/icons/html-logo.svg"
-          }
-        },
-        {
-          "name": "CSS",
-          "logo": {
-            "url": "ressources/images/icons/css-logo.svg"
-          }
-        },
-        {
-          "name": "JavaScript",
-          "logo": {
-            "url": "ressources/images/icons/javascript-logo.svg"
-          }
-        },
-        {
-          "name": "TypeScript",
-          "logo": {
-            "url": "ressources/images/icons/typescript-logo.svg"
-          }
-        },
-        {
-          "name": "PHP",
-          "logo": {
-            "url": "ressources/images/icons/php-logo.svg"
-          }
-        },
-        {
-          "name": "Node.js",
-          "logo": {
-            "url": "ressources/images/icons/nodejs-logo.svg"
-          }
-        },
-        {
-          "name": "NestJS",
-          "logo": {
-            "url": "ressources/images/icons/nestjs-logo.svg"
-          }
-        },
-        {
-          "name": "React",
-          "logo": {
-            "url": "ressources/images/icons/react-logo.svg"
-          }
-        },
-        {
-          "name": "Vite",
-          "logo": {
-            "url": "ressources/images/icons/vite-logo.svg"
-          }
-        },
-        {
-          "name": "GraphQL",
-          "logo": {
-            "url": "ressources/images/icons/graphql-logo.svg"
-          }
-        }
+      "toolsIds": [
+        "html",
+        "css",
+        "javascript",
+        "typescript",
+        "php",
+        "nodejs",
+        "nestjs",
+        "react",
+        "vite",
+        "graphql"
       ]
     },
     {
@@ -75,31 +25,11 @@
         "fr": "Développement logiciel"
       },
       "description": "",
-      "tools": [
-        {
-          "name": "C",
-          "logo": {
-            "url": "ressources/images/icons/c-logo.svg"
-          }
-        },
-        {
-          "name": "Java",
-          "logo": {
-            "url": "ressources/images/icons/java-logo.svg"
-          }
-        },
-        {
-          "name": "C#",
-          "logo": {
-            "url": "ressources/images/icons/c-sharp-logo.svg"
-          }
-        },
-        {
-          "name": "Python",
-          "logo": {
-            "url": "ressources/images/icons/python-logo.svg"
-          }
-        }
+      "toolsIds": [
+        "c",
+        "java",
+        "csharp",
+        "python"
       ]
     }
   ]

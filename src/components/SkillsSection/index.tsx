@@ -7,8 +7,16 @@ import type Skill from "../../interfaces/Skill";
 import type Tool from "../../interfaces/Tool";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
+import getTool from "../../utils/getTool";
 
-const SkillsSection: React.FC = () => {
+interface SkillsSectionProps {
+  readonly allTools: Tool[];
+  readonly isToolsLoading: boolean;
+}
+
+const SkillsSection: React.FC<SkillsSectionProps> = (
+  props: SkillsSectionProps
+) => {
   const { t, lang } = useLanguage();
   const { resolvedTheme } = useContext(ThemeContext);
   const [skillsData, setSkillsData] = useState<SkillsData | undefined>(
@@ -47,16 +55,26 @@ const SkillsSection: React.FC = () => {
           </div>
           <div className="tools card">
             <ul>
-              {skillsData.skills[skillSelected].tools.map(
-                (tool: Tool, i: number) => (
-                  <li key={i}>
-                    <img
-                      src={getIconUrlForTheme(tool.logo, resolvedTheme)}
-                      alt={`${tool.name} logo`}
-                    />
-                    <span>{tool.name}</span>
-                  </li>
-                )
+              {skillsData.skills[skillSelected].toolsIds.map(
+                (toolId: string, i: number) => {
+                  if (props.isToolsLoading) {
+                    return <div className="loader" />;
+                  }
+                  const tool = getTool(props.allTools, toolId);
+                  if (!tool) {
+                    console.error(`tool ${toolId} not found`);
+                    return;
+                  }
+                  return (
+                    <li key={i}>
+                      <img
+                        src={getIconUrlForTheme(tool.logo, resolvedTheme)}
+                        alt={`${tool.name} logo`}
+                      />
+                      <span>{tool.name}</span>
+                    </li>
+                  );
+                }
               )}
             </ul>
           </div>

@@ -13,6 +13,7 @@ header {
   background-color: var(--bg-transparent);
   backdrop-filter: blur(1rem);
   box-shadow: var(--shadow-s);
+  z-index: 1;
 }
 
 header > div {

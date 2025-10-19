@@ -7,10 +7,13 @@ import { useContext } from "react";
 import { ThemeContext } from "../../../contexts/ThemeContext";
 import getIconUrlForTheme from "../../../utils/getIconUrlForTheme";
 import DateRange from "../../DateRange";
+import getTool from "../../../utils/getTool";
 
 interface ProjectProps {
   readonly data: ProjectData;
   readonly position: number;
+  readonly allTools: Tool[];
+  readonly isToolsLoading: boolean;
 }
 
 const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
@@ -36,11 +39,24 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         </ul>
         <p>{props.data.description[lang]}</p>
         <ul className="tools">
-          {props.data.tools.map((tool: Tool, i: number) => (
-            <li key={`tool-${i}`}>
-              <img src={getIconUrlForTheme(tool.logo, resolvedTheme)} alt={tool.name} />
-            </li>
-          ))}
+          {props.data.toolsIds.map((toolId: string, i: number) => {
+            if (props.isToolsLoading) {
+              return <div className="loader" />;
+            }
+            const tool = getTool(props.allTools, toolId);
+            if (!tool) {
+              console.error(`tool ${toolId} not found`);
+              return;
+            }
+            return (
+              <li key={`tool-${i}`}>
+                <img
+                  src={getIconUrlForTheme(tool.logo, resolvedTheme)}
+                  alt={tool.name}
+                />
+              </li>
+            );
+          })}
         </ul>
       </div>
       <img

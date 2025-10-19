@@ -8,44 +8,13 @@
         "en": "An online minesweeper game created with Vite and TypeScript.",
         "fr": "Un jeu de démineur en ligne créer avec Vite et TypeScript."
       },
-      "tools": [
-        {
-          "name": "Vite",
-          "logo": {
-            "url": "ressources/images/icons/vite-logo.svg"
-          }
-        },
-        {
-          "name": "TypeScript",
-          "logo": {
-            "url": "ressources/images/icons/typescript-logo.svg"
-          }
-        },
-        {
-          "name": "HTML",
-          "logo": {
-            "url": "ressources/images/icons/html-logo.svg"
-          }
-        },
-        {
-          "name": "CSS",
-          "logo": {
-            "url": "ressources/images/icons/css-logo.svg"
-          }
-        },
-        {
-          "name": "git",
-          "logo": {
-            "url": "ressources/images/icons/git-logo.svg"
-          }
-        },
-        {
-          "name": "GitHub",
-          "logo": {
-            "url": "ressources/images/icons/github-logo.svg",
-            "urlLight": "ressources/images/icons/github-logo-white.svg"
-          }
-        }
+      "toolsIds": [
+        "vite",
+        "typescript",
+        "html",
+        "css",
+        "git",
+        "github"
       ],
       "butSkills": [
         {
@@ -87,62 +56,16 @@
         "en": "Development of a Tourist Advice and Information Platform (PACT) using the Agile Scrum method.",
         "fr": "Développement d'une Plateforme d'Avis et Conseils Touristiques (PACT) en utilisant la méthode Agile Scrum."
       },
-      "tools": [
-        {
-          "name": "Jira",
-          "logo": {
-            "url": "ressources/images/icons/jira-logo.svg"
-          }
-        },
-        {
-          "name": "Figma",
-          "logo": {
-            "url": "ressources/images/icons/figma-logo.svg"
-          }
-        },
-        {
-          "name": "PostgreSQL",
-          "logo": {
-            "url": "ressources/images/icons/postgresql-logo.svg"
-          }
-        },
-        {
-          "name": "PHP",
-          "logo": {
-            "url": "ressources/images/icons/php-logo.svg"
-          }
-        },
-        {
-          "name": "HTML",
-          "logo": {
-            "url": "ressources/images/icons/html-logo.svg"
-          }
-        },
-        {
-          "name": "CSS",
-          "logo": {
-            "url": "ressources/images/icons/css-logo.svg"
-          }
-        },
-        {
-          "name": "JavaScript",
-          "logo": {
-            "url": "ressources/images/icons/javascript-logo.svg"
-          }
-        },
-        {
-          "name": "git",
-          "logo": {
-            "url": "ressources/images/icons/git-logo.svg"
-          }
-        },
-        {
-          "name": "GitHub",
-          "logo": {
-            "url": "ressources/images/icons/github-logo.svg",
-            "urlLight": "ressources/images/icons/github-logo-white.svg"
-          }
-        }
+      "toolsIds": [
+        "jira",
+        "figma",
+        "postgresql",
+        "php",
+        "html",
+        "css",
+        "javascript",
+        "git",
+        "github"
       ],
       "butSkills": [
         {
