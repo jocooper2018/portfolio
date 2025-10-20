@@ -317,7 +317,8 @@
       "id": "unity",
       "name": "Unity",
       "logo": {
-        "url": "ressources/images/icons/unity-logo.svg"
+        "url": "ressources/images/icons/unity-logo-dark.svg",
+        "urlLight": "ressources/images/icons/unity-logo-light.svg"
       },
       "url": {
         "en": "https://unity.com/",
