@@ -10,8 +10,10 @@
   flex-direction: row-reverse;
 }
 
-.project img {
+.project > img {
   width: 40%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   border-radius: 1rem;
   box-shadow: var(--shadow-s);
   padding: 2px;
@@ -34,7 +36,15 @@
 .project .header {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+.project .header > div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
   gap: 1rem;
 }
 
@@ -87,6 +97,7 @@
   position: absolute;
   left: 1rem;
   transform: translate(-50%, -0.5rem);
+  color: var(--text);
   background-color: var(--bg-light);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;

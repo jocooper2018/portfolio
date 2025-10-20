@@ -8,12 +8,11 @@
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
-  padding-right: 0.25rem;
 }
 
 .select-menu {
   position: absolute;
-  top: 2rem;
+  top: 2.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -35,4 +34,5 @@
 
 .select-menu button {
   white-space: nowrap;
+  text-align: left;
 }
