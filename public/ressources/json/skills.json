@@ -44,6 +44,7 @@
       "toolsIds": [
         "postgresql",
         "mariadb",
+        "mysql",
         "mongodb",
         "prisma"
       ]

@@ -190,6 +190,17 @@
       }
     },
     {
+      "id": "mysql",
+      "name": "MySQL",
+      "logo": {
+        "url": "ressources/images/icons/my-sql-logo.svg"
+      },
+      "url": {
+        "en": "https://www.mysql.com/",
+        "fr": "https://www.mysql.com/"
+      }
+    },
+    {
       "id": "mongodb",
       "name": "MongoDB",
       "logo": {
@@ -248,6 +259,17 @@
       }
     },
     {
+      "id": "gitlab",
+      "name": "GitLab",
+      "logo": {
+        "url": "ressources/images/icons/gitlab-logo.svg"
+      },
+      "url": {
+        "en": "https://about.gitlab.com/",
+        "fr": "https://about.gitlab.com/fr-fr/"
+      }
+    },
+    {
       "id": "jira",
       "name": "Jira",
       "logo": {
@@ -267,6 +289,17 @@
       "url": {
         "en": "https://www.figma.com/",
         "fr": "https://www.figma.com/fr-fr/"
+      }
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "logo": {
+        "url": "ressources/images/icons/unity-logo.svg"
+      },
+      "url": {
+        "en": "https://unity.com/",
+        "fr": "https://unity.com/fr"
       }
     }
   ]

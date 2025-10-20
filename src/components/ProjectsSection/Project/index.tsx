@@ -24,7 +24,10 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
     <article className={`project${props.position % 2 !== 0 ? " reverse" : ""}`}>
       <div className="card">
         <div className="header">
-          <h3>{props.data.name}</h3>
+          <div>
+            <h3>{props.data.name[lang]}</h3>
+            <span>{props.data.type[lang]}</span>
+          </div>
           <div>
             <DateRange
               startDate={props.data.startDate}

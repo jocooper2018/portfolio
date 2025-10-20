@@ -1,12 +1,19 @@
 {
   "projects": [
     {
-      "name": "Démineur web",
+      "name": {
+        "en": "Demineur web",
+        "fr": "Démineur web"
+      },
       "startDate": "2025-07-27",
       "endDate": "2025-07-31",
       "description": {
         "en": "An online minesweeper game created with Vite and TypeScript.",
         "fr": "Un jeu de démineur en ligne créer avec Vite et TypeScript."
+      },
+      "type": {
+        "en": "Personal project",
+        "fr": "Projet personnel"
       },
       "toolsIds": [
         "nodejs",
@@ -50,12 +57,117 @@
       ]
     },
     {
-      "name": "PACT by TripEnArvor",
+      "name": {
+        "en": "My Web Companion",
+        "fr": "My Web Companion"
+      },
+      "startDate": "2025-05-15",
+      "endDate": "2025-06-27",
+      "description": {
+        "en": "My Web Companion is an application offering a notepad, a calendar, and various tools.",
+        "fr": "My Web Companion est une application proposant un bloc note, un agenda, et divers outils."
+      },
+      "type": {
+        "en": "HDM Network ASBL",
+        "fr": "HDM Network ASBL"
+      },
+      "toolsIds": [
+        "jira",
+        "nodejs",
+        "typescript",
+        "vite",
+        "react",
+        "css",
+        "graphql",
+        "nestjs",
+        "prisma",
+        "mysql",
+        "git",
+        "github"
+      ],
+      "butSkills": [
+        {
+          "fullName": {
+            "en": "Develop an application",
+            "fr": "Réaliser un développement d'application"
+          },
+          "shortName": {
+            "en": "Develop",
+            "fr": "Réaliser"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Optimize computer applications",
+            "fr": "Optimiser des applications informatiques"
+          },
+          "shortName": {
+            "en": "Optimize",
+            "fr": "Optimiser"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Manage information data",
+            "fr": "Gérer des données de l'information"
+          },
+          "shortName": {
+            "en": "Manage",
+            "fr": "Gérer"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Lead a project",
+            "fr": "Conduire un projet"
+          },
+          "shortName": {
+            "en": "Lead",
+            "fr": "Conduire"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Collaborate in an IT team",
+            "fr": "Collaborer dans une équipe informatique"
+          },
+          "shortName": {
+            "en": "Collaborate",
+            "fr": "Collaborer"
+          }
+        }
+      ],
+      "images": [
+        {
+          "url": "ressources/images/projects/My Web Companion/MyWebCompanion_light.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/My Web Companion/MyWebCompanion_dark.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "PACT by TripEnArmor",
+        "fr": "PACT by TripEnArmor"
+      },
       "startDate": "2024-09-16",
       "endDate": "2025-04-02",
       "description": {
         "en": "Development of a Tourist Advice and Information Platform (PACT) using the Agile Scrum method.",
         "fr": "Développement d'une Plateforme d'Avis et Conseils Touristiques (PACT) en utilisant la méthode Agile Scrum."
+      },
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
       },
       "toolsIds": [
         "jira",
@@ -137,6 +249,452 @@
           "alt": {
             "en": "Screenshot of a game",
             "fr": "Capture d'écrans d'une partie"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Knight's Tour",
+        "fr": "Problème du cavalier"
+      },
+      "description": {
+        "en": "Exploration of several algorithms for solving the Knight's tour.",
+        "fr": "Exploration de plusieurs algorithmes permettant de résoudre le problème du cavalier."
+      },
+      "startDate": "2024-02-07",
+      "endDate": "2024-03-26",
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "toolsIds": [
+        "python",
+        "git",
+        "github"
+      ],
+      "butSkills": [
+        {
+          "fullName": {
+            "en": "Optimize computer applications",
+            "fr": "Optimiser des applications informatiques"
+          },
+          "shortName": {
+            "en": "Optimize",
+            "fr": "Optimiser"
+          }
+        }
+      ],
+      "images": [
+        {
+          "url": "ressources/images/projects/Knight Tour/28.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Knight Tour/29.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Knight Tour/30.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Knight Tour/31.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Knight Tour/32.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Knight Tour/33.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Knight Tour/34.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Knight Tour/35.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Knight Tour/36.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sudoku Solver",
+        "fr": "Résolveur de Sudoku"
+      },
+      "description": {
+        "en": "Development of a program in C that automatically solves a Sudoku grid.",
+        "fr": "Développement d’un programme en C qui résous automatiquement une grille de sudoku."
+      },
+      "startDate": "2023-11-27",
+      "endDate": "2024-01-23",
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "toolsIds": [
+        "c",
+        "git",
+        "github"
+      ],
+      "butSkills": [
+        {
+          "fullName": {
+            "en": "Optimize computer applications",
+            "fr": "Optimiser des applications informatiques"
+          },
+          "shortName": {
+            "en": "Optimize",
+            "fr": "Optimiser"
+          }
+        }
+      ],
+      "images": [
+        {
+          "url": "ressources/images/projects/Sudoku Solver/19.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku Solver/20.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku Solver/21.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku Solver/22.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku Solver/23.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku Solver/24.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku Solver/25.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku Solver/26.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku Solver/27.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Tabas’KHO",
+        "fr": "Tabas’KHO"
+      },
+      "description": {
+        "en": "Compilation of a fictitious client's requirements and development of a static website.",
+        "fr": "Recueil des besoins d’un client fictif et développement d’un site web statique."
+      },
+      "startDate": "2023-10-13",
+      "endDate": "2024-01-21",
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "toolsIds": [
+        "figma",
+        "html",
+        "css",
+        "git",
+        "gitlab"
+      ],
+      "butSkills": [
+        {
+          "fullName": {
+            "en": "Lead a project",
+            "fr": "Conduire un projet"
+          },
+          "shortName": {
+            "en": "Lead",
+            "fr": "Conduire"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Collaborate in an IT team",
+            "fr": "Collaborer dans une équipe informatique"
+          },
+          "shortName": {
+            "en": "Collaborate",
+            "fr": "Collaborer"
+          }
+        }
+      ],
+      "images": [
+        {
+          "url": "ressources/images/projects/tabaskho/14.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/tabaskho/15.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/tabaskho/16.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/tabaskho/17.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/tabaskho/18.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sudoku",
+        "fr": "Sudoku"
+      },
+      "description": {
+        "en": "Development of a program for completing a Sudoku grid in C.",
+        "fr": "Développement d’un programme de complétion d’une grille de sudoku en C."
+      },
+      "startDate": "2023-10-16",
+      "endDate": "2023-11-29",
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "toolsIds": [
+        "c"
+      ],
+      "butSkills": [
+        {
+          "fullName": {
+            "en": "Develop an application",
+            "fr": "Réaliser un développement d'application"
+          },
+          "shortName": {
+            "en": "Develop",
+            "fr": "Réaliser"
+          }
+        },
+        {
+          "fullName": {
+            "en": "Optimize computer applications",
+            "fr": "Optimiser des applications informatiques"
+          },
+          "shortName": {
+            "en": "Optimize",
+            "fr": "Optimiser"
+          }
+        }
+      ],
+      "images": [
+        {
+          "url": "ressources/images/projects/Sudoku/8.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku/9.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku/10.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku/11.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku/12.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Sudoku/13.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Platformer 2D",
+        "fr": "Platformer 2D"
+      },
+      "startDate": "2022-05-01",
+      "endDate": "2022-05-23",
+      "description": {
+        "en": "Development of a 2D platform game in the style of Mario Bros.",
+        "fr": "Développement d'un jeu de plateforme en 2D dans la style de Mario Bros."
+      },
+      "type": {
+        "en": "Personal project",
+        "fr": "Projet personnel"
+      },
+      "toolsIds": [
+        "unity",
+        "csharp"
+      ],
+      "butSkills": [
+        {
+          "fullName": {
+            "en": "Develop an application",
+            "fr": "Réaliser un développement d'application"
+          },
+          "shortName": {
+            "en": "Develop",
+            "fr": "Réaliser"
+          }
+        }
+      ],
+      "images": [
+        {
+          "url": "ressources/images/projects/Platformer2D/1.png",
+          "alt": {
+            "en": "Screenshots of the game's home screen.",
+            "fr": "Capture d'écrans de l'écran d'accueil du jeu."
+          }
+        },
+        {
+          "url": "ressources/images/projects/Platformer2D/2.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Platformer2D/3.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Platformer2D/4.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Platformer2D/5.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Platformer2D/6.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "ressources/images/projects/Platformer2D/7.png",
+          "alt": {
+            "en": "",
+            "fr": ""
           }
         }
       ]
