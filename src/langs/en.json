@@ -16,5 +16,10 @@
   "endDate": "End date",
   "name": "Name",
   "asc": "Ascending",
-  "desc": "Descending"
+  "desc": "Descending",
+  "skillFilter": "Sort by skill",
+  "toolFilter": "Sort by tools",
+  "noSelection": "No selection",
+  "all": "All",
+  "selections": "selections"
 }

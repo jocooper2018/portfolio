@@ -10,9 +10,21 @@
 
 }
 
-#sort-project-section > div {
+.filter-and-sort-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+
+.filter-and-sort-container .input-container,
+.filter-and-sort-container .filters {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.filter-and-sort-container .filters {
+  gap: 2rem;
 }

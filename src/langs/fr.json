@@ -16,5 +16,10 @@
   "endDate": "Date de fin",
   "name": "Nom",
   "asc": "Ascendant",
-  "desc": "Descendant"
+  "desc": "Descendant",
+  "skillFilter": "Filter par compétences",
+  "toolFilter": "Filter par outils",
+  "noSelection": "Aucune sélection",
+  "all": "Tous",
+  "selections": "sélections"
 }

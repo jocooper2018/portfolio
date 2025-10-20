@@ -2,22 +2,22 @@ import "./index.css";
 import { useRef, useState } from "react";
 import KeyboardArrowDownIcon from "../../assets/icons/KeyboardArrowDownIcon";
 import KeyboardArrowUpIcon from "../../assets/icons/KeyboardArrowUpIcon";
+import type { SelectOption } from "../Select";
 import CheckIcon from "../../assets/icons/CheckIcon";
+import { useLanguage } from "../../contexts/LanguageContext";
 
-export interface SelectOption {
-  readonly value: string;
-  readonly label: string;
-  readonly iconUrl?: string;
-}
+// TODO Merge MultiSelect into Select
 
-interface SelectProps {
+interface MultiSelectProps {
   readonly options: SelectOption[];
-  readonly selectedOption: SelectOption;
+  readonly selectedOptions: SelectOption[];
   readonly onChange: (option: SelectOption) => void;
   readonly align?: "left" | "right";
 }
 
-const Select: React.FC<SelectProps> = (props: SelectProps) => {
+const MultiSelect: React.FC<MultiSelectProps> = (props: MultiSelectProps) => {
+  const { t } = useLanguage();
+
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const selectRef = useRef<HTMLDivElement>(null);
@@ -42,7 +42,7 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
   };
 
   return (
-    <div ref={selectRef} className="select">
+    <div ref={selectRef} className="select multi-select">
       <button
         type="button"
         className="select-input"
@@ -50,7 +50,15 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
           isOpen ? handleClose() : handleOpen();
         }}
       >
-        <span>{props.selectedOption.label}</span>
+        <span>
+          {props.selectedOptions.length === 0
+            ? t("noSelection")
+            : props.selectedOptions.length === props.options.length
+            ? t("all")
+            : props.selectedOptions.length === 1
+            ? props.selectedOptions[0].label
+            : `${props.selectedOptions.length} ${t("selections")}`}
+        </span>
         {isOpen ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
       </button>
       {isOpen && (
@@ -61,12 +69,15 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
             <button
               type="button"
               className={`${
-                props.selectedOption.value === option.value ? "selected" : ""
+                props.selectedOptions.find(
+                  (o: SelectOption) => o.value === option.value
+                ) !== undefined
+                  ? "selected"
+                  : ""
               }`}
               key={option.value}
               onClick={() => {
                 props.onChange(option);
-                handleClose();
               }}
             >
               <CheckIcon />
@@ -80,4 +91,4 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
   );
 };
 
-export default Select;
+export default MultiSelect;

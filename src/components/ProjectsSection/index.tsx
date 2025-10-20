@@ -1,5 +1,5 @@
 import "./index.css";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import getRessource from "../../utils/getRessource";
 import type ProjectsData from "../../interfaces/ProjectsData";
@@ -8,6 +8,9 @@ import Project from "./Project";
 import type Tool from "../../interfaces/Tool";
 import type ButSkill from "../../interfaces/ButSkill";
 import Select, { type SelectOption } from "../Select";
+import MultiSelect from "../MultiSelect";
+import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
+import { ThemeContext } from "../../contexts/ThemeContext";
 
 interface ProjectsSectionProps {
   readonly allTools: Tool[];
@@ -23,11 +26,15 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
   props: ProjectsSectionProps
 ) => {
   const { t, lang } = useLanguage();
+  const { resolvedTheme } = useContext(ThemeContext);
+
   const [projectsData, setProjectsData] = useState<ProjectsData | undefined>(
     undefined
   );
   const [sortBy, setSortBy] = useState<SortByType>("end-date");
   const [sortOrder, setSortOrder] = useState<SortOrderType>("desc");
+  const [butSkillFilter, setButSkillFilter] = useState<SelectOption[]>([]);
+  const [toolsFilter, setToolsFilter] = useState<SelectOption[]>([]);
 
   const sortFns: Record<
     SortByType,
@@ -67,6 +74,22 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
     },
   };
 
+  const filter = (project: ProjectData): boolean => {
+    let butSkillsResult: boolean = butSkillFilter.length === 0;
+    for (const filter of butSkillFilter) {
+      if (project.butSkillsIds.includes(parseInt(filter.value))) {
+        butSkillsResult = true;
+      }
+    }
+    let toolsResult: boolean = toolsFilter.length === 0;
+    for (const filter of toolsFilter) {
+      if (project.toolsIds.includes(filter.value)) {
+        toolsResult = true;
+      }
+    }
+    return butSkillsResult && toolsResult;
+  };
+
   useEffect(() => {
     (async () => {
       const response = (await getRessource("projects")) as ProjectsData | false;
@@ -90,8 +113,67 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
   return (
     <section id="projects">
       <h2>{t("projects")}</h2>
-      <div id="sort-project-section">
-        <div>
+      <div className="filter-and-sort-container">
+        <div className="filters">
+          <div className="input-container">
+            <span>{t("skillFilter")}</span>
+            <MultiSelect
+              options={props.allButSkills.map(
+                (skill: ButSkill): SelectOption => {
+                  return {
+                    value: skill.id.toString(),
+                    label: skill.shortName[lang],
+                  };
+                }
+              )}
+              selectedOptions={butSkillFilter}
+              onChange={(option: SelectOption) => {
+                if (
+                  butSkillFilter.find(
+                    (o: SelectOption) => o.value === option.value
+                  )
+                ) {
+                  setButSkillFilter(
+                    butSkillFilter.filter(
+                      (o: SelectOption) => o.value !== option.value
+                    )
+                  );
+                } else {
+                  setButSkillFilter([...butSkillFilter, option]);
+                }
+              }}
+            />
+          </div>
+          <div className="input-container">
+            <span>{t("toolFilter")}</span>
+            <MultiSelect
+              options={props.allTools.map((tool: Tool): SelectOption => {
+                return {
+                  value: tool.id,
+                  label: tool.name,
+                  iconUrl: getIconUrlForTheme(tool.logo, resolvedTheme),
+                };
+              })}
+              selectedOptions={toolsFilter}
+              onChange={(option: SelectOption) => {
+                if (
+                  toolsFilter.find(
+                    (o: SelectOption) => o.value === option.value
+                  )
+                ) {
+                  setToolsFilter(
+                    toolsFilter.filter(
+                      (o: SelectOption) => o.value !== option.value
+                    )
+                  );
+                } else {
+                  setToolsFilter([...toolsFilter, option]);
+                }
+              }}
+            />
+          </div>
+        </div>
+        <div className="input-container">
           <span>{t("sortBy")}</span>
           <Select
             options={sortByOptions}
@@ -119,6 +201,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
       </div>
       {projectsData &&
         projectsData.projects
+          .filter(filter)
           .sort(sortFns[sortBy])
           .map((project: ProjectData, i: number) => (
             <Project
