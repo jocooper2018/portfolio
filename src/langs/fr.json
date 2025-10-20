@@ -10,5 +10,11 @@
   "webSite": "Visiter le site web",
   "workExperiences": "Expériences professionnelles",
   "contact": "Me contacter",
-  "today": "Aujourd'hui"
+  "today": "Aujourd'hui",
+  "sortBy": "Trier par",
+  "startDate": "Date de début",
+  "endDate": "Date de fin",
+  "name": "Nom",
+  "asc": "Ascendant",
+  "desc": "Descendant"
 }

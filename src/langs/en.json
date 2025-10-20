@@ -10,5 +10,11 @@
   "webSite": "Visit the website",
   "workExperiences": "Work experience",
   "contact": "Contact me",
-  "today": "Today"
+  "today": "Today",
+  "sortBy": "Sort by",
+  "startDate": "Start date",
+  "endDate": "End date",
+  "name": "Name",
+  "asc": "Ascending",
+  "desc": "Descending"
 }
