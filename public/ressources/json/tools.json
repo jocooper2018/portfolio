@@ -247,6 +247,17 @@
       }
     },
     {
+      "id": "apache2",
+      "name": "Apache 2",
+      "logo": {
+        "url": "ressources/images/icons/apache2-logo.svg"
+      },
+      "url": {
+        "en": "https://httpd.apache.org/",
+        "fr": "https://httpd.apache.org/"
+      }
+    },
+    {
       "id": "git",
       "name": "git",
       "logo": {
@@ -311,6 +322,17 @@
       "url": {
         "en": "https://unity.com/",
         "fr": "https://unity.com/fr"
+      }
+    },
+    {
+      "id": "godot",
+      "name": "Godot",
+      "logo": {
+        "url":"ressources/images/icons/godot-logo.svg"
+      },
+      "url": {
+        "en": "https://godotengine.org/",
+        "fr": "https://godotengine.org/fr/"
       }
     }
   ]

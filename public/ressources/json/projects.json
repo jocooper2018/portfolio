@@ -138,8 +138,8 @@
     },
     {
       "name": {
-        "en": "Knight's Tour",
-        "fr": "Problème du cavalier"
+        "en": "The Knight's Tour",
+        "fr": "Le Problème du cavalier"
       },
       "description": {
         "en": "Exploration of several algorithms for solving the Knight's tour.",
@@ -534,6 +534,106 @@
       ],
       "butSkillsIds": [
         4
+      ],
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "images": []
+    },
+    {
+      "name": {
+        "en": "Le Patio",
+        "fr": "Le Patio"
+      },
+      "description": {
+        "en": "Development of part of a reservation management application for a fictional theater (Le Patio).",
+        "fr": "Développement d’une partie d’une application de gestion des réservations d’une salle de spectacle fictive (le Patio)."
+      },
+      "startDate": "2024-03-15",
+      "endDate": "2024-06-19",
+      "toolsIds": [
+        "java",
+        "git",
+        "github"
+      ],
+      "butSkillsIds": [
+        1,
+        5
+      ],
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "images": []
+    },
+    {
+      "name": {
+        "en": "Network services installation",
+        "fr": "Installation de services réseaux"
+      },
+      "description": {
+        "en": "Installation and configuration of an Apache2 web server with PHP on Debian.",
+        "fr": "Installation et configuration d’un serveur web Apache2 avec PHP sur Debian."
+      },
+      "startDate": "2024-03-26",
+      "endDate": "2024-06-06",
+      "toolsIds": [
+        "linux",
+        "apache2",
+        "php",
+        "mysql"
+      ],
+      "butSkillsIds": [
+        3
+      ],
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "images": []
+    },
+    {
+      "name": {
+        "en": "Database operation",
+        "fr": "Exploitation d’une base de données"
+      },
+      "description": {
+        "en": "Creation, population, and use of a realistic database.",
+        "fr": "Création, peuplement, et exploitation d’une base de donnée réaliste."
+      },
+      "startDate": "2024-03-02",
+      "endDate": "2024-06-11",
+      "toolsIds": [
+        "postgresql",
+        "python"
+      ],
+      "butSkillsIds": [
+        4
+      ],
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "images": []
+    },
+    {
+      "name": {
+        "en": "Godot Minesweeper",
+        "fr": "Démineur Godot"
+      },
+      "description": {
+        "en": "Creation of a minesweeper game with Godot.",
+        "fr": "Création d’un jeu de démineur avec Godot."
+      },
+      "startDate": "2024-08-27",
+      "endDate": "2024-10-01",
+      "toolsIds": [
+        "godot",
+        "csharp"
+      ],
+      "butSkillsIds": [
+        1
       ],
       "type": {
         "en": "Lannion Institute of Technology",
