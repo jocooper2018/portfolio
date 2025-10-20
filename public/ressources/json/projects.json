@@ -24,27 +24,9 @@
         "git",
         "github"
       ],
-      "butSkills": [
-        {
-          "fullName": {
-            "en": "Develop an application",
-            "fr": "Réaliser un développement d'application"
-          },
-          "shortName": {
-            "en": "Develop",
-            "fr": "Réaliser"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Optimize computer applications",
-            "fr": "Optimiser des applications informatiques"
-          },
-          "shortName": {
-            "en": "Optimize",
-            "fr": "Optimiser"
-          }
-        }
+      "butSkillsIds": [
+        1,
+        2
       ],
       "images": [
         {
@@ -77,7 +59,7 @@
         "typescript",
         "vite",
         "react",
-        "css",
+        "scss",
         "graphql",
         "nestjs",
         "prisma",
@@ -85,57 +67,12 @@
         "git",
         "github"
       ],
-      "butSkills": [
-        {
-          "fullName": {
-            "en": "Develop an application",
-            "fr": "Réaliser un développement d'application"
-          },
-          "shortName": {
-            "en": "Develop",
-            "fr": "Réaliser"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Optimize computer applications",
-            "fr": "Optimiser des applications informatiques"
-          },
-          "shortName": {
-            "en": "Optimize",
-            "fr": "Optimiser"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Manage information data",
-            "fr": "Gérer des données de l'information"
-          },
-          "shortName": {
-            "en": "Manage",
-            "fr": "Gérer"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Lead a project",
-            "fr": "Conduire un projet"
-          },
-          "shortName": {
-            "en": "Lead",
-            "fr": "Conduire"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Collaborate in an IT team",
-            "fr": "Collaborer dans une équipe informatique"
-          },
-          "shortName": {
-            "en": "Collaborate",
-            "fr": "Collaborer"
-          }
-        }
+      "butSkillsIds": [
+        1,
+        2,
+        4,
+        5,
+        6
       ],
       "images": [
         {
@@ -181,67 +118,13 @@
         "github",
         "figma"
       ],
-      "butSkills": [
-        {
-          "fullName": {
-            "en": "Develop an application",
-            "fr": "Réaliser un développement d'application"
-          },
-          "shortName": {
-            "en": "Develop",
-            "fr": "Réaliser"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Optimize computer applications",
-            "fr": "Optimiser des applications informatiques"
-          },
-          "shortName": {
-            "en": "Optimize",
-            "fr": "Optimiser"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Administer complex communicating computer systems",
-            "fr": "Administrer des systèmes informatiques communicants complexes"
-          },
-          "shortName": {
-            "en": "Administer",
-            "fr": "Administrer"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Manage information data",
-            "fr": "Gérer des données de l'information"
-          },
-          "shortName": {
-            "en": "Manage",
-            "fr": "Gérer"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Lead a project",
-            "fr": "Conduire un projet"
-          },
-          "shortName": {
-            "en": "Lead",
-            "fr": "Conduire"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Collaborate in an IT team",
-            "fr": "Collaborer dans une équipe informatique"
-          },
-          "shortName": {
-            "en": "Collaborate",
-            "fr": "Collaborer"
-          }
-        }
+      "butSkillsIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ],
       "images": [
         {
@@ -273,17 +156,8 @@
         "git",
         "github"
       ],
-      "butSkills": [
-        {
-          "fullName": {
-            "en": "Optimize computer applications",
-            "fr": "Optimiser des applications informatiques"
-          },
-          "shortName": {
-            "en": "Optimize",
-            "fr": "Optimiser"
-          }
-        }
+      "butSkillsIds": [
+        2
       ],
       "images": [
         {
@@ -371,17 +245,8 @@
         "git",
         "github"
       ],
-      "butSkills": [
-        {
-          "fullName": {
-            "en": "Optimize computer applications",
-            "fr": "Optimiser des applications informatiques"
-          },
-          "shortName": {
-            "en": "Optimize",
-            "fr": "Optimiser"
-          }
-        }
+      "butSkillsIds": [
+        2
       ],
       "images": [
         {
@@ -458,7 +323,7 @@
         "en": "Compilation of a fictitious client's requirements and development of a static website.",
         "fr": "Recueil des besoins d’un client fictif et développement d’un site web statique."
       },
-      "startDate": "2023-10-13",
+      "startDate": "2023-10-10",
       "endDate": "2024-01-21",
       "type": {
         "en": "Lannion Institute of Technology",
@@ -471,27 +336,9 @@
         "git",
         "gitlab"
       ],
-      "butSkills": [
-        {
-          "fullName": {
-            "en": "Lead a project",
-            "fr": "Conduire un projet"
-          },
-          "shortName": {
-            "en": "Lead",
-            "fr": "Conduire"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Collaborate in an IT team",
-            "fr": "Collaborer dans une équipe informatique"
-          },
-          "shortName": {
-            "en": "Collaborate",
-            "fr": "Collaborer"
-          }
-        }
+      "butSkillsIds": [
+        5,
+        6
       ],
       "images": [
         {
@@ -549,27 +396,8 @@
       "toolsIds": [
         "c"
       ],
-      "butSkills": [
-        {
-          "fullName": {
-            "en": "Develop an application",
-            "fr": "Réaliser un développement d'application"
-          },
-          "shortName": {
-            "en": "Develop",
-            "fr": "Réaliser"
-          }
-        },
-        {
-          "fullName": {
-            "en": "Optimize computer applications",
-            "fr": "Optimiser des applications informatiques"
-          },
-          "shortName": {
-            "en": "Optimize",
-            "fr": "Optimiser"
-          }
-        }
+      "butSkillsIds": [
+        1
       ],
       "images": [
         {
@@ -635,17 +463,8 @@
         "unity",
         "csharp"
       ],
-      "butSkills": [
-        {
-          "fullName": {
-            "en": "Develop an application",
-            "fr": "Réaliser un développement d'application"
-          },
-          "shortName": {
-            "en": "Develop",
-            "fr": "Réaliser"
-          }
-        }
+      "butSkillsIds": [
+        1
       ],
       "images": [
         {
@@ -698,6 +517,29 @@
           }
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Creation of a database",
+        "fr": "Création d’une base de données"
+      },
+      "description": {
+        "en": "Creation of a database.",
+        "fr": "Création d’une base de données."
+      },
+      "startDate": "2023-11-27",
+      "endDate": "2024-01-17",
+      "toolsIds": [
+        "postgresql"
+      ],
+      "butSkillsIds": [
+        4
+      ],
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "images": []
     }
   ]
 }

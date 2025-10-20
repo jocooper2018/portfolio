@@ -6,10 +6,13 @@ import type ProjectsData from "../../interfaces/ProjectsData";
 import type ProjectData from "../../interfaces/Project";
 import Project from "./Project";
 import type Tool from "../../interfaces/Tool";
+import type ButSkill from "../../interfaces/ButSkill";
 
 interface ProjectsSectionProps {
   readonly allTools: Tool[];
   readonly isToolsLoading: boolean;
+    readonly allButSkills: ButSkill[];
+    readonly isButSkillsLoading: boolean;
 }
 
 const ProjectsSection: React.FC<ProjectsSectionProps> = (
@@ -41,6 +44,8 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
             position={i}
             allTools={props.allTools}
             isToolsLoading={props.isToolsLoading}
+            allButSkills={props.allButSkills}
+            isButSkillsLoading={props.isButSkillsLoading}
           />
         ))}
     </section>

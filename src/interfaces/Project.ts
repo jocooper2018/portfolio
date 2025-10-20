@@ -1,5 +1,4 @@
 import type { TranslatedString } from "../types/Language";
-import type ButSkill from "./ButSkill";
 import type Image from "./Image";
 
 export default interface Project {
@@ -9,6 +8,6 @@ export default interface Project {
   readonly description: TranslatedString;
   readonly type: TranslatedString;
   readonly toolsIds: string[];
-  readonly butSkills: ButSkill[];
+  readonly butSkillsIds: number[];
   readonly images: Image[];
 }

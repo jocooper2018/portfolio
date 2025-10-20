@@ -13,10 +13,14 @@ import { useEffect, useState } from "react";
 import type Tool from "../../interfaces/Tool";
 import type ToolsData from "../../interfaces/ToolsData";
 import getRessource from "../../utils/getRessource";
+import type ButSkill from "../../interfaces/ButSkill";
+import type ButSkillsData from "../../interfaces/ButSkillsData";
 
 const App: React.FC = () => {
   const [allTools, setAllTools] = useState<Tool[]>([]);
   const [isToolsLoading, setIsToolsLoading] = useState<boolean>(true);
+  const [allButSkills, setAllButSkills] = useState<ButSkill[]>([]);
+  const [isButSkillsLoading, setIsButSkillLoading] = useState<boolean>(true);
 
   useEffect(() => {
     (async () => {
@@ -30,6 +34,17 @@ const App: React.FC = () => {
       setAllTools(tools.tools);
       setIsToolsLoading(false);
     })();
+    (async () => {
+      const butSkills: ButSkillsData | false = (await getRessource("but-skills")) as
+        | ButSkillsData
+        | false;
+      if (!butSkills) {
+        console.error("Error when fetching tools");
+        return;
+      }
+      setAllButSkills(butSkills.butSkills);
+      setIsButSkillLoading(false);
+    })();
   }, []);
 
   return (
@@ -38,7 +53,12 @@ const App: React.FC = () => {
         <Header />
         <HomeSection />
         <AboutMeSection />
-        <ProjectsSection allTools={allTools} isToolsLoading={isToolsLoading} />
+        <ProjectsSection
+          allTools={allTools}
+          isToolsLoading={isToolsLoading}
+          allButSkills={allButSkills}
+          isButSkillsLoading={isButSkillsLoading}
+        />
         <SkillsSection allTools={allTools} isToolsLoading={isToolsLoading} />
         <TrainingsSection />
         <WorkExperiencesSection />

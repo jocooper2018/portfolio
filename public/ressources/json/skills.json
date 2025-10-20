@@ -9,6 +9,7 @@
       "toolsIds": [
         "html",
         "css",
+        "scss",
         "javascript",
         "typescript",
         "php",

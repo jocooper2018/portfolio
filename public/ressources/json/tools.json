@@ -23,6 +23,17 @@
       }
     },
     {
+      "id": "scss",
+      "name": "SCSS",
+      "logo": {
+        "url": "ressources/images/icons/sass-logo.svg"
+      },
+      "url": {
+        "en": "https://sass-lang.com/",
+        "fr": "https://sass-lang.com/"
+      }
+    },
+    {
       "id": "javascript",
       "name": "JavaScript",
       "logo": {

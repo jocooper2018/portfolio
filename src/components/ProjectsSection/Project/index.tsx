@@ -8,12 +8,15 @@ import { ThemeContext } from "../../../contexts/ThemeContext";
 import getIconUrlForTheme from "../../../utils/getIconUrlForTheme";
 import DateRange from "../../DateRange";
 import getTool from "../../../utils/getTool";
+import getButSkill from "../../../utils/getButSkill";
 
 interface ProjectProps {
   readonly data: ProjectData;
   readonly position: number;
   readonly allTools: Tool[];
   readonly isToolsLoading: boolean;
+  readonly allButSkills: ButSkill[];
+  readonly isButSkillsLoading: boolean;
 }
 
 const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
@@ -36,9 +39,12 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
           </div>
         </div>
         <ul className="but-skills">
-          {props.data.butSkills.map((butSkill: ButSkill, i: number) => (
-            <li key={`but-skill-${i}`}>{butSkill.shortName[lang]}</li>
-          ))}
+          {!props.isButSkillsLoading &&
+            props.data.butSkillsIds.map((butSkillId: number, i: number) => (
+              <li key={`but-skill-${i}`}>
+                {getButSkill(props.allButSkills, butSkillId)?.shortName[lang]}
+              </li>
+            ))}
         </ul>
         <p>{props.data.description[lang]}</p>
         <ul className="tools">
@@ -65,10 +71,12 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
           })}
         </ul>
       </div>
-      <img
-        src={props.data.images[0].url}
-        alt={props.data.images[0].alt[lang]}
-      />
+      {props.data.images.length > 0 && (
+        <img
+          src={props.data.images[0].url}
+          alt={props.data.images[0].alt[lang]}
+        />
+      )}
     </article>
   );
 };
