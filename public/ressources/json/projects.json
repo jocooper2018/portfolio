@@ -539,7 +539,15 @@
         "en": "Lannion Institute of Technology",
         "fr": "IUT de Lannion"
       },
-      "images": []
+      "images": [
+        {
+          "url": "ressources/images/projects/database-creation/DC_PN.jpg",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
     },
     {
       "name": {
@@ -565,7 +573,15 @@
         "en": "Lannion Institute of Technology",
         "fr": "IUT de Lannion"
       },
-      "images": []
+      "images": [
+        {
+          "url": "ressources/images/projects/lepatio/Screenshot_20251021_191933.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
     },
     {
       "name": {
@@ -591,7 +607,15 @@
         "en": "Lannion Institute of Technology",
         "fr": "IUT de Lannion"
       },
-      "images": []
+      "images": [
+        {
+          "url": "ressources/images/projects/network-services-installation/Screenshot_20251021_192750.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
     },
     {
       "name": {
@@ -615,7 +639,15 @@
         "en": "Lannion Institute of Technology",
         "fr": "IUT de Lannion"
       },
-      "images": []
+      "images": [
+        {
+          "url": "ressources/images/projects/database-operation/sae204_statistiques_colleges.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
     },
     {
       "name": {
@@ -639,7 +671,15 @@
         "en": "Lannion Institute of Technology",
         "fr": "IUT de Lannion"
       },
-      "images": []
+      "images": [
+        {
+          "url": "ressources/images/projects/demineur-godot/Screenshot_20251021_191541.png",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ]
     }
   ]
 }
