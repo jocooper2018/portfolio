@@ -35,6 +35,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
   const [sortOrder, setSortOrder] = useState<SortOrderType>("desc");
   const [butSkillFilter, setButSkillFilter] = useState<SelectOption[]>([]);
   const [toolsFilter, setToolsFilter] = useState<SelectOption[]>([]);
+  const [projectTypeFilter, setProjectTypeFilter] = useState<SelectOption[]>(
+    []
+  );
 
   const sortFns: Record<
     SortByType,
@@ -87,8 +90,37 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
         toolsResult = true;
       }
     }
-    return butSkillsResult && toolsResult;
+    let typeResult: boolean = projectTypeFilter.length === 0;
+    for (const filter of projectTypeFilter) {
+      if (project.type[lang] === filter.value) {
+        typeResult = true;
+      }
+    }
+    return butSkillsResult && toolsResult && typeResult;
   };
+
+  const getProjectTypeOptions = (): SelectOption[] => {
+    if (!projectsData?.projects) {
+      return [];
+    }
+    const options: SelectOption[] = [];
+    for (const project of projectsData.projects) {
+      if (
+        !options.find(
+          (option: SelectOption) => option.value === project.type[lang]
+        )
+      ) {
+        options.push({ value: project.type[lang], label: project.type[lang] });
+      }
+    }
+    return options;
+  };
+
+  useEffect(() => {
+    setButSkillFilter([]);
+    setToolsFilter([]);
+    setProjectTypeFilter([]);
+  }, [lang]);
 
   useEffect(() => {
     (async () => {
@@ -168,6 +200,28 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
                   );
                 } else {
                   setToolsFilter([...toolsFilter, option]);
+                }
+              }}
+            />
+          </div>
+          <div className="input-container">
+            <span>{t("typeFilter")}</span>
+            <MultiSelect
+              options={getProjectTypeOptions()}
+              selectedOptions={projectTypeFilter}
+              onChange={(option: SelectOption) => {
+                if (
+                  projectTypeFilter.find(
+                    (o: SelectOption) => o.value === option.value
+                  )
+                ) {
+                  setProjectTypeFilter(
+                    projectTypeFilter.filter(
+                      (o: SelectOption) => o.value !== option.value
+                    )
+                  );
+                } else {
+                  setProjectTypeFilter([...projectTypeFilter, option]);
                 }
               }}
             />
