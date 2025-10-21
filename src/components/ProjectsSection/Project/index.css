@@ -92,7 +92,7 @@
   overflow: visible;
 }
 
-.project .tools a .popup {
+.project a .popup {
   pointer-events: none;
   position: absolute;
   left: 1rem;
@@ -105,10 +105,42 @@
   white-space: nowrap;
   opacity: 0;
   transition: opacity 250ms ease-out, transform 250ms ease-out;
+  z-index: 1;
 }
 
-.project .tools a:hover .popup {
+.project a:hover .popup {
   display: block;
   opacity: 1;
   transform: translate(-50%, 0);
+}
+
+.project .links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.project .links a {
+  display: block;
+  position: relative;
+}
+
+.repository-link img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  transition: transform 250ms ease-out;
+}
+
+.test-link svg {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  fill: var(--confirm-color);
+  transition: transform 250ms ease-out;
+}
+
+.repository-link:hover img,
+.test-link:hover svg {
+  transform: scale(1.1);
 }

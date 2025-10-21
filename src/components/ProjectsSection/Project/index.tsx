@@ -9,6 +9,7 @@ import getIconUrlForTheme from "../../../utils/getIconUrlForTheme";
 import DateRange from "../../DateRange";
 import getTool from "../../../utils/getTool";
 import getButSkill from "../../../utils/getButSkill";
+import PlayIcon from "../../../assets/icons/PlayIcon";
 
 interface ProjectProps {
   readonly data: ProjectData;
@@ -20,7 +21,7 @@ interface ProjectProps {
 }
 
 const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
-  const { lang } = useLanguage();
+  const { t, lang } = useLanguage();
   const { resolvedTheme } = useContext(ThemeContext);
 
   return (
@@ -70,6 +71,32 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
             );
           })}
         </ul>
+        {(props.data.repositoryLink || props.data.testLink) && (
+          <div className="links">
+            {props.data.repositoryLink && (
+              <a href={props.data.repositoryLink} target="_blank" className="repository-link">
+                <img
+                  src={getIconUrlForTheme(
+                    (
+                      props.allTools.find(
+                        (tool: Tool) => tool.id === "github"
+                      ) as Tool
+                    ).logo,
+                    resolvedTheme
+                  )}
+                  alt=""
+                />
+                <div className="popup">{t("seeSourceCode")}</div>
+              </a>
+            )}
+            {props.data.testLink && (
+              <a href={props.data.testLink} target="_blank" className="test-link">
+                <PlayIcon />
+                <div className="popup">{t("testProgram")}</div>
+              </a>
+            )}
+          </div>
+        )}
       </div>
       {props.data.images.length > 0 && (
         <img

@@ -19,6 +19,8 @@
   --text-muted: oklch(35% 0 0);
 
   --main-color: oklch(40.82% 0.09719 250.142);
+
+  --confirm-color: oklch(0.5 0.1599 142.11);
 }
 
 [data-theme="dark"] {
@@ -33,4 +35,6 @@
   --text-muted: oklch(90% 0 0);
 
   --main-color: oklch(85.202% 0.07325 249.35);
+
+  --confirm-color: oklch(0.752 0.1599 142.11);
 }

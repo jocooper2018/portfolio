@@ -21,5 +21,7 @@
   "toolFilter": "Filter par outils",
   "noSelection": "Aucune sélection",
   "all": "Tous",
-  "selections": "sélections"
+  "selections": "sélections",
+  "seeSourceCode": "Voir le code source sur GitHub",
+  "testProgram": "Tester le programme"
 }

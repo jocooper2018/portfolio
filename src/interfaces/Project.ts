@@ -10,4 +10,6 @@ export default interface Project {
   readonly toolsIds: string[];
   readonly butSkillsIds: number[];
   readonly images: Image[];
+  readonly repositoryLink?: string;
+  readonly testLink?: string;
 }
