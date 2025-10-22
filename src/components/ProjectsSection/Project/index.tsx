@@ -80,14 +80,14 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
                 className="repository-link"
               >
                 <img
-                  src={getIconUrlForTheme(
-                    (
-                      props.allTools.find(
-                        (tool: Tool) => tool.id === "github"
-                      ) as Tool
-                    ).logo,
-                    resolvedTheme
-                  )}
+                  src={(() => {
+                    const tool = props.allTools.find(
+                      (tool: Tool) => tool.id === "github"
+                    );
+                    return tool
+                      ? getIconUrlForTheme(tool.logo, resolvedTheme)
+                      : undefined;
+                  })()}
                   alt=""
                 />
                 <div className="popup">{t("seeSourceCode")}</div>

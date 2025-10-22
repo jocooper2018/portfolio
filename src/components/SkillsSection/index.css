@@ -3,6 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 1rem;
+  list-style: none;
+  padding: 0;
 }
 
 .skills-buttons {
@@ -37,8 +39,8 @@
 }
 
 .skills-box .tools img {
-  width: 7rem;
-  height: 7rem;
+  width: 100%;
+  aspect-ratio: 1;
   object-fit: contain;
   transition: transform 250ms ease-out;
 }
@@ -56,8 +58,34 @@
   text-decoration: none;
 }
 
+.skills-box .tool-name {
+  white-space: nowrap;
+}
+
 .skills-box .tools .loader {
   width: 4rem;
   height: 4rem;
   margin: 2rem;
+}
+
+@media screen and (max-width: 830px) {
+  .skills-box {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .skills-box > li {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .skills-box .tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 4rem);
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+  }
 }

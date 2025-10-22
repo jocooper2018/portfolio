@@ -14,6 +14,10 @@ interface SkillsSectionProps {
   readonly isToolsLoading: boolean;
 }
 
+const mediaQuery: MediaQueryList = window.matchMedia(
+  "screen and (max-width: 830px)"
+);
+
 const SkillsSection: React.FC<SkillsSectionProps> = (
   props: SkillsSectionProps
 ) => {
@@ -23,6 +27,9 @@ const SkillsSection: React.FC<SkillsSectionProps> = (
     undefined
   );
   const [skillSelected, setSkillSelected] = useState<number>(0);
+  const [mobileDisplay, setMobileDisplay] = useState<boolean>(
+    mediaQuery.matches
+  );
 
   useEffect(() => {
     (async () => {
@@ -32,56 +39,91 @@ const SkillsSection: React.FC<SkillsSectionProps> = (
       }
       setSkillsData(response);
     })();
+    window.addEventListener("resize", () => {
+      setMobileDisplay(mediaQuery.matches);
+    });
   }, []);
 
   return (
     <section id="skills">
       <h2>{t("skills")}</h2>
-      {skillsData && (
-        <div className="skills-box">
-          <div className="skills-buttons">
-            {skillsData.skills.map((skill: Skill, i: number) => (
-              <button
-                type="button"
-                key={i}
-                className={skillSelected === i ? "selected" : ""}
-                onClick={() => {
-                  setSkillSelected(i);
-                }}
-              >
-                {skill.name[lang]}
-              </button>
+      {skillsData &&
+        (mobileDisplay ? (
+          <ul className="skills-box">
+            {skillsData.skills.map((skill: Skill) => (
+              <li className="card">
+                <h3>{skill.name[lang]}</h3>
+                <ul className="tools">
+                  {skill.toolsIds.map((toolId: string, i: number) => {
+                    if (props.isToolsLoading) {
+                      return <div className="loader" />;
+                    }
+                    const tool = getTool(props.allTools, toolId);
+                    if (!tool) {
+                      console.error(`tool ${toolId} not found`);
+                      return;
+                    }
+                    return (
+                      <li key={i}>
+                        <a href={tool.url[lang]} target="_blank">
+                          <img
+                            src={getIconUrlForTheme(tool.logo, resolvedTheme)}
+                            alt={`${tool.name} logo`}
+                          />
+                          <span className="tool-name">{tool.name}</span>
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </li>
             ))}
-          </div>
-          <div className="tools card">
-            <ul>
-              {skillsData.skills[skillSelected].toolsIds.map(
-                (toolId: string, i: number) => {
-                  if (props.isToolsLoading) {
-                    return <div className="loader" />;
+          </ul>
+        ) : (
+          <div className="skills-box">
+            <div className="skills-buttons">
+              {skillsData.skills.map((skill: Skill, i: number) => (
+                <button
+                  type="button"
+                  key={i}
+                  className={skillSelected === i ? "selected" : ""}
+                  onClick={() => {
+                    setSkillSelected(i);
+                  }}
+                >
+                  {skill.name[lang]}
+                </button>
+              ))}
+            </div>
+            <div className="tools card">
+              <ul>
+                {skillsData.skills[skillSelected].toolsIds.map(
+                  (toolId: string, i: number) => {
+                    if (props.isToolsLoading) {
+                      return <div className="loader" />;
+                    }
+                    const tool = getTool(props.allTools, toolId);
+                    if (!tool) {
+                      console.error(`tool ${toolId} not found`);
+                      return;
+                    }
+                    return (
+                      <li key={i}>
+                        <a href={tool.url[lang]} target="_blank">
+                          <img
+                            src={getIconUrlForTheme(tool.logo, resolvedTheme)}
+                            alt={`${tool.name} logo`}
+                          />
+                          <span className="tool-name">{tool.name}</span>
+                        </a>
+                      </li>
+                    );
                   }
-                  const tool = getTool(props.allTools, toolId);
-                  if (!tool) {
-                    console.error(`tool ${toolId} not found`);
-                    return;
-                  }
-                  return (
-                    <li key={i}>
-                      <a href={tool.url[lang]} target="_blank">
-                        <img
-                          src={getIconUrlForTheme(tool.logo, resolvedTheme)}
-                          alt={`${tool.name} logo`}
-                        />
-                        <span>{tool.name}</span>
-                      </a>
-                    </li>
-                  );
-                }
-              )}
-            </ul>
+                )}
+              </ul>
+            </div>
           </div>
-        </div>
-      )}
+        ))}
     </section>
   );
 };
