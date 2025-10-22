@@ -253,21 +253,23 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
           />
         </div>
       </div>
-      {projectsData &&
-        projectsData.projects
-          .filter(filter)
-          .sort(sortFns[sortBy])
-          .map((project: ProjectData, i: number) => (
-            <Project
-              data={project}
-              key={`project-${i}`}
-              position={i}
-              allTools={props.allTools}
-              isToolsLoading={props.isToolsLoading}
-              allButSkills={props.allButSkills}
-              isButSkillsLoading={props.isButSkillsLoading}
-            />
-          ))}
+      <div className="project-list">
+        {projectsData &&
+          projectsData.projects
+            .filter(filter)
+            .sort(sortFns[sortBy])
+            .map((project: ProjectData, i: number) => (
+              <Project
+                data={project}
+                key={`project-${i}`}
+                position={i}
+                allTools={props.allTools}
+                isToolsLoading={props.isToolsLoading}
+                allButSkills={props.allButSkills}
+                isButSkillsLoading={props.isButSkillsLoading}
+              />
+            ))}
+      </div>
     </section>
   );
 };

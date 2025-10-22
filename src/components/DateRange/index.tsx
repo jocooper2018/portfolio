@@ -1,3 +1,4 @@
+import "./index.css";
 import { formatDateOption } from "../../consts";
 import { useLanguage } from "../../contexts/LanguageContext";
 
@@ -18,7 +19,7 @@ const DateRange: React.FC<DateRangeProps> = (props: DateRangeProps) => {
     : t("today");
 
   return (
-    <span>
+    <span className="date-range">
       <time dateTime={props.startDate}>{start}</time>
       {start !== end && (
         <>

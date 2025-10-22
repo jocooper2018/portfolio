@@ -30,7 +30,7 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         <div className="header">
           <div>
             <h3>{props.data.name[lang]}</h3>
-            <span>{props.data.type[lang]}</span>
+            <span className="project-type">{props.data.type[lang]}</span>
           </div>
           <div>
             <DateRange
@@ -74,7 +74,11 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         {(props.data.repositoryLink || props.data.testLink) && (
           <div className="links">
             {props.data.repositoryLink && (
-              <a href={props.data.repositoryLink} target="_blank" className="repository-link">
+              <a
+                href={props.data.repositoryLink}
+                target="_blank"
+                className="repository-link"
+              >
                 <img
                   src={getIconUrlForTheme(
                     (
@@ -90,7 +94,11 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
               </a>
             )}
             {props.data.testLink && (
-              <a href={props.data.testLink} target="_blank" className="test-link">
+              <a
+                href={props.data.testLink}
+                target="_blank"
+                className="test-link"
+              >
                 <PlayIcon />
                 <div className="popup">{t("testProgram")}</div>
               </a>
