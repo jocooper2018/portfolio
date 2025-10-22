@@ -28,8 +28,8 @@ const HomeSection: React.FC = () => {
         <div className="content">
           <span>{t("hello")}</span>
           <h1>
-            {personalInfosData.personalInfos.firstName}{" "}
-            {personalInfosData.personalInfos.name}
+            <span>{personalInfosData.personalInfos.firstName}</span>{" "}
+            <span>{personalInfosData.personalInfos.name}</span>
           </h1>
           <span className="status">{personalInfosData.personalInfos.status[lang]}</span>
           <p>{personalInfosData.personalInfos.pitch[lang]}</p>
