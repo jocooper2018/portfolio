@@ -3,7 +3,7 @@
   "lightTheme": "Light theme",
   "darkTheme": "Dark theme",
   "hello": "Hi, my name is",
-  "aboutMe": "Hho am I?",
+  "whoAmI": "Who am I?",
   "projects": "My projects",
   "skills": "Skills",
   "trainings": "Trainings",
@@ -24,5 +24,6 @@
   "all": "All",
   "selections": "selections",
   "seeSourceCode": "See the source code on GitHub",
-  "testProgram": "Test the program"
+  "testProgram": "Test the program",
+  "home": "Home"
 }

@@ -7,17 +7,34 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
   margin: 0.5rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-radius: 0.5rem;
   background-color: var(--bg-transparent);
   backdrop-filter: blur(1rem);
   box-shadow: var(--shadow-s);
   z-index: 1;
+  white-space: nowrap;
+  transition: transform 500ms ease-out;
 }
 
 header > div {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--text-muted);
+  transition: all 250ms ease-out;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+header a:hover {
+  color: var(--text);
+  background-color: var(--bg-light);
+  box-shadow: var(--shadow-s);
 }

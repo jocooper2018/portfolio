@@ -3,7 +3,7 @@
   "lightTheme": "Thème clair",
   "darkTheme": "Thème sombre",
   "hello": "Bonjour, je m'appelle",
-  "aboutMe": "Qui suis-je ?",
+  "whoAmI": "Qui suis-je ?",
   "projects": "Mes projets",
   "skills": "Compétences",
   "trainings": "Formations",
@@ -24,5 +24,7 @@
   "all": "Tous",
   "selections": "sélections",
   "seeSourceCode": "Voir le code source sur GitHub",
-  "testProgram": "Tester le programme"
+  "testProgram": "Tester le programme",
+  "home": "Accueil",
+  "aboutMe": "À propos"
 }

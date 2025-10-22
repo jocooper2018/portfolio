@@ -23,7 +23,7 @@ const AboutMeSection: React.FC = () => {
 
   return (
     <section id="about-me">
-      <h2>{t("aboutMe")}</h2>
+      <h2>{t("whoAmI")}</h2>
       {aboutMeData && (
         <div>
           <div className="card">
