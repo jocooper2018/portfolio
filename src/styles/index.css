@@ -101,7 +101,7 @@ svg.icon {
 
 @media screen and (max-width: 1160px) {
   section {
-    padding: 5rem 3rem;
+    padding: 3rem;
   }
 }
 
@@ -111,6 +111,6 @@ svg.icon {
   }
 
   section {
-    padding: 5rem 2rem;
+    padding: 2rem;
   }
 }
