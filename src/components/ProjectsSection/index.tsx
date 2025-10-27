@@ -144,7 +144,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
 
   return (
     <section id="projects">
-      <h2>{t("projects")}</h2>
+      <h2>{t("myProjects")}</h2>
       <div className="filter-and-sort-container">
         <div className="filters">
           <div className="input-container">

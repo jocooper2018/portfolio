@@ -28,7 +28,7 @@ const ContactSection: React.FC = () => {
 
   return (
     <section id="contact">
-      <h2>{t("contact")}</h2>
+      <h2>{t("contactMe")}</h2>
       <address>
         {contactDatas &&
           contactDatas.contactInfos.map((contact: ContactInfos, i: number) => (

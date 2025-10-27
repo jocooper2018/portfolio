@@ -38,3 +38,22 @@ header a:hover {
   background-color: var(--bg-light);
   box-shadow: var(--shadow-s);
 }
+
+.burger-button {
+  padding: 0;
+  width: 4rem;
+  height: 4rem;
+  margin: -1rem -2rem;
+  background: none;
+  box-shadow: none;
+}
+
+.burger-button .icon {
+  width: 100%;
+  height: 100%;
+}
+
+.burger-button:hover {
+  background: none;
+  box-shadow: none;
+}
