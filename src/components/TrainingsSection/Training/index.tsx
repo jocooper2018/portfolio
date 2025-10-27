@@ -14,6 +14,10 @@ const Training: React.FC<TrainingProps> = (props: TrainingProps) => {
   return (
     <article className="training card">
       <div className="line">
+        <h3>{props.data.certificateName[lang]}</h3>
+        <div>{props.data.specialty[lang]}</div>
+      </div>
+      <div className="line">
         <div>{props.data.schoolName[lang]}</div>
         <div>
           <DateRange
@@ -21,10 +25,6 @@ const Training: React.FC<TrainingProps> = (props: TrainingProps) => {
             endDate={props.data.endDate}
           />
         </div>
-      </div>
-      <div className="line">
-        <h3>{props.data.certificateName[lang]}</h3>
-        <div>{props.data.specialty[lang]}</div>
       </div>
       <p>{props.data.description[lang]}</p>
       <a href={props.data.url[lang]} target="_blank" className="button">

@@ -2,8 +2,25 @@
   "skills": [
     {
       "name": {
-        "en": "Web development",
-        "fr": "Développement web"
+        "en": "Backend web",
+        "fr": "Backend web"
+      },
+      "description": "",
+      "toolsIds": [
+        "php",
+        "nodejs",
+        "javascript",
+        "typescript",
+        "nestjs",
+        "graphql",
+        "prisma",
+        "git"
+      ]
+    },
+    {
+      "name": {
+        "en": "Frontend web",
+        "fr": "Frontend web"
       },
       "description": "",
       "toolsIds": [
@@ -12,12 +29,9 @@
         "scss",
         "javascript",
         "typescript",
-        "php",
         "nodejs",
         "vite",
         "react",
-        "nestjs",
-        "prisma",
         "graphql",
         "git"
       ]
@@ -69,8 +83,8 @@
       "description": "",
       "toolsIds": [
         "jira",
-        "git",
-        "github"
+        "github",
+        "git"
       ]
     },
     {
