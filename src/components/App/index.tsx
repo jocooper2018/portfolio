@@ -35,9 +35,9 @@ const App: React.FC = () => {
       setIsToolsLoading(false);
     })();
     (async () => {
-      const butSkills: ButSkillsData | false = (await getRessource("but-skills")) as
-        | ButSkillsData
-        | false;
+      const butSkills: ButSkillsData | false = (await getRessource(
+        "but-skills"
+      )) as ButSkillsData | false;
       if (!butSkills) {
         console.error("Error when fetching tools");
         return;
