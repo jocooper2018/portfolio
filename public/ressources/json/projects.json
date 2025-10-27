@@ -96,8 +96,8 @@
     },
     {
       "name": {
-        "en": "PACT by TripEnArmor",
-        "fr": "PACT by TripEnArmor"
+        "en": "PACT by TripEnArvor",
+        "fr": "PACT by TripEnArvor"
       },
       "startDate": "2024-09-16",
       "endDate": "2025-04-02",
@@ -131,10 +131,17 @@
       ],
       "images": [
         {
-          "url": "ressources/images/projects/Démineur web/Screenshot_20251016_151310.webp",
+          "url": "public/ressources/images/projects/PACT by TripEnArvor/Screenshot_20251027_165223.webp",
           "alt": {
-            "en": "Screenshot of a game",
-            "fr": "Capture d'écrans d'une partie"
+            "en": "",
+            "fr": ""
+          }
+        },
+        {
+          "url": "public/ressources/images/projects/PACT by TripEnArvor/Screenshot_20251027_165456.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
           }
         }
       ],

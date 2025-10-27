@@ -1,9 +1,15 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("public/assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf");
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
