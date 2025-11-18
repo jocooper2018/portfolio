@@ -13,7 +13,7 @@ const AboutMeSection: React.FC = () => {
 
   useEffect(() => {
     (async () => {
-      const response = await getRessource("about-me");
+      const response = (await getRessource("about-me")) as AboutMeData | false;
       if (!response) {
         return;
       }

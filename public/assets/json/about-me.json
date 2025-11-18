@@ -11,7 +11,7 @@
       }
     ],
     "photo": {
-      "url": "ressources/images/photo.webp",
+      "url": "assets/images/photo.webp",
       "alt": {
         "en": "My photo",
         "fr": "Ma photo"

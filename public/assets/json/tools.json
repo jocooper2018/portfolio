@@ -4,7 +4,7 @@
       "id": "html",
       "name": "HTML",
       "logo": {
-        "url": "ressources/images/icons/html-logo.svg"
+        "url": "assets/images/icons/html-logo.svg"
       },
       "url": {
         "en": "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -15,7 +15,7 @@
       "id": "css",
       "name": "CSS",
       "logo": {
-        "url": "ressources/images/icons/css-logo.svg"
+        "url": "assets/images/icons/css-logo.svg"
       },
       "url": {
         "en": "https://developer.mozilla.org/en-US/docs/Web/CSS",
@@ -26,7 +26,7 @@
       "id": "scss",
       "name": "SCSS",
       "logo": {
-        "url": "ressources/images/icons/sass-logo.svg"
+        "url": "assets/images/icons/sass-logo.svg"
       },
       "url": {
         "en": "https://sass-lang.com/",
@@ -37,7 +37,7 @@
       "id": "javascript",
       "name": "JavaScript",
       "logo": {
-        "url": "ressources/images/icons/javascript-logo.svg"
+        "url": "assets/images/icons/javascript-logo.svg"
       },
       "url": {
         "en": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -48,7 +48,7 @@
       "id": "typescript",
       "name": "TypeScript",
       "logo": {
-        "url": "ressources/images/icons/typescript-logo.svg"
+        "url": "assets/images/icons/typescript-logo.svg"
       },
       "url": {
         "en": "https://www.typescriptlang.org/",
@@ -59,7 +59,7 @@
       "id": "php",
       "name": "PHP",
       "logo": {
-        "url": "ressources/images/icons/php-logo.svg"
+        "url": "assets/images/icons/php-logo.svg"
       },
       "url": {
         "en": "https://www.php.net/",
@@ -70,7 +70,7 @@
       "id": "nodejs",
       "name": "Node.js",
       "logo": {
-        "url": "ressources/images/icons/nodejs-logo.svg"
+        "url": "assets/images/icons/nodejs-logo.svg"
       },
       "url": {
         "en": "https://nodejs.org/en",
@@ -81,7 +81,7 @@
       "id": "nestjs",
       "name": "NestJS",
       "logo": {
-        "url": "ressources/images/icons/nestjs-logo.svg"
+        "url": "assets/images/icons/nestjs-logo.svg"
       },
       "url": {
         "en": "https://nestjs.com/",
@@ -92,7 +92,7 @@
       "id": "react",
       "name": "React",
       "logo": {
-        "url": "ressources/images/icons/react-logo.svg"
+        "url": "assets/images/icons/react-logo.svg"
       },
       "url": {
         "en": "https://react.dev/",
@@ -103,7 +103,7 @@
       "id": "vite",
       "name": "Vite",
       "logo": {
-        "url": "ressources/images/icons/vite-logo.svg"
+        "url": "assets/images/icons/vite-logo.svg"
       },
       "url": {
         "en": "https://vite.dev/",
@@ -114,8 +114,8 @@
       "id": "prisma",
       "name": "Prisma",
       "logo": {
-        "urlDark": "ressources/images/icons/prisma-logo-black.svg",
-        "urlLight": "ressources/images/icons/prisma-logo-white.svg"
+        "urlDark": "assets/images/icons/prisma-logo-black.svg",
+        "urlLight": "assets/images/icons/prisma-logo-white.svg"
       },
       "url": {
         "en": "https://www.prisma.io/",
@@ -126,7 +126,7 @@
       "id": "graphql",
       "name": "GraphQL",
       "logo": {
-        "url": "ressources/images/icons/graphql-logo.svg"
+        "url": "assets/images/icons/graphql-logo.svg"
       },
       "url": {
         "en": "https://graphql.org/",
@@ -137,7 +137,7 @@
       "id": "c",
       "name": "C",
       "logo": {
-        "url": "ressources/images/icons/c-logo.svg"
+        "url": "assets/images/icons/c-logo.svg"
       },
       "url": {
         "en": "https://www.c-language.org/",
@@ -148,7 +148,7 @@
       "id": "java",
       "name": "Java",
       "logo": {
-        "url": "ressources/images/icons/java-logo.svg"
+        "url": "assets/images/icons/java-logo.svg"
       },
       "url": {
         "en": "https://www.oracle.com/java/",
@@ -159,7 +159,7 @@
       "id": "csharp",
       "name": "C#",
       "logo": {
-        "url": "ressources/images/icons/c-sharp-logo.svg"
+        "url": "assets/images/icons/c-sharp-logo.svg"
       },
       "url": {
         "en": "https://learn.microsoft.com/en-us/dotnet/csharp/",
@@ -170,7 +170,7 @@
       "id": "python",
       "name": "Python",
       "logo": {
-        "url": "ressources/images/icons/python-logo.svg"
+        "url": "assets/images/icons/python-logo.svg"
       },
       "url": {
         "en": "https://www.python.org/",
@@ -181,7 +181,7 @@
       "id": "postgresql",
       "name": "PostgreSQL",
       "logo": {
-        "url": "ressources/images/icons/postgresql-logo.svg"
+        "url": "assets/images/icons/postgresql-logo.svg"
       },
       "url": {
         "en": "https://www.postgresql.org/",
@@ -192,8 +192,8 @@
       "id": "mariadb",
       "name": "MariaDB",
       "logo": {
-        "url": "ressources/images/icons/mariadb-logo.svg",
-        "urlLight": "ressources/images/icons/mariadb-logo-white.svg"
+        "url": "assets/images/icons/mariadb-logo.svg",
+        "urlLight": "assets/images/icons/mariadb-logo-white.svg"
       },
       "url": {
         "en": "https://mariadb.org/",
@@ -204,7 +204,7 @@
       "id": "mysql",
       "name": "MySQL",
       "logo": {
-        "url": "ressources/images/icons/my-sql-logo.svg"
+        "url": "assets/images/icons/my-sql-logo.svg"
       },
       "url": {
         "en": "https://www.mysql.com/",
@@ -215,8 +215,8 @@
       "id": "mongodb",
       "name": "MongoDB",
       "logo": {
-        "url": "ressources/images/icons/mongodb-logo-light.svg",
-        "urlDark": "ressources/images/icons/mongodb-logo-dark.svg"
+        "url": "assets/images/icons/mongodb-logo-light.svg",
+        "urlDark": "assets/images/icons/mongodb-logo-dark.svg"
       },
       "url": {
         "en": "https://www.mongodb.com/",
@@ -227,8 +227,8 @@
       "id": "docker",
       "name": "Docker",
       "logo": {
-        "url": "ressources/images/icons/docker-logo-blue.svg",
-        "urlLight": "ressources/images/icons/docker-logo-white.svg"
+        "url": "assets/images/icons/docker-logo-blue.svg",
+        "urlLight": "assets/images/icons/docker-logo-white.svg"
       },
       "url": {
         "en": "https://www.docker.com/",
@@ -239,7 +239,7 @@
       "id": "linux",
       "name": "GNU/Linux",
       "logo": {
-        "url": "ressources/images/icons/tux.svg"
+        "url": "assets/images/icons/tux.svg"
       },
       "url": {
         "en": "https://www.gnu.org/home.en.html",
@@ -250,7 +250,7 @@
       "id": "apache2",
       "name": "Apache 2",
       "logo": {
-        "url": "ressources/images/icons/apache2-logo.svg"
+        "url": "assets/images/icons/apache2-logo.svg"
       },
       "url": {
         "en": "https://httpd.apache.org/",
@@ -261,7 +261,7 @@
       "id": "git",
       "name": "git",
       "logo": {
-        "url": "ressources/images/icons/git-logo.svg"
+        "url": "assets/images/icons/git-logo.svg"
       },
       "url": {
         "en": "https://git-scm.com/",
@@ -272,8 +272,8 @@
       "id": "github",
       "name": "GitHub",
       "logo": {
-        "url": "ressources/images/icons/github-logo.svg",
-        "urlLight": "ressources/images/icons/github-logo-white.svg"
+        "url": "assets/images/icons/github-logo.svg",
+        "urlLight": "assets/images/icons/github-logo-white.svg"
       },
       "url": {
         "en": "https://github.com/",
@@ -284,7 +284,7 @@
       "id": "gitlab",
       "name": "GitLab",
       "logo": {
-        "url": "ressources/images/icons/gitlab-logo.svg"
+        "url": "assets/images/icons/gitlab-logo.svg"
       },
       "url": {
         "en": "https://about.gitlab.com/",
@@ -295,7 +295,7 @@
       "id": "jira",
       "name": "Jira",
       "logo": {
-        "url": "ressources/images/icons/jira-logo.svg"
+        "url": "assets/images/icons/jira-logo.svg"
       },
       "url": {
         "en": "https://www.atlassian.com/software/jira",
@@ -306,7 +306,7 @@
       "id": "figma",
       "name": "Figma",
       "logo": {
-        "url": "ressources/images/icons/figma-logo.svg"
+        "url": "assets/images/icons/figma-logo.svg"
       },
       "url": {
         "en": "https://www.figma.com/",
@@ -317,8 +317,8 @@
       "id": "unity",
       "name": "Unity",
       "logo": {
-        "url": "ressources/images/icons/unity-logo-dark.svg",
-        "urlLight": "ressources/images/icons/unity-logo-light.svg"
+        "url": "assets/images/icons/unity-logo-dark.svg",
+        "urlLight": "assets/images/icons/unity-logo-light.svg"
       },
       "url": {
         "en": "https://unity.com/",
@@ -329,7 +329,7 @@
       "id": "godot",
       "name": "Godot",
       "logo": {
-        "url":"ressources/images/icons/godot-logo.svg"
+        "url":"assets/images/icons/godot-logo.svg"
       },
       "url": {
         "en": "https://godotengine.org/",

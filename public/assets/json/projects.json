@@ -30,7 +30,7 @@
       ],
       "images": [
         {
-          "url": "ressources/images/projects/Démineur web/Screenshot_20251016_151310.webp",
+          "url": "assets/images/projects/Démineur web/Screenshot_20251016_151310.webp",
           "alt": {
             "en": "Screenshot of a game",
             "fr": "Capture d'écrans d'une partie"
@@ -78,14 +78,14 @@
       ],
       "images": [
         {
-          "url": "ressources/images/projects/My Web Companion/MyWebCompanion_light.webp",
+          "url": "assets/images/projects/My Web Companion/MyWebCompanion_light.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/My Web Companion/MyWebCompanion_dark.webp",
+          "url": "assets/images/projects/My Web Companion/MyWebCompanion_dark.webp",
           "alt": {
             "en": "",
             "fr": ""
@@ -131,14 +131,14 @@
       ],
       "images": [
         {
-          "url": "public/ressources/images/projects/PACT by TripEnArvor/Screenshot_20251027_165223.webp",
+          "url": "public/assets/images/projects/PACT by TripEnArvor/Screenshot_20251027_165223.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "public/ressources/images/projects/PACT by TripEnArvor/Screenshot_20251027_165456.webp",
+          "url": "public/assets/images/projects/PACT by TripEnArvor/Screenshot_20251027_165456.webp",
           "alt": {
             "en": "",
             "fr": ""
@@ -172,63 +172,63 @@
       ],
       "images": [
         {
-          "url": "ressources/images/projects/Knight Tour/28.webp",
+          "url": "assets/images/projects/Knight Tour/28.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Knight Tour/29.png",
+          "url": "assets/images/projects/Knight Tour/29.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Knight Tour/30.png",
+          "url": "assets/images/projects/Knight Tour/30.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Knight Tour/31.png",
+          "url": "assets/images/projects/Knight Tour/31.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Knight Tour/32.png",
+          "url": "assets/images/projects/Knight Tour/32.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Knight Tour/33.png",
+          "url": "assets/images/projects/Knight Tour/33.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Knight Tour/34.png",
+          "url": "assets/images/projects/Knight Tour/34.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Knight Tour/35.png",
+          "url": "assets/images/projects/Knight Tour/35.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Knight Tour/36.png",
+          "url": "assets/images/projects/Knight Tour/36.png",
           "alt": {
             "en": "",
             "fr": ""
@@ -262,63 +262,63 @@
       ],
       "images": [
         {
-          "url": "ressources/images/projects/Sudoku Solver/19.webp",
+          "url": "assets/images/projects/Sudoku Solver/19.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku Solver/20.webp",
+          "url": "assets/images/projects/Sudoku Solver/20.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku Solver/21.webp",
+          "url": "assets/images/projects/Sudoku Solver/21.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku Solver/22.webp",
+          "url": "assets/images/projects/Sudoku Solver/22.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku Solver/23.webp",
+          "url": "assets/images/projects/Sudoku Solver/23.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku Solver/24.webp",
+          "url": "assets/images/projects/Sudoku Solver/24.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku Solver/25.webp",
+          "url": "assets/images/projects/Sudoku Solver/25.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku Solver/26.webp",
+          "url": "assets/images/projects/Sudoku Solver/26.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku Solver/27.webp",
+          "url": "assets/images/projects/Sudoku Solver/27.webp",
           "alt": {
             "en": "",
             "fr": ""
@@ -355,35 +355,35 @@
       ],
       "images": [
         {
-          "url": "ressources/images/projects/tabaskho/14.webp",
+          "url": "assets/images/projects/tabaskho/14.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/tabaskho/15.png",
+          "url": "assets/images/projects/tabaskho/15.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/tabaskho/16.png",
+          "url": "assets/images/projects/tabaskho/16.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/tabaskho/17.png",
+          "url": "assets/images/projects/tabaskho/17.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/tabaskho/18.png",
+          "url": "assets/images/projects/tabaskho/18.png",
           "alt": {
             "en": "",
             "fr": ""
@@ -416,42 +416,42 @@
       ],
       "images": [
         {
-          "url": "ressources/images/projects/Sudoku/8.png",
+          "url": "assets/images/projects/Sudoku/8.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku/9.png",
+          "url": "assets/images/projects/Sudoku/9.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku/10.png",
+          "url": "assets/images/projects/Sudoku/10.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku/11.png",
+          "url": "assets/images/projects/Sudoku/11.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku/12.png",
+          "url": "assets/images/projects/Sudoku/12.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Sudoku/13.png",
+          "url": "assets/images/projects/Sudoku/13.png",
           "alt": {
             "en": "",
             "fr": ""
@@ -484,49 +484,49 @@
       ],
       "images": [
         {
-          "url": "ressources/images/projects/Platformer2D/1.png",
+          "url": "assets/images/projects/Platformer2D/1.png",
           "alt": {
             "en": "Screenshots of the game's home screen.",
             "fr": "Capture d'écrans de l'écran d'accueil du jeu."
           }
         },
         {
-          "url": "ressources/images/projects/Platformer2D/2.png",
+          "url": "assets/images/projects/Platformer2D/2.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Platformer2D/3.png",
+          "url": "assets/images/projects/Platformer2D/3.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Platformer2D/4.png",
+          "url": "assets/images/projects/Platformer2D/4.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Platformer2D/5.png",
+          "url": "assets/images/projects/Platformer2D/5.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Platformer2D/6.png",
+          "url": "assets/images/projects/Platformer2D/6.png",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "ressources/images/projects/Platformer2D/7.png",
+          "url": "assets/images/projects/Platformer2D/7.png",
           "alt": {
             "en": "",
             "fr": ""
@@ -558,7 +558,7 @@
       },
       "images": [
         {
-          "url": "ressources/images/projects/database-creation/DC_PN.jpg",
+          "url": "assets/images/projects/database-creation/DC_PN.jpg",
           "alt": {
             "en": "",
             "fr": ""
@@ -592,7 +592,7 @@
       },
       "images": [
         {
-          "url": "ressources/images/projects/lepatio/Screenshot_20251021_191933.webp",
+          "url": "assets/images/projects/lepatio/Screenshot_20251021_191933.webp",
           "alt": {
             "en": "",
             "fr": ""
@@ -627,7 +627,7 @@
       },
       "images": [
         {
-          "url": "ressources/images/projects/network-services-installation/Screenshot_20251021_192750.webp",
+          "url": "assets/images/projects/network-services-installation/Screenshot_20251021_192750.webp",
           "alt": {
             "en": "",
             "fr": ""
@@ -659,7 +659,7 @@
       },
       "images": [
         {
-          "url": "ressources/images/projects/database-operation/sae204_statistiques_colleges.webp",
+          "url": "assets/images/projects/database-operation/sae204_statistiques_colleges.webp",
           "alt": {
             "en": "",
             "fr": ""
@@ -691,7 +691,7 @@
       },
       "images": [
         {
-          "url": "ressources/images/projects/demineur-godot/Screenshot_20251021_191541.png",
+          "url": "assets/images/projects/demineur-godot/Screenshot_20251021_191541.png",
           "alt": {
             "en": "",
             "fr": ""
