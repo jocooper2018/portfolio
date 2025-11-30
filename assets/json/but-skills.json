@@ -1,0 +1,70 @@
+{
+  "butSkills": [
+    {
+      "id": 1,
+      "fullName": {
+        "en": "Develop an application",
+        "fr": "Réaliser un développement d'application"
+      },
+      "shortName": {
+        "en": "Develop",
+        "fr": "Réaliser"
+      }
+    },
+    {
+      "id": 2,
+      "fullName": {
+        "en": "Optimize computer applications",
+        "fr": "Optimiser des applications informatiques"
+      },
+      "shortName": {
+        "en": "Optimize",
+        "fr": "Optimiser"
+      }
+    },
+    {
+      "id": 3,
+      "fullName": {
+        "en": "Administer complex communicating computer systems",
+        "fr": "Administrer des systèmes informatiques communicants complexes"
+      },
+      "shortName": {
+        "en": "Administer",
+        "fr": "Administrer"
+      }
+    },
+    {
+      "id": 4,
+      "fullName": {
+        "en": "Manage information data",
+        "fr": "Gérer des données de l'information"
+      },
+      "shortName": {
+        "en": "Manage",
+        "fr": "Gérer"
+      }
+    },
+    {
+      "id": 5,
+      "fullName": {
+        "en": "Lead a project",
+        "fr": "Conduire un projet"
+      },
+      "shortName": {
+        "en": "Lead",
+        "fr": "Conduire"
+      }
+    },
+    {
+      "id": 6,
+      "fullName": {
+        "en": "Collaborate in an IT team",
+        "fr": "Collaborer dans une équipe informatique"
+      },
+      "shortName": {
+        "en": "Collaborate",
+        "fr": "Collaborer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "tools": [
+    {
+      "id": "html",
+      "name": "HTML",
+      "logo": {
+        "url": "assets/images/icons/html-logo.svg"
+      },
+      "url": {
+        "en": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "fr": "https://developer.mozilla.org/fr/docs/Web/HTML"
+      }
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "logo": {
+        "url": "assets/images/icons/css-logo.svg"
+      },
+      "url": {
+        "en": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "fr": "https://developer.mozilla.org/fr/docs/Web/CSS"
+      }
+    },
+    {
+      "id": "scss",
+      "name": "SCSS",
+      "logo": {
+        "url": "assets/images/icons/sass-logo.svg"
+      },
+      "url": {
+        "en": "https://sass-lang.com/",
+        "fr": "https://sass-lang.com/"
+      }
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "logo": {
+        "url": "assets/images/icons/javascript-logo.svg"
+      },
+      "url": {
+        "en": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "fr": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+      }
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "logo": {
+        "url": "assets/images/icons/typescript-logo.svg"
+      },
+      "url": {
+        "en": "https://www.typescriptlang.org/",
+        "fr": "https://www.typescriptlang.org/fr/"
+      }
+    },
+    {
+      "id": "php",
+      "name": "PHP",
+      "logo": {
+        "url": "assets/images/icons/php-logo.svg"
+      },
+      "url": {
+        "en": "https://www.php.net/",
+        "fr": "https://www.php.net/"
+      }
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "logo": {
+        "url": "assets/images/icons/nodejs-logo.svg"
+      },
+      "url": {
+        "en": "https://nodejs.org/en",
+        "fr": "https://nodejs.org/fr"
+      }
+    },
+    {
+      "id": "nestjs",
+      "name": "NestJS",
+      "logo": {
+        "url": "assets/images/icons/nestjs-logo.svg"
+      },
+      "url": {
+        "en": "https://nestjs.com/",
+        "fr": "https://nestjs.com/"
+      }
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "logo": {
+        "url": "assets/images/icons/react-logo.svg"
+      },
+      "url": {
+        "en": "https://react.dev/",
+        "fr": "https://fr.react.dev/"
+      }
+    },
+    {
+      "id": "vite",
+      "name": "Vite",
+      "logo": {
+        "url": "assets/images/icons/vite-logo.svg"
+      },
+      "url": {
+        "en": "https://vite.dev/",
+        "fr": "https://vite.dev/"
+      }
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "logo": {
+        "urlDark": "assets/images/icons/prisma-logo-black.svg",
+        "urlLight": "assets/images/icons/prisma-logo-white.svg"
+      },
+      "url": {
+        "en": "https://www.prisma.io/",
+        "fr": "https://www.prisma.io/"
+      }
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "logo": {
+        "url": "assets/images/icons/graphql-logo.svg"
+      },
+      "url": {
+        "en": "https://graphql.org/",
+        "fr": "https://graphql.org/"
+      }
+    },
+    {
+      "id": "c",
+      "name": "C",
+      "logo": {
+        "url": "assets/images/icons/c-logo.svg"
+      },
+      "url": {
+        "en": "https://www.c-language.org/",
+        "fr": "https://www.c-language.org/"
+      }
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "logo": {
+        "url": "assets/images/icons/java-logo.svg"
+      },
+      "url": {
+        "en": "https://www.oracle.com/java/",
+        "fr": "https://www.oracle.com/fr/java/"
+      }
+    },
+    {
+      "id": "csharp",
+      "name": "C#",
+      "logo": {
+        "url": "assets/images/icons/c-sharp-logo.svg"
+      },
+      "url": {
+        "en": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "fr": "https://learn.microsoft.com/fr-fr/dotnet/csharp/"
+      }
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "logo": {
+        "url": "assets/images/icons/python-logo.svg"
+      },
+      "url": {
+        "en": "https://www.python.org/",
+        "fr": ""
+      }
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "logo": {
+        "url": "assets/images/icons/postgresql-logo.svg"
+      },
+      "url": {
+        "en": "https://www.postgresql.org/",
+        "fr": "https://www.postgresql.org/"
+      }
+    },
+    {
+      "id": "mariadb",
+      "name": "MariaDB",
+      "logo": {
+        "url": "assets/images/icons/mariadb-logo.svg",
+        "urlLight": "assets/images/icons/mariadb-logo-white.svg"
+      },
+      "url": {
+        "en": "https://mariadb.org/",
+        "fr": "https://mariadb.org/"
+      }
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "logo": {
+        "url": "assets/images/icons/my-sql-logo.svg"
+      },
+      "url": {
+        "en": "https://www.mysql.com/",
+        "fr": "https://www.mysql.com/"
+      }
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "logo": {
+        "url": "assets/images/icons/mongodb-logo-light.svg",
+        "urlDark": "assets/images/icons/mongodb-logo-dark.svg"
+      },
+      "url": {
+        "en": "https://www.mongodb.com/",
+        "fr": "https://www.mongodb.com/fr-fr"
+      }
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "logo": {
+        "url": "assets/images/icons/docker-logo-blue.svg",
+        "urlLight": "assets/images/icons/docker-logo-white.svg"
+      },
+      "url": {
+        "en": "https://www.docker.com/",
+        "fr": "https://www.docker.com/"
+      }
+    },
+    {
+      "id": "linux",
+      "name": "GNU/Linux",
+      "logo": {
+        "url": "assets/images/icons/tux.svg"
+      },
+      "url": {
+        "en": "https://www.gnu.org/home.en.html",
+        "fr": "https://www.gnu.org/home.fr.html"
+      }
+    },
+    {
+      "id": "apache2",
+      "name": "Apache 2",
+      "logo": {
+        "url": "assets/images/icons/apache2-logo.svg"
+      },
+      "url": {
+        "en": "https://httpd.apache.org/",
+        "fr": "https://httpd.apache.org/"
+      }
+    },
+    {
+      "id": "git",
+      "name": "git",
+      "logo": {
+        "url": "assets/images/icons/git-logo.svg"
+      },
+      "url": {
+        "en": "https://git-scm.com/",
+        "fr": "https://git-scm.com/"
+      }
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "logo": {
+        "url": "assets/images/icons/github-logo.svg",
+        "urlLight": "assets/images/icons/github-logo-white.svg"
+      },
+      "url": {
+        "en": "https://github.com/",
+        "fr": "https://github.com/"
+      }
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "logo": {
+        "url": "assets/images/icons/gitlab-logo.svg"
+      },
+      "url": {
+        "en": "https://about.gitlab.com/",
+        "fr": "https://about.gitlab.com/fr-fr/"
+      }
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "logo": {
+        "url": "assets/images/icons/jira-logo.svg"
+      },
+      "url": {
+        "en": "https://www.atlassian.com/software/jira",
+        "fr": "https://www.atlassian.com/fr/software/jira"
+      }
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "logo": {
+        "url": "assets/images/icons/figma-logo.svg"
+      },
+      "url": {
+        "en": "https://www.figma.com/",
+        "fr": "https://www.figma.com/fr-fr/"
+      }
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "logo": {
+        "url": "assets/images/icons/unity-logo-dark.svg",
+        "urlLight": "assets/images/icons/unity-logo-light.svg"
+      },
+      "url": {
+        "en": "https://unity.com/",
+        "fr": "https://unity.com/fr"
+      }
+    },
+    {
+      "id": "godot",
+      "name": "Godot",
+      "logo": {
+        "url":"assets/images/icons/godot-logo.svg"
+      },
+      "url": {
+        "en": "https://godotengine.org/",
+        "fr": "https://godotengine.org/fr/"
+      }
+    }
+  ]
+}

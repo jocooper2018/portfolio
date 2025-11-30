@@ -1,0 +1,21 @@
+{
+  "workExperiences": [
+    {
+      "companyName": "HDM Network ASBL",
+      "post": {
+        "en": "Web developer",
+        "fr": "Développeur web"
+      },
+      "type": {
+        "en": "Internship",
+        "fr": "Stage"
+      },
+      "location": {
+        "en": "Remote",
+        "fr": "À distance"
+      },
+      "startDate": "2025-04-07",
+      "endDate": "2025-06-27"
+    }
+  ]
+}

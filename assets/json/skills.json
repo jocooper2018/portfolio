@@ -1,0 +1,101 @@
+{
+  "skills": [
+    {
+      "name": {
+        "en": "Backend web",
+        "fr": "Backend web"
+      },
+      "description": "",
+      "toolsIds": [
+        "php",
+        "nodejs",
+        "javascript",
+        "typescript",
+        "nestjs",
+        "graphql",
+        "prisma",
+        "git"
+      ]
+    },
+    {
+      "name": {
+        "en": "Frontend web",
+        "fr": "Frontend web"
+      },
+      "description": "",
+      "toolsIds": [
+        "html",
+        "css",
+        "scss",
+        "javascript",
+        "typescript",
+        "nodejs",
+        "vite",
+        "react",
+        "graphql",
+        "git"
+      ]
+    },
+    {
+      "name": {
+        "en": "Software development",
+        "fr": "Développement logiciel"
+      },
+      "description": "",
+      "toolsIds": [
+        "c",
+        "java",
+        "csharp",
+        "python",
+        "git"
+      ]
+    },
+    {
+      "name": {
+        "en": "Database",
+        "fr": "Base de données"
+      },
+      "description": "",
+      "toolsIds": [
+        "postgresql",
+        "mariadb",
+        "mysql",
+        "mongodb",
+        "prisma"
+      ]
+    },
+    {
+      "name": {
+        "en": "Systems",
+        "fr": "Systèmes"
+      },
+      "description": "",
+      "toolsIds": [
+        "linux",
+        "docker"
+      ]
+    },
+    {
+      "name": {
+        "en": "Project management",
+        "fr": "Gestion de projets"
+      },
+      "description": "",
+      "toolsIds": [
+        "jira",
+        "github",
+        "git"
+      ]
+    },
+    {
+      "name": {
+        "en": "Design",
+        "fr": "Design"
+      },
+      "description": "",
+      "toolsIds": [
+        "figma"
+      ]
+    }
+  ]
+}
