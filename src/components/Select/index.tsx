@@ -47,7 +47,8 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
         type="button"
         className="select-input"
         onClick={() => {
-          isOpen ? handleClose() : handleOpen();
+          if (isOpen) handleClose();
+          else handleOpen();
         }}
       >
         <span>{props.selectedOption.label}</span>

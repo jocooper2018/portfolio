@@ -24,10 +24,10 @@ const detectBrowserLanguage = (): Language => {
     return storedLanguage;
   }
   for (const lang of navigator.languages) {
-    const regex = new RegExp("fr", "i");
-    if (regex.test(lang)) {
+    const regex = { fr: new RegExp("fr", "i"), en: new RegExp("en", "i") };
+    if (regex.fr.test(lang)) {
       return "fr";
-    } else if (regex.test(lang)) {
+    } else if (regex.en.test(lang)) {
       return "en";
     }
   }

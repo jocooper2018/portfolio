@@ -47,7 +47,8 @@ const MultiSelect: React.FC<MultiSelectProps> = (props: MultiSelectProps) => {
         type="button"
         className="select-input"
         onClick={() => {
-          isOpen ? handleClose() : handleOpen();
+          if (isOpen) handleClose();
+          else handleOpen();
         }}
       >
         <span>

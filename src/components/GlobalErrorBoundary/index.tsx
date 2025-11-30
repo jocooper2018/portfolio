@@ -18,9 +18,9 @@ export class GlobalErrorBoundary extends React.Component<
     this.state = { hasError: false };
   }
 
-  static getDerivedStateFromError(_: Error): State {
-    return { hasError: true };
-  }
+  // static getDerivedStateFromError(_: Error): State {
+  //   return { hasError: true };
+  // }
 
   componentDidCatch(error: Error, info: React.ErrorInfo): void {
     if (import.meta.env.DEV) {
