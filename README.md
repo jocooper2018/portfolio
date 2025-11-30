@@ -2,6 +2,10 @@
 
 A personal portfolio website to showcase projects, writing, and résumé. Built for speed, accessibility, and easy maintenance.
 
+## Access
+
+The website is online at <https://jocooper2018.github.io/portfolio/>.
+
 ## Features
 
 - Responsive, accessible layout
@@ -10,7 +14,9 @@ A personal portfolio website to showcase projects, writing, and résumé. Built 
 
 ## Tech stack
 
-Vite + TypeScript + React
+- [Vite](https://vite.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
 
 ## Quick start
 
