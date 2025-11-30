@@ -7,4 +7,5 @@ export default interface WorkExperience {
   readonly location: TranslatedString;
   readonly startDate: string;
   readonly endDate: string | null;
+  readonly description: TranslatedString;
 }

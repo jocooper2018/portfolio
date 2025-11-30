@@ -48,6 +48,7 @@ const WorkExperiencesSection: React.FC = () => {
                 <div>{workExperience.type[lang]}</div>
               </div>
               <div>{workExperience.location[lang]}</div>
+              <p>{workExperience.description[lang]}</p>
             </article>
           )
         )}
