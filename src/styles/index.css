@@ -18,7 +18,13 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("public/assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf");
+  src: local("Roboto"),
+    url("/assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.woff2")
+      format("woff2"),
+    url("/assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.woff")
+      format("woff"),
+    url("/assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf")
+      format("truetype");
 }
 
 * {
