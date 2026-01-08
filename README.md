@@ -1,6 +1,7 @@
 # Portfolio
 
 A personal portfolio website to showcase projects.
+
 Copyright (C) 2026  Matthieu LE BOUT
 
 This program is free software: you can redistribute it and/or modify
