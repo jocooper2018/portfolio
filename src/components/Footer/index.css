@@ -22,7 +22,10 @@ footer {
   justify-content: space-around;
   background-color: var(--bg);
   box-shadow: var(--shadow-s);
-  padding: 5rem 0;
+  padding: 5rem 3rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 3rem;
 }
 
 footer a {
@@ -31,6 +34,7 @@ footer a {
   transition: all 250ms ease-out;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
+  text-align: center;
 }
 
 footer a:hover {
