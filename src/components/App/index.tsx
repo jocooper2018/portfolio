@@ -34,6 +34,7 @@ import getRessource from "../../utils/getRessource";
 import type ButSkill from "../../interfaces/ButSkill";
 import type ButSkillsData from "../../interfaces/ButSkillsData";
 import Burger from "../Burger";
+import Footer from "../Footer";
 
 const showBurgerMediaQuery: MediaQueryList = window.matchMedia(
   "screen and (max-width: 1160px)"
@@ -97,6 +98,7 @@ const App: React.FC = () => {
         <TrainingsSection />
         <WorkExperiencesSection />
         <ContactSection />
+        <Footer />
       </ThemeProvider>
     </LanguageProvider>
   );
