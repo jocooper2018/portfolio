@@ -156,6 +156,17 @@
       }
     },
     {
+      "id": "springboot",
+      "name": "Spring Boot",
+      "logo": {
+        "url": "assets/images/icons/springboot-logo.svg"
+      },
+      "url": {
+        "en": "https://spring.io/projects/spring-boot",
+        "fr": "https://spring.io/projects/spring-boot"
+      }
+    },
+    {
       "id": "csharp",
       "name": "C#",
       "logo": {
