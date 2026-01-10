@@ -17,11 +17,11 @@
  */
 
 .training {
+  width: min(40rem, 100vw - 6rem);
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 40rem;
-  margin: 0 auto;
 }
 
 .training .line {
