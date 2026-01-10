@@ -196,7 +196,74 @@
       },
       "url": {
         "en": "https://www.python.org/",
-        "fr": ""
+        "fr": "https://www.python.org/"
+      }
+    },
+    {
+      "id": "numpy",
+      "name": "NumPy",
+      "logo": {
+        "url": "assets/images/icons/numpy-logo.svg"
+      },
+      "url": {
+        "en": "https://numpy.org/",
+        "fr": "https://numpy.org/"
+      }
+    },
+    {
+      "id": "pandas",
+      "name": "Pandas",
+      "logo": {
+        "url": "assets/images/icons/pandas-logo-dark.svg",
+        "urlLight": "assets/images/icons/pandas-logo-light.svg"
+      },
+      "url": {
+        "en": "https://pandas.pydata.org/",
+        "fr": "https://pandas.pydata.org/"
+      }
+    },
+    {
+      "id": "matplotlib",
+      "name": "Matplotlib",
+      "logo": {
+        "url": "assets/images/icons/matplotlib-logo.svg"
+      },
+      "url": {
+        "en": "https://matplotlib.org/",
+        "fr": "https://matplotlib.org/"
+      }
+    },
+    {
+      "id": "scipy",
+      "name": "SciPy",
+      "logo": {
+        "url": "assets/images/icons/scipy-logo.svg"
+      },
+      "url": {
+        "en": "https://scipy.org/",
+        "fr": "https://scipy.org/"
+      }
+    },
+    {
+      "id": "scikitlearn",
+      "name": "Scikit-learn",
+      "logo": {
+        "url": "assets/images/icons/scikitlearn-logo.svg"
+      },
+      "url": {
+        "en": "https://scikit-learn.org/stable/",
+        "fr": "https://scikit-learn.org/stable/"
+      }
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "logo": {
+        "url": "assets/images/icons/pytorch-logo.svg"
+      },
+      "url": {
+        "en": "https://pytorch.org/",
+        "fr": "https://pytorch.org/"
       }
     },
     {
