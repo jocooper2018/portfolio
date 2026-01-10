@@ -27,6 +27,7 @@ import type Tool from "../../interfaces/Tool";
 import getTool from "../../utils/getTool";
 import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
 import { ThemeContext } from "../../contexts/ThemeContext";
+import OpenInNewIcon from "../../assets/icons/OpenInNewIcon";
 
 interface WorkExperiencesSectionProps {
   readonly allTools: Tool[];
@@ -103,6 +104,10 @@ const WorkExperiencesSection: React.FC<WorkExperiencesSectionProps> = (
                   );
                 })}
               </ul>
+              <a href={workExperience.url[lang]} target="_blank" className="button">
+                {t("webSite")}
+                <OpenInNewIcon />
+              </a>
             </article>
           )
         )}

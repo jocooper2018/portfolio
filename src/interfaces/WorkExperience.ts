@@ -26,5 +26,6 @@ export default interface WorkExperience {
   readonly startDate: string;
   readonly endDate: string | null;
   readonly description: TranslatedString;
+  readonly url: TranslatedString;
   readonly toolsIds: string[];
 }
