@@ -21,13 +21,21 @@ import { useLanguage } from "../../../contexts/LanguageContext";
 import type TrainingData from "../../../interfaces/Training";
 import OpenInNewIcon from "../../../assets/icons/OpenInNewIcon";
 import DateRange from "../../DateRange";
+import getTool from "../../../utils/getTool";
+import type Tool from "../../../interfaces/Tool";
+import getIconUrlForTheme from "../../../utils/getIconUrlForTheme";
+import { ThemeContext } from "../../../contexts/ThemeContext";
+import { useContext } from "react";
 
 interface TrainingProps {
   readonly data: TrainingData;
+  readonly allTools: Tool[];
+  readonly isToolsLoading: boolean;
 }
 
 const Training: React.FC<TrainingProps> = (props: TrainingProps) => {
   const { t, lang } = useLanguage();
+  const { resolvedTheme } = useContext(ThemeContext);
 
   return (
     <article className="training card">
@@ -45,6 +53,29 @@ const Training: React.FC<TrainingProps> = (props: TrainingProps) => {
         </div>
       </div>
       <p>{props.data.description[lang]}</p>
+      <ul className="tools">
+        {props.data.toolsIds.map((toolId: string, i: number) => {
+          if (props.isToolsLoading) {
+            return <div className="loader" />;
+          }
+          const tool = getTool(props.allTools, toolId);
+          if (!tool) {
+            console.error(`tool ${toolId} not found`);
+            return;
+          }
+          return (
+            <li key={`tool-${i}`}>
+              <a href={tool.url[lang]} target="_blank">
+                <img
+                  src={getIconUrlForTheme(tool.logo, resolvedTheme)}
+                  alt={tool.name}
+                />
+                <div className="popup">{tool.name}</div>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
       <a href={props.data.url[lang]} target="_blank" className="button">
         {t("webSite")}
         <OpenInNewIcon />

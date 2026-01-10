@@ -156,6 +156,17 @@
       }
     },
     {
+      "id": "javafx",
+      "name": "JavaFX",
+      "logo": {
+        "url": "assets/images/icons/javafx-logo.svg"
+      },
+      "url": {
+        "en": "https://openjfx.io/",
+        "fr": "https://openjfx.io/"
+      }
+    },
+    {
       "id": "springboot",
       "name": "Spring Boot",
       "logo": {

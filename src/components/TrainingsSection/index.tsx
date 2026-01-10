@@ -23,8 +23,16 @@ import getRessource from "../../utils/getRessource";
 import type TrainingsData from "../../interfaces/TrainingsData";
 import type TrainingData from "../../interfaces/Training";
 import Training from "./Training";
+import type Tool from "../../interfaces/Tool";
 
-const TrainingsSection: React.FC = () => {
+interface TrainingsSectionProps {
+  readonly allTools: Tool[];
+  readonly isToolsLoading: boolean;
+}
+
+const TrainingsSection: React.FC<TrainingsSectionProps> = (
+  props: TrainingsSectionProps
+) => {
   const { t } = useLanguage();
   const [trainingsData, setTrainingsData] = useState<TrainingsData | undefined>(
     undefined
@@ -47,7 +55,12 @@ const TrainingsSection: React.FC = () => {
       <h2>{t("trainings")}</h2>
       {trainingsData &&
         trainingsData.trainings.map((training: TrainingData, i: number) => (
-          <Training data={training} key={i} />
+          <Training
+            data={training}
+            isToolsLoading={props.isToolsLoading}
+            allTools={props.allTools}
+            key={i}
+          />
         ))}
     </section>
   );

@@ -82,7 +82,10 @@ const App: React.FC = () => {
   return (
     <LanguageProvider>
       <ThemeProvider>
-        <Header showBurger={showBurger} setIsBurgerMenuOpen={setIsBurgerMenuOpen} />
+        <Header
+          showBurger={showBurger}
+          setIsBurgerMenuOpen={setIsBurgerMenuOpen}
+        />
         {showBurger && (
           <Burger isOpen={isBurgerMenuOpen} setIsOpen={setIsBurgerMenuOpen} />
         )}
@@ -95,8 +98,8 @@ const App: React.FC = () => {
           isButSkillsLoading={isButSkillsLoading}
         />
         <SkillsSection allTools={allTools} isToolsLoading={isToolsLoading} />
-        <TrainingsSection />
-        <WorkExperiencesSection />
+        <TrainingsSection allTools={allTools} isToolsLoading={isToolsLoading} />
+        <WorkExperiencesSection allTools={allTools} isToolsLoading={isToolsLoading} />
         <ContactSection />
         <Footer />
       </ThemeProvider>

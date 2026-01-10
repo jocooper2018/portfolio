@@ -31,3 +31,64 @@
   flex-wrap: wrap;
   gap: 0.5rem;
 }
+
+.work-experience .tools {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  padding: 0.5rem 2rem 2rem 2rem;
+  margin: -0.5rem -2rem -2rem -2rem;
+}
+
+.work-experience .tools img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+  transition: transform 250ms ease-out;
+}
+
+.work-experience .tools a:hover img {
+  transform: scale(1.1);
+}
+
+.work-experience .tools .loader {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+}
+
+.work-experience .tools a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  overflow: visible;
+}
+
+.work-experience a .popup {
+  pointer-events: none;
+  position: absolute;
+  left: 1rem;
+  transform: translate(-50%, -0.5rem);
+  color: var(--text);
+  background-color: var(--bg-light);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: var(--shadow-s);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 250ms ease-out, transform 250ms ease-out;
+  z-index: 1;
+}
+
+.work-experience a:hover .popup {
+  display: block;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}

@@ -17,15 +17,28 @@
  */
 
 import "./index.css";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import getRessource from "../../utils/getRessource";
 import type WorkExperienceData from "../../interfaces/WorkExperiencesData";
 import type WorkExperience from "../../interfaces/WorkExperience";
 import DateRange from "../DateRange";
+import type Tool from "../../interfaces/Tool";
+import getTool from "../../utils/getTool";
+import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
+import { ThemeContext } from "../../contexts/ThemeContext";
 
-const WorkExperiencesSection: React.FC = () => {
+interface WorkExperiencesSectionProps {
+  readonly allTools: Tool[];
+  readonly isToolsLoading: boolean;
+}
+
+const WorkExperiencesSection: React.FC<WorkExperiencesSectionProps> = (
+  props: WorkExperiencesSectionProps
+) => {
   const { t, lang } = useLanguage();
+  const { resolvedTheme } = useContext(ThemeContext);
+
   const [workExperiencesData, setWorkExperiencesData] = useState<
     WorkExperienceData | undefined
   >(undefined);
@@ -67,6 +80,29 @@ const WorkExperiencesSection: React.FC = () => {
               </div>
               <div>{workExperience.location[lang]}</div>
               <p>{workExperience.description[lang]}</p>
+              <ul className="tools">
+                {workExperience.toolsIds.map((toolId: string, i: number) => {
+                  if (props.isToolsLoading) {
+                    return <div className="loader" />;
+                  }
+                  const tool = getTool(props.allTools, toolId);
+                  if (!tool) {
+                    console.error(`tool ${toolId} not found`);
+                    return;
+                  }
+                  return (
+                    <li key={`tool-${i}`}>
+                      <a href={tool.url[lang]} target="_blank">
+                        <img
+                          src={getIconUrlForTheme(tool.logo, resolvedTheme)}
+                          alt={tool.name}
+                        />
+                        <div className="popup">{tool.name}</div>
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
             </article>
           )
         )}

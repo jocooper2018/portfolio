@@ -26,4 +26,5 @@ export default interface Training {
   readonly startDate: string;
   readonly endDate: string | null;
   readonly url: TranslatedString;
+  readonly toolsIds: string[];
 }
