@@ -2,6 +2,53 @@
   "projects": [
     {
       "name": {
+        "en": "MuSE",
+        "fr": "MuSE"
+      },
+      "startDate": "2025-09-15",
+      "endDate": "2026-03-20",
+      "description": {
+        "en": "Design of a music recommendation system (item/user-based, neural networks): data cleaning and analysis, database architecture (PostgreSQL/UML), and development of a secure web interface.",
+        "fr": "Conception d'un système de recommandation musicale (Item/User-based, Réseaux de neurones) : nettoyage et analyse de données, architecture BDD (PostgreSQL/UML) et développement d'une interface web sécurisée."
+      },
+      "type": {
+        "en": "Lannion Institute of Technology",
+        "fr": "IUT de Lannion"
+      },
+      "toolsIds": [
+        "python",
+        "numpy",
+        "pandas",
+        "matplotlib",
+        "scipy",
+        "scikitlearn",
+        "pytorch",
+        "postgresql",
+        "docker",
+        "git",
+        "github"
+      ],
+      "butSkillsIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "images": [
+        {
+          "url": "assets/images/projects/muse/Screenshot_20260110_175024.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          }
+        }
+      ],
+      "repositoryLink": "https://github.com/trethore/SAE5-C-IDFou"
+    },
+    {
+      "name": {
         "en": "Demineur web",
         "fr": "Démineur web"
       },

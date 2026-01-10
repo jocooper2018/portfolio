@@ -69,6 +69,22 @@
     },
     {
       "name": {
+        "en": "Data Science & IA",
+        "fr": "Data Science & IA"
+      },
+      "description": "",
+      "toolsIds": [
+        "python",
+        "numpy",
+        "pandas",
+        "matplotlib",
+        "scipy",
+        "scikitlearn",
+        "pytorch"
+      ]
+    },
+    {
+      "name": {
         "en": "Systems",
         "fr": "Systèmes"
       },

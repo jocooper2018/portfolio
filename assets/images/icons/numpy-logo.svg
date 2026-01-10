@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 387.26001 413.89999"
+   version="1.1"
+   id="svg8"
+   width="387.26001"
+   height="413.89999"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:rgb(77, 171, 207);}.cls-2{fill:rgb(77, 119, 207);}</style>
+  </defs>
+  <g
+     id="Layer_1"
+     data-name="Layer 1"
+     transform="translate(-56.37,-43.05)">
+    <polygon
+       class="cls-1"
+       points="75.87,130.11 146.9,165.78 220.93,127.14 151.77,92.23 "
+       id="polygon1" />
+    <polygon
+       class="cls-1"
+       points="249.91,217.52 178.77,181.79 252.63,143.14 325.14,179.74 "
+       id="polygon2" />
+    <polygon
+       class="cls-1"
+       points="357.34,163.57 284.68,126.92 349.47,92.76 423.96,130.11 "
+       id="polygon3" />
+    <polygon
+       class="cls-1"
+       points="184.01,76.15 253.11,111 317.41,76.67 250.35,43.05 "
+       id="polygon4" />
+    <polygon
+       class="cls-1"
+       points="346.22,416.41 346.13,324.86 264.98,365.44 264.98,456.95 "
+       id="polygon5" />
+    <polygon
+       class="cls-1"
+       points="264.98,242.6 264.98,333.22 346.1,292.91 346.01,202.32 "
+       id="polygon6" />
+    <polygon
+       class="cls-1"
+       points="374.34,402.38 374.29,310.93 443.63,275.93 443.63,367.8 "
+       id="polygon7" />
+    <polygon
+       class="cls-1"
+       points="374.21,188.3 374.27,279.07 443.63,243.81 443.63,153.79 "
+       id="polygon8" />
+    <path
+       class="cls-2"
+       d="M 236.3,242.6 181.58,215.09 V 334 c 0,0 -66.92,-142.39 -73.12,-155.18 -0.8,-1.65 -4.09,-3.46 -4.93,-3.9 -12,-6.3 -47.16,-24.11 -47.16,-24.11 v 210.08 l 48.64,26 V 277.08 c 0,0 66.21,127.23 66.88,128.62 0.67,1.39 7.32,14.8 14.42,19.51 9.46,6.26 50,30.64 50,30.64 z"
+       id="path8" />
+  </g>
+</svg>
