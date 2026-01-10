@@ -66,6 +66,13 @@ const Burger: React.FC<BurgerProps> = (props: BurgerProps) => {
         <a href="#contact" className="button" onClick={handleClose}>
           {t("contact")}
         </a>
+        <a
+          href="/assets/documents/CV_2026-01-10_Matthieu_LE BOUT.pdf"
+          className="button"
+          target="_blank"
+        >
+          {t("cv")}
+        </a>
       </div>
       <div>
         <LanguageSelect />

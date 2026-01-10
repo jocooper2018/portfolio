@@ -71,6 +71,12 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
             <a href="#trainings">{t("trainings")}</a>
             <a href="#work-experiences">{t("workExperiences")}</a>
             <a href="#contact">{t("contact")}</a>
+            <a
+              href="/assets/documents/CV_2026-01-10_Matthieu_LE BOUT.pdf"
+              target="_blank"
+            >
+              {t("cv")}
+            </a>
           </div>
           <div>
             <LanguageSelect />

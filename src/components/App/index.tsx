@@ -37,7 +37,7 @@ import Burger from "../Burger";
 import Footer from "../Footer";
 
 const showBurgerMediaQuery: MediaQueryList = window.matchMedia(
-  "screen and (max-width: 1160px)"
+  "screen and (max-width: 1320px)"
 );
 
 const App: React.FC = () => {
