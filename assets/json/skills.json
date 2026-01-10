@@ -49,6 +49,7 @@
         "java",
         "csharp",
         "python",
+        "javafx",
         "git"
       ]
     },

@@ -22,7 +22,29 @@
       "url": {
         "en": "https://iut-lannion.univ-rennes.fr/lannion-institute-technology-university-rennes",
         "fr": "https://iut-lannion.univ-rennes.fr/"
-      }
+      },
+      "toolsIds": [
+        "jira",
+        "postgresql",
+        "linux",
+        "java",
+        "c",
+        "php",
+        "html",
+        "css",
+        "javascript",
+        "docker",
+        "python",
+        "git",
+        "github",
+        "springboot",
+        "javafx",
+        "figma",
+        "mysql",
+        "gitlab",
+        "mongodb",
+        "apache2"
+      ]
     }
   ]
 }
