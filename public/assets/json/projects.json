@@ -520,66 +520,138 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/Sudoku Solver/19.webp",
+          "url": "assets/images/projects/sudoku-solver/sudoku-maxi-grid.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "4×4 sudoku grid",
+            "fr": "Grille de sudoku 4×4"
+          },
+          "title": {
+            "en": "4×4 sudoku grid",
+            "fr": "Grille de sudoku 4×4"
+          },
+          "description": {
+            "en": "The program solves 4×4 sudoku grids.",
+            "fr": "Le programme résous des grilles de sudoku de taille 4×4."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku Solver/20.webp",
+          "url": "assets/images/projects/sudoku-solver/struct-1.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of data structure version 1",
+            "fr": "Capture d'écrans de la version 1 de la structure de données"
+          },
+          "title": {
+            "en": "Data structure version 1",
+            "fr": "Structure de données version 1"
+          },
+          "description": {
+            "en": "I tested the program with two data structures to represent candidate values. The first uses an array of integers.",
+            "fr": "J'ai tester le programme avec deux structures de données pour représenter les valeurs candidates. La première utilise un tableau de nombre entier."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku Solver/21.webp",
+          "url": "assets/images/projects/sudoku-solver/struct-2.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of data structure version 2",
+            "fr": "Capture d'écrans de la version 2 de la structure de données"
+          },
+          "title": {
+            "en": "Data structure version 2",
+            "fr": "Structure de données version 2"
+          },
+          "description": {
+            "en": "The second data structure uses a Boolean array where the position of the Boolean in the array represents a value and the value of the Boolean represents whether or not that value is a candidate.",
+            "fr": "La deuxième structure de données utilise un tableau de booléen ou la position du booléen dans le tableau représente une valeur et la valeur du booléen si cette valeur est candidate ou non."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku Solver/22.webp",
+          "url": "assets/images/projects/sudoku-solver/algo-1.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of version 1 of the program",
+            "fr": "Capture d'écrans de la version 1 du programme"
+          },
+          "title": {
+            "en": "Version 1",
+            "fr": "Version 1"
+          },
+          "description": {
+            "en": "To solve the grid, my program uses basic Sudoku techniques.",
+            "fr": "Pour résoudre la grille, mon programme utilise des technique de base du sudoku."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku Solver/23.webp",
+          "url": "assets/images/projects/sudoku-solver/algo-2.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of version 2 of the program",
+            "fr": "Capture d'écrans de la version 2 du programme"
+          },
+          "title": {
+            "en": "Version 2",
+            "fr": "Version 2"
+          },
+          "description": {
+            "en": "The program exists in two versions. One for each data structure.",
+            "fr": "Le programme existe en deux version. Une pour chaque structure de données"
           }
         },
         {
-          "url": "assets/images/projects/Sudoku Solver/24.webp",
+          "url": "assets/images/projects/sudoku-solver/demo-1.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots from the demo of version 1 of the program",
+            "fr": "Capture d'écrans de la démo de la version 1 du programme"
+          },
+          "title": {
+            "en": "Version 1 demo",
+            "fr": "Démo de la version 1"
+          },
+          "description": {
+            "en": "My goal in testing two data structures was to compare execution time. Version 1 partially solves the grid in 0.001 seconds.",
+            "fr": "Mon objectif en testant deux structures de données était de comparer le temps d'exécution. La version 1 résous partiellement la grille en 0,001 secondes."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku Solver/25.webp",
+          "url": "assets/images/projects/sudoku-solver/demo-2.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots from the demo of version 2 of the program",
+            "fr": "Capture d'écrans de la démo de la version 2 du programme"
+          },
+          "title": {
+            "en": "Version 2 demo",
+            "fr": "Démo de la version 2"
+          },
+          "description": {
+            "en": "Version 2 also partially solves the grid in 0.001 seconds. The choice of either of these two data structures therefore has no impact on execution time.",
+            "fr": "La version 2 résous également partiellement la grille en 0,001 secondes. Le choix de l'une ou l'autre de ces deux structures de données n'a donc pas d'impact sur le temps d'exécution."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku Solver/26.webp",
+          "url": "assets/images/projects/sudoku-solver/backtracking.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots from the demo of the backtracking version of the program",
+            "fr": "Capture d'écrans de la version backtracking du programme"
+          },
+          "title": {
+            "en": "Backtracking version",
+            "fr": "Version backtracking"
+          },
+          "description": {
+            "en": "Neither version of the program solves the entire grid. So I programmed a third version using the backtracking algorithm. This version can solve the entire grid but is extremely slow.",
+            "fr": "Les deux versions du programme ne résolvent pas l'intégralité de la grille. J'ai donc programmé une troisième version utilisant l'algorithme de retour sur trace, ou backtracking. Cette version peut résoudre l'intégralité de la grille mais est extrêmement lente."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku Solver/27.webp",
+          "url": "assets/images/projects/sudoku-solver/final.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of the final version.",
+            "fr": "Capture d'écrans de la version finale."
+          },
+          "title": {
+            "en": "Final version",
+            "fr": "Version finale"
+          },
+          "description": {
+            "en": "The final version of the program first fills in the grid with version 2, then finishes with backtracking.",
+            "fr": "La version final du programme remplit d’abord la grille avec la version 2, puis termine avec le backtracking."
           }
         }
       ],
