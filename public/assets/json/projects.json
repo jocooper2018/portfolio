@@ -685,38 +685,78 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/tabaskho/14.webp",
+          "url": "assets/images/projects/tabaskho/home-page.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of the home page.",
+            "fr": "Capture d'écrans de la page d'accueil."
+          },
+          "title": {
+            "en": "Home page",
+            "fr": "Page d'accueil"
+          },
+          "description": {
+            "en": "This is the website's home page.",
+            "fr": "Voici la page d'accueil du site."
           }
         },
         {
-          "url": "assets/images/projects/tabaskho/15.webp",
+          "url": "assets/images/projects/tabaskho/interview.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots from the interview",
+            "fr": "Capture d'écrans de l'interview"
+          },
+          "title": {
+            "en": "Interview",
+            "fr": "Interview"
+          },
+          "description": {
+            "en": "We began by analyzing the interview with the client.",
+            "fr": "Nous avons commencé par analyser l'interview avec le client."
           }
         },
         {
-          "url": "assets/images/projects/tabaskho/16.jpeg",
+          "url": "assets/images/projects/tabaskho/site-map.jpeg",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Site map",
+            "fr": "Site map"
+          },
+          "title": {
+            "en": "Site map",
+            "fr": "Site map"
+          },
+          "description": {
+            "en": "We then created the site map.",
+            "fr": "Nous avons ensuite créer la carte du site."
           }
         },
         {
-          "url": "assets/images/projects/tabaskho/17.webp",
+          "url": "assets/images/projects/tabaskho/graphic-charter.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Excerpt from the graphic charter",
+            "fr": "Extrait de la charte graphique"
+          },
+          "title": {
+            "en": "Graphic charter",
+            "fr": "Charte graphique"
+          },
+          "description": {
+            "en": "Here is an excerpt from our graphic charter",
+            "fr": "Voici un extrait de notre charte graphique"
           }
         },
         {
-          "url": "assets/images/projects/tabaskho/18.webp",
+          "url": "assets/images/projects/tabaskho/figma.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of the Figma mockup",
+            "fr": "Capture d'écrans de la maquette Figma"
+          },
+          "title": {
+            "en": "Figma mockup",
+            "fr": "Maquette Figma"
+          },
+          "description": {
+            "en": "Before coding the site, we created a mockup on Figma.",
+            "fr": "Avant de coder le site, nous avons créé une maquette sur Figma."
           }
         }
       ],
