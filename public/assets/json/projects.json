@@ -178,7 +178,7 @@
           "url": "assets/images/projects/Démineur web/demineur-screenshot.webp",
           "alt": {
             "en": "Screenshot of a game",
-            "fr": "Capture d'écrans d'une partie"
+            "fr": "Capture d'écran d'une partie"
           },
           "title": {
             "en": "Minesweeper game",
@@ -186,7 +186,7 @@
           },
           "description": {
             "en": "Screenshot of a game",
-            "fr": "Capture d'écrans d'une partie"
+            "fr": "Capture d'écran d'une partie"
           }
         }
       ],
@@ -235,7 +235,7 @@
           "url": "assets/images/projects/my-web-companion/MyWebCompanion_light.webp",
           "alt": {
             "en": "Screenshot of My Web Companion",
-            "fr": "Capture d'écrans de My Web Companion"
+            "fr": "Capture d'écran de My Web Companion"
           },
           "title": {
             "en": "My Web Companion",
@@ -250,7 +250,7 @@
           "url": "assets/images/projects/my-web-companion/MyWebCompanion_dark.webp",
           "alt": {
             "en": "Screenshot of My Web Companion in dark theme",
-            "fr": "Capture d'écrans de My Web Companion en thème sombre"
+            "fr": "Capture d'écran de My Web Companion en thème sombre"
           },
           "title": {
             "en": "My Web Companion: Dark theme",
@@ -303,8 +303,8 @@
         {
           "url": "assets/images/projects/pact-by-tripenarvor/pact-home.webp",
           "alt": {
-            "en": "Screenshots of the home page.",
-            "fr": "Capture d'écrans de la page d'accueil."
+            "en": "Screenshot of the home page.",
+            "fr": "Capture d'écran de la page d'accueil."
           },
           "title": {
             "en": "Home page",
@@ -318,8 +318,8 @@
         {
           "url": "assets/images/projects/pact-by-tripenarvor/pact-map.webp",
           "alt": {
-            "en": "Screenshots of the page listing available offers.",
-            "fr": "Capture d'écrans de la page listant les offres disponibles."
+            "en": "Screenshot of the page listing available offers.",
+            "fr": "Capture d'écran de la page listant les offres disponibles."
           },
           "title": {
             "en": "List of available offers",
@@ -376,7 +376,7 @@
           "url": "assets/images/projects/knight-tour/backtracking-trouver-chemin-util.png",
           "alt": {
             "en": "Screenshot of the trouver_chemin_util function of the backtracking algorithm.",
-            "fr": "Capture d'écrans de la fonction trouver_chemin_util de l'algorithme backtracking."
+            "fr": "Capture d'écran de la fonction trouver_chemin_util de l'algorithme backtracking."
           },
           "title": {
             "en": "Backtracking: trouver_chemin_util()",
@@ -391,7 +391,7 @@
           "url": "assets/images/projects/knight-tour/backtracking-trouver-chemin-hamiltonien.png",
           "alt": {
             "en": "Screenshot of the trouver_chemin_hamiltonien function of the backtracking algorithm.",
-            "fr": "Capture d'écrans de la fonction trouver_chemin_hamiltonien de l'algorithme backtracking."
+            "fr": "Capture d'écran de la fonction trouver_chemin_hamiltonien de l'algorithme backtracking."
           },
           "title": {
             "en": "Backtracking: trouver_chemin_hamiltonien()",
@@ -406,7 +406,7 @@
           "url": "assets/images/projects/knight-tour/warnsdorf-solve-cavalier.png",
           "alt": {
             "en": "Screenshot of the solve_cavalier function of the Warnsdorf algorithm.",
-            "fr": "Capture d'écrans de la fonction solve_cavalier de l'algorithme Warnsdorf."
+            "fr": "Capture d'écran de la fonction solve_cavalier de l'algorithme Warnsdorf."
           },
           "title": {
             "en": "Warnsdorf: solve_cavalier()",
@@ -421,7 +421,7 @@
           "url": "assets/images/projects/knight-tour/warnsdorf-knight-tour.png",
           "alt": {
             "en": "Screenshot of the knight_tour function of the Warnsdorf algorithm.",
-            "fr": "Capture d'écrans de la fonction knight_tour de l'algorithme Warnsdorf."
+            "fr": "Capture d'écran de la fonction knight_tour de l'algorithme Warnsdorf."
           },
           "title": {
             "en": "Warnsdorf: knight_tour()",
@@ -537,8 +537,8 @@
         {
           "url": "assets/images/projects/sudoku-solver/struct-1.webp",
           "alt": {
-            "en": "Screenshots of data structure version 1",
-            "fr": "Capture d'écrans de la version 1 de la structure de données"
+            "en": "Screenshot of data structure version 1",
+            "fr": "Capture d'écran de la version 1 de la structure de données"
           },
           "title": {
             "en": "Data structure version 1",
@@ -552,8 +552,8 @@
         {
           "url": "assets/images/projects/sudoku-solver/struct-2.webp",
           "alt": {
-            "en": "Screenshots of data structure version 2",
-            "fr": "Capture d'écrans de la version 2 de la structure de données"
+            "en": "Screenshot of data structure version 2",
+            "fr": "Capture d'écran de la version 2 de la structure de données"
           },
           "title": {
             "en": "Data structure version 2",
@@ -567,8 +567,8 @@
         {
           "url": "assets/images/projects/sudoku-solver/algo-1.webp",
           "alt": {
-            "en": "Screenshots of version 1 of the program",
-            "fr": "Capture d'écrans de la version 1 du programme"
+            "en": "Screenshot of version 1 of the program",
+            "fr": "Capture d'écran de la version 1 du programme"
           },
           "title": {
             "en": "Version 1",
@@ -582,8 +582,8 @@
         {
           "url": "assets/images/projects/sudoku-solver/algo-2.webp",
           "alt": {
-            "en": "Screenshots of version 2 of the program",
-            "fr": "Capture d'écrans de la version 2 du programme"
+            "en": "Screenshot of version 2 of the program",
+            "fr": "Capture d'écran de la version 2 du programme"
           },
           "title": {
             "en": "Version 2",
@@ -597,8 +597,8 @@
         {
           "url": "assets/images/projects/sudoku-solver/demo-1.webp",
           "alt": {
-            "en": "Screenshots from the demo of version 1 of the program",
-            "fr": "Capture d'écrans de la démo de la version 1 du programme"
+            "en": "Screenshot from the demo of version 1 of the program",
+            "fr": "Capture d'écran de la démo de la version 1 du programme"
           },
           "title": {
             "en": "Version 1 demo",
@@ -612,8 +612,8 @@
         {
           "url": "assets/images/projects/sudoku-solver/demo-2.webp",
           "alt": {
-            "en": "Screenshots from the demo of version 2 of the program",
-            "fr": "Capture d'écrans de la démo de la version 2 du programme"
+            "en": "Screenshot from the demo of version 2 of the program",
+            "fr": "Capture d'écran de la démo de la version 2 du programme"
           },
           "title": {
             "en": "Version 2 demo",
@@ -627,8 +627,8 @@
         {
           "url": "assets/images/projects/sudoku-solver/backtracking.webp",
           "alt": {
-            "en": "Screenshots from the demo of the backtracking version of the program",
-            "fr": "Capture d'écrans de la version backtracking du programme"
+            "en": "Screenshot from the demo of the backtracking version of the program",
+            "fr": "Capture d'écran de la version backtracking du programme"
           },
           "title": {
             "en": "Backtracking version",
@@ -642,8 +642,8 @@
         {
           "url": "assets/images/projects/sudoku-solver/final.webp",
           "alt": {
-            "en": "Screenshots of the final version.",
-            "fr": "Capture d'écrans de la version finale."
+            "en": "Screenshot of the final version.",
+            "fr": "Capture d'écran de la version finale."
           },
           "title": {
             "en": "Final version",
@@ -687,8 +687,8 @@
         {
           "url": "assets/images/projects/tabaskho/home-page.webp",
           "alt": {
-            "en": "Screenshots of the home page.",
-            "fr": "Capture d'écrans de la page d'accueil."
+            "en": "Screenshot of the home page.",
+            "fr": "Capture d'écran de la page d'accueil."
           },
           "title": {
             "en": "Home page",
@@ -702,8 +702,8 @@
         {
           "url": "assets/images/projects/tabaskho/interview.webp",
           "alt": {
-            "en": "Screenshots from the interview",
-            "fr": "Capture d'écrans de l'interview"
+            "en": "Screenshot from the interview",
+            "fr": "Capture d'écran de l'interview"
           },
           "title": {
             "en": "Interview",
@@ -747,8 +747,8 @@
         {
           "url": "assets/images/projects/tabaskho/figma.webp",
           "alt": {
-            "en": "Screenshots of the Figma mockup",
-            "fr": "Capture d'écrans de la maquette Figma"
+            "en": "Screenshot of the Figma mockup",
+            "fr": "Capture d'écran de la maquette Figma"
           },
           "title": {
             "en": "Figma mockup",
@@ -818,8 +818,8 @@
         {
           "url": "assets/images/projects/sudoku/algo.png",
           "alt": {
-            "en": "Screenshots of the program algorithm",
-            "fr": "Capture d'écrans de l'algorithme du programme"
+            "en": "Screenshot of the program algorithm",
+            "fr": "Capture d'écran de l'algorithme du programme"
           },
           "title": {
             "en": "Algorithm",
@@ -833,8 +833,8 @@
         {
           "url": "assets/images/projects/sudoku/test-notebook.png",
           "alt": {
-            "en": "Screenshots from the test notebook",
-            "fr": "Capture d'écrans du cahier de test"
+            "en": "Screenshot from the test notebook",
+            "fr": "Capture d'écran du cahier de test"
           },
           "title": {
             "en": "Test notebook",
@@ -904,8 +904,8 @@
         {
           "url": "assets/images/projects/Platformer2D/1.png",
           "alt": {
-            "en": "Screenshots of the game's home screen.",
-            "fr": "Capture d'écrans de l'écran d'accueil du jeu."
+            "en": "Screenshot of the game's home screen.",
+            "fr": "Capture d'écran de l'écran d'accueil du jeu."
           }
         },
         {
