@@ -29,7 +29,6 @@ import Select, { type SelectOption } from "../Select";
 import MultiSelect from "../MultiSelect";
 import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
 import { ThemeContext } from "../../contexts/ThemeContext";
-import type Image from "../../interfaces/Image";
 
 interface ProjectsSectionProps {
   readonly allTools: Tool[];
@@ -37,7 +36,7 @@ interface ProjectsSectionProps {
   readonly allButSkills: ButSkill[];
   readonly isButSkillsLoading: boolean;
   readonly setImagesToView: React.Dispatch<
-    React.SetStateAction<Image[] | undefined>
+    React.SetStateAction<ProjectData | undefined>
   >;
 }
 

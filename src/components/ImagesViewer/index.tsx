@@ -18,14 +18,14 @@
 
 import "./index.css";
 import { useState } from "react";
-import type Image from "../../interfaces/Image";
 import { useLanguage } from "../../contexts/LanguageContext";
 import CloseIcon from "../../assets/icons/CloseIcon";
+import type Project from "../../interfaces/Project";
 
 interface ImageViewerProps {
-  readonly imagesToView: Image[] | undefined;
-  readonly setImagesToView: React.Dispatch<
-    React.SetStateAction<Image[] | undefined>
+  readonly project: Project | undefined;
+  readonly setProject: React.Dispatch<
+    React.SetStateAction<Project | undefined>
   >;
 }
 
@@ -36,28 +36,28 @@ const ImagesViewer: React.FC<ImageViewerProps> = (props: ImageViewerProps) => {
 
   const close = () => {
     setImageIndex(0);
-    props.setImagesToView(undefined);
+    props.setProject(undefined);
   };
 
   const nextImage = () => {
-    if (props.imagesToView === undefined || props.imagesToView.length === 0) {
+    if (props.project === undefined || props.project.images.length === 0) {
       return;
     }
-    setImageIndex((imageIndex + 1) % props.imagesToView.length);
+    setImageIndex((imageIndex + 1) % props.project.images.length);
   };
 
   const previousImage = () => {
-    if (props.imagesToView === undefined || props.imagesToView.length === 0) {
+    if (props.project === undefined || props.project.images.length === 0) {
       return;
     }
     let newIndex: number = imageIndex - 1;
     if (newIndex < 0) {
-      newIndex = props.imagesToView.length - 1;
+      newIndex = props.project.images.length - 1;
     }
     setImageIndex(newIndex);
   };
 
-  if (props.imagesToView === undefined || props.imagesToView.length === 0) {
+  if (props.project === undefined || props.project.images.length === 0) {
     return;
   }
 
@@ -74,26 +74,30 @@ const ImagesViewer: React.FC<ImageViewerProps> = (props: ImageViewerProps) => {
           &gt;
         </button>
         <img
-          src={props.imagesToView[imageIndex].url}
-          alt={props.imagesToView[imageIndex].alt[lang]}
+          src={props.project.images[imageIndex].url}
+          alt={props.project.images[imageIndex].alt[lang]}
         />
         <div className="current-index">
-          {imageIndex + 1} / {props.imagesToView.length}
+          {imageIndex + 1} / {props.project.images.length}
         </div>
       </div>
       <div className="image-description">
         <article>
-          <h3>
-            {props.imagesToView[imageIndex].title === undefined ||
-            props.imagesToView[imageIndex].title[lang] === ""
+          <h3>{props.project.name[lang]}</h3>
+          <p>{props.project.description[lang]}</p>
+        </article>
+        <article>
+          <h4>
+            {props.project.images[imageIndex].title === undefined ||
+            props.project.images[imageIndex].title[lang] === ""
               ? t("untitled")
-              : props.imagesToView[imageIndex].title[lang]}
-          </h3>
+              : props.project.images[imageIndex].title[lang]}
+          </h4>
           <p>
-            {props.imagesToView[imageIndex].description === undefined ||
-            props.imagesToView[imageIndex].description[lang] === ""
+            {props.project.images[imageIndex].description === undefined ||
+            props.project.images[imageIndex].description[lang] === ""
               ? t("noDescription")
-              : props.imagesToView[imageIndex].description[lang]}
+              : props.project.images[imageIndex].description[lang]}
           </p>
         </article>
       </div>

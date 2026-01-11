@@ -36,7 +36,7 @@ import type ButSkillsData from "../../interfaces/ButSkillsData";
 import Burger from "../Burger";
 import Footer from "../Footer";
 import ImagesViewer from "../ImagesViewer";
-import type Image from "../../interfaces/Image";
+import type Project from "../../interfaces/Project";
 
 const showBurgerMediaQuery: MediaQueryList = window.matchMedia(
   "screen and (max-width: 1320px)"
@@ -51,7 +51,7 @@ const App: React.FC = () => {
     showBurgerMediaQuery.matches
   );
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState<boolean>(false);
-  const [imagesToView, setImagesToView] = useState<Image[] | undefined>(
+  const [imagesToView, setImagesToView] = useState<Project | undefined>(
     undefined
   );
 
@@ -95,8 +95,8 @@ const App: React.FC = () => {
           <Burger isOpen={isBurgerMenuOpen} setIsOpen={setIsBurgerMenuOpen} />
         )}
         <ImagesViewer
-          imagesToView={imagesToView}
-          setImagesToView={setImagesToView}
+          project={imagesToView}
+          setProject={setImagesToView}
         />
         <HomeSection />
         <AboutMeSection />
