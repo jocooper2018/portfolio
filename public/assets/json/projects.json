@@ -786,45 +786,93 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/Sudoku/8.png",
+          "url": "assets/images/projects/sudoku/demo.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Demo",
+            "fr": "Démo"
+          },
+          "title": {
+            "en": "Demo",
+            "fr": "Démo"
+          },
+          "description": {
+            "en": "The program displays the grid, then asks the user which number to put in which cell.",
+            "fr": "Le programme affiche la grille, puis demande à l'utilisateur quel chiffre mettre dans quel case."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku/9.png",
+          "url": "assets/images/projects/sudoku/mockup.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Mockup of the program user interface",
+            "fr": "Maquette de l'interface utilisateur du programme"
+          },
+          "title": {
+            "en": "Mockup",
+            "fr": "Maquette"
+          },
+          "description": {
+            "en": "I started by creating a mockup of the program user interface.",
+            "fr": "J'ai commencé par créer une maquette de l'interface utilisateur du programme."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku/10.png",
+          "url": "assets/images/projects/sudoku/algo.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of the program algorithm",
+            "fr": "Capture d'écrans de l'algorithme du programme"
+          },
+          "title": {
+            "en": "Algorithm",
+            "fr": "Algorithme"
+          },
+          "description": {
+            "en": "I then wrote the program's algorithm in pseudocode.",
+            "fr": "J'ai ensuite écris l'algorithme du programme en pseudo code."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku/11.png",
+          "url": "assets/images/projects/sudoku/test-notebook.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots from the test notebook",
+            "fr": "Capture d'écrans du cahier de test"
+          },
+          "title": {
+            "en": "Test notebook",
+            "fr": "Cahier de test"
+          },
+          "description": {
+            "en": "I then wrote the test notebook.",
+            "fr": "J'ai ensuite rédigé le cahier de test."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku/12.png",
+          "url": "assets/images/projects/sudoku/code.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the code",
+            "fr": "Capture d'écran du code"
+          },
+          "title": {
+            "en": "Code",
+            "fr": "Code"
+          },
+          "description": {
+            "en": "I then wrote the program in C using the algorithm and the test notebook.",
+            "fr": "J'ai ensuite écris le programme en C en utilisant l'algorithme et le cahier de test."
           }
         },
         {
-          "url": "assets/images/projects/Sudoku/13.png",
+          "url": "assets/images/projects/sudoku/doc.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the documentation",
+            "fr": "Capture d'écran de la documentation"
+          },
+          "title": {
+            "en": "Documentation",
+            "fr": "Documentation"
+          },
+          "description": {
+            "en": "I finally generated the documentation in RTF format with Doxygen.",
+            "fr": "J'ai enfin généré la documentation au format RTF avec Doxygen"
           }
         }
       ],
