@@ -28,6 +28,7 @@ import DateRange from "../../DateRange";
 import getTool from "../../../utils/getTool";
 import getButSkill from "../../../utils/getButSkill";
 import PlayIcon from "../../../assets/icons/PlayIcon";
+import type Image from "../../../interfaces/Image";
 
 interface ProjectProps {
   readonly data: ProjectData;
@@ -36,6 +37,9 @@ interface ProjectProps {
   readonly isToolsLoading: boolean;
   readonly allButSkills: ButSkill[];
   readonly isButSkillsLoading: boolean;
+  readonly setImagesToView: React.Dispatch<
+    React.SetStateAction<Image[] | undefined>
+  >;
 }
 
 const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
@@ -128,6 +132,9 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         <img
           src={props.data.images[0].url}
           alt={props.data.images[0].alt[lang]}
+          onClick={() => {
+            props.setImagesToView(props.data.images);
+          }}
         />
       )}
     </article>

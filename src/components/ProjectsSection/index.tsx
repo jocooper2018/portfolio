@@ -29,12 +29,16 @@ import Select, { type SelectOption } from "../Select";
 import MultiSelect from "../MultiSelect";
 import getIconUrlForTheme from "../../utils/getIconUrlForTheme";
 import { ThemeContext } from "../../contexts/ThemeContext";
+import type Image from "../../interfaces/Image";
 
 interface ProjectsSectionProps {
   readonly allTools: Tool[];
   readonly isToolsLoading: boolean;
   readonly allButSkills: ButSkill[];
   readonly isButSkillsLoading: boolean;
+  readonly setImagesToView: React.Dispatch<
+    React.SetStateAction<Image[] | undefined>
+  >;
 }
 
 type SortByType = "end-date" | "name";
@@ -285,6 +289,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
                 isToolsLoading={props.isToolsLoading}
                 allButSkills={props.allButSkills}
                 isButSkillsLoading={props.isButSkillsLoading}
+                setImagesToView={props.setImagesToView}
               />
             ))}
       </div>

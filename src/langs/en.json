@@ -29,5 +29,7 @@
   "testProgram": "Test the program",
   "home": "Home",
   "aboutMe": "About me",
-  "cv": "CV"
+  "cv": "CV",
+  "untitled": "Untitled",
+  "noDescription": "No description"
 }

@@ -35,6 +35,8 @@ import type ButSkill from "../../interfaces/ButSkill";
 import type ButSkillsData from "../../interfaces/ButSkillsData";
 import Burger from "../Burger";
 import Footer from "../Footer";
+import ImagesViewer from "../ImagesViewer";
+import type Image from "../../interfaces/Image";
 
 const showBurgerMediaQuery: MediaQueryList = window.matchMedia(
   "screen and (max-width: 1320px)"
@@ -49,6 +51,9 @@ const App: React.FC = () => {
     showBurgerMediaQuery.matches
   );
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState<boolean>(false);
+  const [imagesToView, setImagesToView] = useState<Image[] | undefined>(
+    undefined
+  );
 
   useEffect(() => {
     (async () => {
@@ -89,6 +94,10 @@ const App: React.FC = () => {
         {showBurger && (
           <Burger isOpen={isBurgerMenuOpen} setIsOpen={setIsBurgerMenuOpen} />
         )}
+        <ImagesViewer
+          imagesToView={imagesToView}
+          setImagesToView={setImagesToView}
+        />
         <HomeSection />
         <AboutMeSection />
         <ProjectsSection
@@ -96,10 +105,14 @@ const App: React.FC = () => {
           isToolsLoading={isToolsLoading}
           allButSkills={allButSkills}
           isButSkillsLoading={isButSkillsLoading}
+          setImagesToView={setImagesToView}
         />
         <SkillsSection allTools={allTools} isToolsLoading={isToolsLoading} />
         <TrainingsSection allTools={allTools} isToolsLoading={isToolsLoading} />
-        <WorkExperiencesSection allTools={allTools} isToolsLoading={isToolsLoading} />
+        <WorkExperiencesSection
+          allTools={allTools}
+          isToolsLoading={isToolsLoading}
+        />
         <ContactSection />
         <Footer />
       </ThemeProvider>

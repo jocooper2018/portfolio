@@ -38,8 +38,106 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/muse/Screenshot_20260110_175024.webp",
+          "url": "assets/images/projects/muse/stream-distribution-by-genre.webp",
           "alt": {
+            "en": "Graph showing the distribution of streams by genre.",
+            "fr": "Graphique montrant la répartition des écoutes par genre."
+          },
+          "title": {
+            "en": "Stream distribution by genre",
+            "fr": "Répartition des écoutes par genre"
+          },
+          "description": {
+            "en": "This graph shows us that half of the music in our dataset is electronic and rock. We can conclude that our recommendation system is more accurate for these two genres.",
+            "fr": "Ce graphique nous montre que dans notre dataset de musique, la moitié sont du genre électronique et rock. On peut en conclure que notre système de recommendation est plus précis pour ces deux genres."
+          }
+        },
+        {
+          "url": "assets/images/projects/muse/genre-comparison.webp",
+          "alt": {
+            "en": "Graph comparing 5 average audio features across 3 music genres.",
+            "fr": "Graphique comparant 5 propriétés audios moyennes 3 genres musicaux."
+          },
+          "title": {
+            "en": "Genre comparison: Average audio features (rock, instrumental, hip-hop)",
+            "fr": "Comparaison des genres : caractéristiques audio moyennes (rock, instrumental, hip-hop)"
+          },
+          "description": {
+            "en": "This graph shows us that audio features depend on the musical genre.",
+            "fr": "Ce graphique nous montre que les propriétés audios dépendent du genre musical."
+          }
+        },
+        {
+          "url": "assets/images/projects/muse/track-album-correlation-heatmap.webp",
+          "alt": {
+            "en": "Graph showing the correlation between songs and their album average.",
+            "fr": "Graphique montrant la correlation entre les titres et la moyenne de leur album."
+          },
+          "title": {
+            "en": "Track vs album - average correlation heatmap",
+            "fr": "Titre vs album - carte thermique de corrélation moyenne"
+          },
+          "description": {
+            "en": "This graph shows the correlation between the characteristics of a track and those of its album. The green diagonal line shows that, on average, a track resembles the other tracks on its album.",
+            "fr": "Ce graphique montre la correlation entre les caractéristiques d'un titre et celles de son album. La diagonale verte montre qu'en moyenne un titre ressemble aux autres titres de son album."
+          }
+        },
+        {
+          "url": "assets/images/projects/muse/album-valence-energy-danceability.webp",
+          "alt": {
+            "en": "Graph showing the average valence of albums based on their average energy and danceability",
+            "fr": "Graphique montrant la valence moyenne des albums en fonction de leur énergie moyenne et de leur dansabilité"
+          },
+          "title": {
+            "en": "Albums average valence by average energy and danceability",
+            "fr": "Valence moyenne des albums en fonction de leur énergie moyenne et de leur dansabilité"
+          },
+          "description": {
+            "en": "In this graph, we can see that the albums in the top right corner are redder, and those in the bottom left corner are bluer. This means that the more emotionally positive a track is, the more energetic and danceable it is.",
+            "fr": "Sur ce graphique, on peut voir que les albums en haut à droite sont plus rouge, et ceux en bas à gauche sont plus bleu. Cela signifie que plus un titre est émotionnellement positif, plus ce titre est énergique et dansable."
+          }
+        },
+        {
+          "url": "assets/images/projects/muse/average-energy-by-music-genre.webp",
+          "alt": {
+            "en": "Graph showing average energy by musical genre",
+            "fr": "Graphique montrant l'énergie moyenne en fonction du genre musical"
+          },
+          "title": {
+            "en": "Average energy by music genre",
+            "fr": "Énergie moyenne en fonction du genre musical"
+          },
+          "description": {
+            "en": "This graph shows that some music genres are more energetic than others.",
+            "fr": "Ce graphique montre que certains genres musicaux sont plus énergiques que d'autres."
+          }
+        },
+        {
+          "url": "assets/images/projects/muse/pca-correlation-circle.webp",
+          "alt": {
+            "en": "Graph showing the correlation circle of a principal component analysis",
+            "fr": "Graphique montrant le cercle de correlation d'une analyse en composantes principales"
+          },
+          "title": {
+            "en": "Principal component analysis: Correlation circle",
+            "fr": "Analyse en composantes principales : Cercle de correlation"
+          },
+          "description": {
+            "en": "This graph shows the correlations between different audio characteristics. The length of the arrows shows the strength of the correlation, and their direction indicates whether the variables are correlated or not.",
+            "fr": "Ce graphique montre les correlations entre différentes caractéristiques audio. La longueur des flèches montre la force de la correlation, et leurs direction indique si les variables sont corrélées ou non."
+          }
+        },
+        {
+          "url": "assets/images/projects/muse/pca-individuals-scatter.webp",
+          "alt": {
+            "en": "",
+            "fr": ""
+          },
+          "title": {
+            "en": "Principal component analysis: Individuals scatter",
+            "fr": "Analyse en composantes principales : Nuage de points"
+          },
+          "description": {
             "en": "",
             "fr": ""
           }
@@ -409,28 +507,28 @@
           }
         },
         {
-          "url": "assets/images/projects/tabaskho/15.png",
+          "url": "assets/images/projects/tabaskho/15.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "assets/images/projects/tabaskho/16.png",
+          "url": "assets/images/projects/tabaskho/16.jpeg",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "assets/images/projects/tabaskho/17.png",
+          "url": "assets/images/projects/tabaskho/17.webp",
           "alt": {
             "en": "",
             "fr": ""
           }
         },
         {
-          "url": "assets/images/projects/tabaskho/18.png",
+          "url": "assets/images/projects/tabaskho/18.webp",
           "alt": {
             "en": "",
             "fr": ""

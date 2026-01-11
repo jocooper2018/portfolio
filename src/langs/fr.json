@@ -29,5 +29,7 @@
   "testProgram": "Tester le programme",
   "home": "Accueil",
   "aboutMe": "À propos",
-  "cv": "CV"
+  "cv": "CV",
+  "untitled": "Sans titre",
+  "noDescription": "Aucune description"
 }

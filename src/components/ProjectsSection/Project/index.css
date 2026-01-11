@@ -29,6 +29,7 @@
 }
 
 .project > img {
+  cursor: pointer;
   height: 15rem;
   aspect-ratio: 16 / 9;
   object-fit: cover;
