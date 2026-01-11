@@ -84,19 +84,21 @@ const ImagesViewer: React.FC<ImageViewerProps> = (props: ImageViewerProps) => {
       <div className="image-description">
         <article>
           <h3>
-            {props.imagesToView[imageIndex].title
-              ? props.imagesToView[imageIndex].title[lang]
-              : t("untitled")}
+            {props.imagesToView[imageIndex].title === undefined ||
+            props.imagesToView[imageIndex].title[lang] === ""
+              ? t("untitled")
+              : props.imagesToView[imageIndex].title[lang]}
           </h3>
           <p>
-            {props.imagesToView[imageIndex].description
-              ? props.imagesToView[imageIndex].description[lang]
-              : t("noDescription")}
+            {props.imagesToView[imageIndex].description === undefined ||
+            props.imagesToView[imageIndex].description[lang] === ""
+              ? t("noDescription")
+              : props.imagesToView[imageIndex].description[lang]}
           </p>
         </article>
       </div>
     </div>
   );
 };
-  
+
 export default ImagesViewer;
