@@ -996,12 +996,12 @@
     },
     {
       "name": {
-        "en": "Creation of a database",
+        "en": "Database creation",
         "fr": "Création d’une base de données"
       },
       "description": {
-        "en": "Creation of a database.",
-        "fr": "Création d’une base de données."
+        "en": "Creation of a database schema representing part of the BUT informatique (computer science bachelor's degree) national program.",
+        "fr": "Création du schéma d’une base de données représentant  une partie du programme national du BUT informatique."
       },
       "startDate": "2023-11-27",
       "endDate": "2024-01-17",
@@ -1017,10 +1017,18 @@
       },
       "images": [
         {
-          "url": "assets/images/projects/database-creation/DC_PN.jpg",
+          "url": "assets/images/projects/database-creation/uml.jpg",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "UML diagram",
+            "fr": "Diagramme UML"
+          },
+          "title": {
+            "en": "UML diagram",
+            "fr": "Diagramme UML"
+          },
+          "description": {
+            "en": "UML diagram of the database schema.",
+            "fr": "Diagramme UML du schéma de la base de données."
           }
         }
       ]
@@ -1032,7 +1040,7 @@
       },
       "description": {
         "en": "Development of part of a reservation management application for a fictional theater (Le Patio).",
-        "fr": "Développement d’une partie d’une application de gestion des réservations d’une salle de spectacle fictive (le Patio)."
+        "fr": "Développement d’une partie d’une application de gestion des réservations d’une salle de spectacle fictive (Le Patio)."
       },
       "startDate": "2024-03-15",
       "endDate": "2024-06-19",
@@ -1052,8 +1060,16 @@
       },
       "images": [
         {
-          "url": "assets/images/projects/lepatio/Screenshot_20251021_191933.webp",
+          "url": "assets/images/projects/lepatio/lepatio.webp",
           "alt": {
+            "en": "Screenshot of the app",
+            "fr": "Capture d'écran de l'application"
+          },
+          "title": {
+            "en": "The app",
+            "fr": "L'application"
+          },
+          "description": {
             "en": "",
             "fr": ""
           }
@@ -1087,8 +1103,16 @@
       },
       "images": [
         {
-          "url": "assets/images/projects/network-services-installation/Screenshot_20251021_192750.webp",
+          "url": "assets/images/projects/network-services-installation/systemctl-status-apache2.webp",
           "alt": {
+            "en": "Screenshot of the result of the command systemctl status apache2",
+            "fr": "Capture d'écran du résultat de la commande systemctl status apache2"
+          },
+          "title": {
+            "en": "systemctl status apache2",
+            "fr": "systemctl status apache2"
+          },
+          "description": {
             "en": "",
             "fr": ""
           }
@@ -1119,10 +1143,18 @@
       },
       "images": [
         {
-          "url": "assets/images/projects/database-operation/sae204_statistiques_colleges.webp",
+          "url": "assets/images/projects/database-operation/uml.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "UML diagram",
+            "fr": "Diagramme UML"
+          },
+          "title": {
+            "en": "UML diagram",
+            "fr": "Diagramme UML"
+          },
+          "description": {
+            "en": "UML diagram of the database schema.",
+            "fr": "Diagramme UML du schéma de la base de données."
           }
         }
       ]
@@ -1151,10 +1183,18 @@
       },
       "images": [
         {
-          "url": "assets/images/projects/demineur-godot/Screenshot_20251021_191541.png",
+          "url": "assets/images/projects/demineur-godot/demineur-screenshot.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of a game",
+            "fr": "Capture d'écran d'une partie"
+          },
+          "title": {
+            "en": "Minesweeper game",
+            "fr": "Partie de démineur"
+          },
+          "description": {
+            "en": "Screenshot of a game",
+            "fr": "Capture d'écran d'une partie"
           }
         }
       ],
