@@ -902,52 +902,93 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/Platformer2D/1.png",
+          "url": "assets/images/projects/platformer-2d/home-screen.png",
           "alt": {
             "en": "Screenshot of the game's home screen.",
             "fr": "Capture d'écran de l'écran d'accueil du jeu."
+          },
+          "title": {
+            "en": "Home screen",
+            "fr": "Écran d'accueil"
+          },
+          "description": {
+            "en": "Here is the game's home screen.",
+            "fr": "Voici l'écran d'accueil du jeu."
           }
         },
         {
-          "url": "assets/images/projects/Platformer2D/2.png",
+          "url": "assets/images/projects/platformer-2d/movement-tutorial.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the player movement tutorial",
+            "fr": "Capture d'écran du tutoriel des déplacement du joueur"
+          },
+          "title": {
+            "en": "Tutorial",
+            "fr": "Tutoriel"
+          },
+          "description": {
+            "en": "Level 1 begins with a tutorial on player movement.",
+            "fr": "Le niveau 1 commence par un tutoriel sur les déplacements du joueur."
           }
         },
         {
-          "url": "assets/images/projects/Platformer2D/3.png",
+          "url": "assets/images/projects/platformer-2d/enemy-tutorial.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the first enemy",
+            "fr": "Capture d'écran du premier ennemi"
+          },
+          "title": {
+            "en": "Enemy",
+            "fr": "Ennemi"
+          },
+          "description": {
+            "en": "Snakes roam the world. If they touch the player, the player loses health points. The player can defeat the snakes by jumping on their heads.",
+            "fr": "Des serpents rôdent dans le monde. S'ils touchent le joueur, celui-ci perd des point de vie. Le joueur peut vaincre les serpents en leur sautant sur la tête."
           }
         },
         {
-          "url": "assets/images/projects/Platformer2D/4.png",
+          "url": "assets/images/projects/platformer-2d/ladder-chest.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the player climbing a ladder to collect a coin and the contents of a chest.",
+            "fr": "Capture d'écran du joueur en train de grimper une échelle pour récolter une pièce, et le contenu d'un coffre."
+          },
+          "title": {
+            "en": "Ladders, coins, chests",
+            "fr": "Échelles, pièces, coffres"
+          },
+          "description": {
+            "en": "Coins and chests are scattered throughout the world. The player must sometimes climb ladders to collect them.",
+            "fr": "Des pièces et des coffres sont répartis dans le monde. Le joueur doit parfois grimper aux échelle pour les récupérer."
           }
         },
         {
-          "url": "assets/images/projects/Platformer2D/5.png",
+          "url": "assets/images/projects/platformer-2d/multiple-path.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of a path splitting into two",
+            "fr": "Capture d'écran d'une bifurcation d'un chemin en deux"
+          },
+          "title": {
+            "en": "Multiple paths",
+            "fr": "Plusieurs chemins"
+          },
+          "description": {
+            "en": "Sometimes the path splits into several paths. The player must choose the right path.",
+            "fr": "Il arrive que le chemin bifurque en plusieurs. Le joueur doit choisir le bon chemin."
           }
         },
         {
-          "url": "assets/images/projects/Platformer2D/6.png",
+          "url": "assets/images/projects/platformer-2d/levels.png",
           "alt": {
-            "en": "",
-            "fr": ""
-          }
-        },
-        {
-          "url": "assets/images/projects/Platformer2D/7.png",
-          "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the level selection screen",
+            "fr": "Capture d'écran de l'écran de sélection du niveau"
+          },
+          "title": {
+            "en": "Levels",
+            "fr": "Niveaux"
+          },
+          "description": {
+            "en": "There are several levels. Players must complete the previous levels in order to play the next ones.",
+            "fr": "Il y a plusieurs niveaux. Le joueur doit avoir complété les niveaux précédant pour jouer aux suivant."
           }
         }
       ],
