@@ -175,8 +175,16 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/Démineur web/Screenshot_20251016_151310.webp",
+          "url": "assets/images/projects/Démineur web/demineur-screenshot.webp",
           "alt": {
+            "en": "Screenshot of a game",
+            "fr": "Capture d'écrans d'une partie"
+          },
+          "title": {
+            "en": "Minesweeper game",
+            "fr": "Partie de démineur"
+          },
+          "description": {
             "en": "Screenshot of a game",
             "fr": "Capture d'écrans d'une partie"
           }
@@ -211,6 +219,7 @@
         "nestjs",
         "prisma",
         "mysql",
+        "docker",
         "git",
         "github"
       ],
@@ -223,17 +232,33 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/My Web Companion/MyWebCompanion_light.webp",
+          "url": "assets/images/projects/my-web-companion/MyWebCompanion_light.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of My Web Companion",
+            "fr": "Capture d'écrans de My Web Companion"
+          },
+          "title": {
+            "en": "My Web Companion",
+            "fr": "My Web Companion"
+          },
+          "description": {
+            "en": "My Web Companion offers various tools such as a notepad and a calendar.",
+            "fr": "My Web Companion propose divers outils comme un bloc note et un calendrier."
           }
         },
         {
-          "url": "assets/images/projects/My Web Companion/MyWebCompanion_dark.webp",
+          "url": "assets/images/projects/my-web-companion/MyWebCompanion_dark.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of My Web Companion in dark theme",
+            "fr": "Capture d'écrans de My Web Companion en thème sombre"
+          },
+          "title": {
+            "en": "My Web Companion: Dark theme",
+            "fr": "My Web Companion : Thème sombre"
+          },
+          "description": {
+            "en": "I developed the dark theme for My Web Companion.",
+            "fr": "J'ai développer le thème sombre de My Web Companion."
           }
         }
       ],
@@ -276,17 +301,33 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/PACT by TripEnArvor/Screenshot_20251027_165223.webp",
+          "url": "assets/images/projects/pact-by-tripenarvor/pact-home.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of the home page.",
+            "fr": "Capture d'écrans de la page d'accueil."
+          },
+          "title": {
+            "en": "Home page",
+            "fr": "Page d'accueil"
+          },
+          "description": {
+            "en": "The home page highlights featured offers, recent offers, and recently viewed offers.",
+            "fr": "La page d'accueil met en avant les offres à la une, les offres récentes, et les offres récemment consultées."
           }
         },
         {
-          "url": "assets/images/projects/PACT by TripEnArvor/Screenshot_20251027_165456.webp",
+          "url": "assets/images/projects/pact-by-tripenarvor/pact-map.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshots of the page listing available offers.",
+            "fr": "Capture d'écrans de la page listant les offres disponibles."
+          },
+          "title": {
+            "en": "List of available offers",
+            "fr": "Liste des offre disponibles"
+          },
+          "description": {
+            "en": "The list of available offers includes a filter and sorting tool, as well as a map to locate offers.",
+            "fr": "La liste des offres disponibles un outil de filtre et de tris, ainsi qu'une carte pour localiser les offres."
           }
         }
       ],
@@ -317,66 +358,138 @@
       ],
       "images": [
         {
-          "url": "assets/images/projects/Knight Tour/28.webp",
+          "url": "assets/images/projects/knight-tour/knight-tour.webp",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Image illustrating the knight's tour",
+            "fr": "Image illustrant le problème du cavalier"
+          },
+          "title": {
+            "en": "The Knight's Tour",
+            "fr": "Le Problème du cavalier"
+          },
+          "description": {
+            "en": "The knight's problem consists of moving a knight once over all the squares on a chessboard while respecting the rules of knight movement in chess.",
+            "fr": "Le problème du cavalier consiste à faire passer un cavalier une seule fois sur toutes les cases d'un échiquier en respectant les règles de déplacement du cavalier dans le jeu d'échecs."
           }
         },
         {
-          "url": "assets/images/projects/Knight Tour/29.png",
+          "url": "assets/images/projects/knight-tour/backtracking-trouver-chemin-util.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the trouver_chemin_util function of the backtracking algorithm.",
+            "fr": "Capture d'écrans de la fonction trouver_chemin_util de l'algorithme backtracking."
+          },
+          "title": {
+            "en": "Backtracking: trouver_chemin_util()",
+            "fr": "Backtracking : trouver_chemin_util()"
+          },
+          "description": {
+            "en": "The first algorithm is backtracking, which involves testing all possibilities. The function trouver_chemin_util finds the path that the knight must take, if it exists.",
+            "fr": "Le premier algorithme est le backtracking, qui consiste à tester toutes les possibilités. La fonction trouver_chemin_util permet de trouver le chemin que le cavalier doit prendre s'il existe."
           }
         },
         {
-          "url": "assets/images/projects/Knight Tour/30.png",
+          "url": "assets/images/projects/knight-tour/backtracking-trouver-chemin-hamiltonien.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the trouver_chemin_hamiltonien function of the backtracking algorithm.",
+            "fr": "Capture d'écrans de la fonction trouver_chemin_hamiltonien de l'algorithme backtracking."
+          },
+          "title": {
+            "en": "Backtracking: trouver_chemin_hamiltonien()",
+            "fr": "Backtracking : trouver_chemin_hamiltonien()"
+          },
+          "description": {
+            "en": "The function trouver_chemin_hamiltonien initializes the chessboard and then uses the function trouver_chemin_util to find the path that the knight must take.",
+            "fr": "La fonction trouver_chemin_hamiltonien initialise l'échiquier puis utilise la fonction trouver_chemin_util pour trouver le chemin que le cavalier doit prendre."
           }
         },
         {
-          "url": "assets/images/projects/Knight Tour/31.png",
+          "url": "assets/images/projects/knight-tour/warnsdorf-solve-cavalier.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the solve_cavalier function of the Warnsdorf algorithm.",
+            "fr": "Capture d'écrans de la fonction solve_cavalier de l'algorithme Warnsdorf."
+          },
+          "title": {
+            "en": "Warnsdorf: solve_cavalier()",
+            "fr": "Warnsdorf : solve_cavalier()"
+          },
+          "description": {
+            "en": "The second algorithm uses Warnsdorf's heuristic. The solve_cavalier function finds the path that the knight must take, if it exists.",
+            "fr": "Le deuxième algorithme utilise l'heuristique de Warnsdorf. La fonction solve_cavalier permet de trouver le chemin que le cavalier doit prendre s'il existe."
           }
         },
         {
-          "url": "assets/images/projects/Knight Tour/32.png",
+          "url": "assets/images/projects/knight-tour/warnsdorf-knight-tour.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Screenshot of the knight_tour function of the Warnsdorf algorithm.",
+            "fr": "Capture d'écrans de la fonction knight_tour de l'algorithme Warnsdorf."
+          },
+          "title": {
+            "en": "Warnsdorf: knight_tour()",
+            "fr": "Warnsdorf : knight_tour()"
+          },
+          "description": {
+            "en": "The function knight_tour initializes the chessboard and then uses the function solve_cavalier to find the path that the knight must take.",
+            "fr": "La fonction knight_tour initialise l'échiquier puis utilise la fonction solve_cavalier pour trouver le chemin que le cavalier doit prendre."
           }
         },
         {
-          "url": "assets/images/projects/Knight Tour/33.png",
+          "url": "assets/images/projects/knight-tour/5-backtracking.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Backtracking solution for a 5×5 chessboard",
+            "fr": "Solution du backtracking pour un échiquier de taille 5×5"
+          },
+          "title": {
+            "en": "Backtracking 5×5",
+            "fr": "Backtracking 5×5"
+          },
+          "description": {
+            "en": "The backtracking algorithm takes 0.059 seconds to find a path on a 5×5 chessboard.",
+            "fr": "L'algorithme backtracking met 0,059 secondes pour trouver un chemin sur un échiquier de taille 5×5."
           }
         },
         {
-          "url": "assets/images/projects/Knight Tour/34.png",
+          "url": "assets/images/projects/knight-tour/5-warnsdorf.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Solution of the Warnsdorf algorithm for a 5×5 chessboard",
+            "fr": "Solution de l'algorithme de Warnsdorf pour un échiquier de taille 5×5"
+          },
+          "title": {
+            "en": "Warnsdorf 5×5",
+            "fr": "Warnsdorf 5×5"
+          },
+          "description": {
+            "en": "The algorithm using Warnsdorf's heuristic takes 0.001 seconds to find a path on a 5×5 chessboard.",
+            "fr": "L'algorithme utilisant l'heuristique de Warnsdorf met 0,001 secondes pour trouver un chemin sur un échiquier de taille 5×5."
           }
         },
         {
-          "url": "assets/images/projects/Knight Tour/35.png",
+          "url": "assets/images/projects/knight-tour/8-backtracking.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Backtracking solution for a 8×8 chessboard",
+            "fr": "Solution du backtracking pour un échiquier de taille 8×8"
+          },
+          "title": {
+            "en": "Backtracking 8×8",
+            "fr": "Backtracking 8×8"
+          },
+          "description": {
+            "en": "The backtracking algorithm takes 33.697 seconds to find a path on a 8×8 chessboard.",
+            "fr": "L'algorithme backtracking met 33,697 secondes pour trouver un chemin sur un échiquier de taille 8×8."
           }
         },
         {
-          "url": "assets/images/projects/Knight Tour/36.png",
+          "url": "assets/images/projects/knight-tour/8-warnsdorf.png",
           "alt": {
-            "en": "",
-            "fr": ""
+            "en": "Solution of the Warnsdorf algorithm for a 8×8 chessboard",
+            "fr": "Solution de l'algorithme de Warnsdorf pour un échiquier de taille 8×8"
+          },
+          "title": {
+            "en": "Warnsdorf 8×8",
+            "fr": "Warnsdorf 8×8"
+          },
+          "description": {
+            "en": "The algorithm using Warnsdorf's heuristic takes 0.003 seconds to find a path on a 8×8 chessboard.",
+            "fr": "L'algorithme utilisant l'heuristique de Warnsdorf met 0,003 secondes pour trouver un chemin sur un échiquier de taille 8×8."
           }
         }
       ],
