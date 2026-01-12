@@ -76,6 +76,7 @@ const ImagesViewer: React.FC<ImageViewerProps> = (props: ImageViewerProps) => {
         <img
           src={props.project.images[imageIndex].url}
           alt={props.project.images[imageIndex].alt[lang]}
+          title={props.project.images[imageIndex].title[lang]}
         />
         <div className="current-index">
           {imageIndex + 1} / {props.project.images.length}
@@ -88,14 +89,12 @@ const ImagesViewer: React.FC<ImageViewerProps> = (props: ImageViewerProps) => {
         </article>
         <article>
           <h4>
-            {props.project.images[imageIndex].title === undefined ||
-            props.project.images[imageIndex].title[lang] === ""
+            {props.project.images[imageIndex].title[lang] === ""
               ? t("untitled")
               : props.project.images[imageIndex].title[lang]}
           </h4>
           <p>
-            {props.project.images[imageIndex].description === undefined ||
-            props.project.images[imageIndex].description[lang] === ""
+            {props.project.images[imageIndex].description[lang] === ""
               ? t("noDescription")
               : props.project.images[imageIndex].description[lang]}
           </p>

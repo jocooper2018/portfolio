@@ -63,7 +63,12 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         <ul className="but-skills">
           {!props.isButSkillsLoading &&
             props.data.butSkillsIds.map((butSkillId: number, i: number) => (
-              <li key={`but-skill-${i}`}>
+              <li
+                key={`but-skill-${i}`}
+                title={
+                  getButSkill(props.allButSkills, butSkillId)?.fullName[lang]
+                }
+              >
                 {getButSkill(props.allButSkills, butSkillId)?.shortName[lang]}
               </li>
             ))}
@@ -131,6 +136,7 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         <img
           src={props.data.images[0].url}
           alt={props.data.images[0].alt[lang]}
+          title={props.data.images[0].title[lang]}
           onClick={() => {
             props.setImagesToView(props.data);
           }}
