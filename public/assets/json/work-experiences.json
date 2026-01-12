@@ -35,6 +35,7 @@
         "nestjs",
         "prisma",
         "mysql",
+        "docker",
         "git",
         "github"
       ]
