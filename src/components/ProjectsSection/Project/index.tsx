@@ -25,9 +25,9 @@ import { useContext } from "react";
 import { ThemeContext } from "../../../contexts/ThemeContext";
 import getIconUrlForTheme from "../../../utils/getIconUrlForTheme";
 import DateRange from "../../DateRange";
-import getTool from "../../../utils/getTool";
 import getButSkill from "../../../utils/getButSkill";
 import PlayIcon from "../../../assets/icons/PlayIcon";
+import ToolsList from "../../ToolsList";
 
 interface ProjectProps {
   readonly data: ProjectData;
@@ -74,29 +74,11 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
             ))}
         </ul>
         <p>{props.data.description[lang]}</p>
-        <ul className="tools">
-          {props.data.toolsIds.map((toolId: string, i: number) => {
-            if (props.isToolsLoading) {
-              return <div className="loader" />;
-            }
-            const tool = getTool(props.allTools, toolId);
-            if (!tool) {
-              console.error(`tool ${toolId} not found`);
-              return;
-            }
-            return (
-              <li key={`tool-${i}`}>
-                <a href={tool.url[lang]} target="_blank">
-                  <img
-                    src={getIconUrlForTheme(tool.logo, resolvedTheme)}
-                    alt={tool.name}
-                  />
-                  <div className="popup">{tool.name}</div>
-                </a>
-              </li>
-            );
-          })}
-        </ul>
+        <ToolsList
+          everyTools={props.allTools}
+          isToolsLoading={props.isToolsLoading}
+          toolsIds={props.data.toolsIds}
+        />
         {(props.data.repositoryLink || props.data.testLink) && (
           <div className="links">
             {props.data.repositoryLink && (

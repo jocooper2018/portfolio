@@ -1,0 +1,85 @@
+/*
+ *  A personal portfolio website to showcase projects.
+ *  Copyright (C) 2026  Matthieu LE BOUT
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+.tools-list {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  padding: 0 2rem;
+  margin: 0 -2rem;
+}
+
+.tools-list {
+  padding: 0.5rem 2rem 2rem 2rem;
+  margin: -0.5rem -2rem -2rem -2rem;
+}
+
+.tools-list img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+  transition: transform 250ms ease-out;
+}
+
+.tools-list a:hover img {
+  transform: scale(1.1);
+}
+
+.tools-list .loader {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+}
+
+.tools-list a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  overflow: visible;
+}
+
+.tools-list a .popup {
+  pointer-events: none;
+  position: absolute;
+  top: 2.25rem;
+  left: 1rem;
+  transform: translate(-50%, -0.5rem);
+  color: var(--text);
+  background-color: var(--bg-light);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: var(--shadow-s);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 250ms ease-out, transform 250ms ease-out;
+  z-index: 1;
+}
+
+.tools-list a:hover .popup {
+  display: block;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
