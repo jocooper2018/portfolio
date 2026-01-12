@@ -44,6 +44,11 @@
   scrollbar-width: none;
 }
 
+.select-menu.overflowing-bottom {
+  top: unset;
+  bottom: 2.5rem;
+}
+
 .select-menu.align-left {
   left: 0;
   right: unset;

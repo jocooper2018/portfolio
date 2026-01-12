@@ -17,7 +17,7 @@
  */
 
 import "./index.css";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import KeyboardArrowDownIcon from "../../assets/icons/KeyboardArrowDownIcon";
 import KeyboardArrowUpIcon from "../../assets/icons/KeyboardArrowUpIcon";
 import CheckIcon from "../../assets/icons/CheckIcon";
@@ -38,8 +38,11 @@ interface SelectProps {
 
 const Select: React.FC<SelectProps> = (props: SelectProps) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isMenuOverflowingBottom, setIsMenuOverflowingBottom] =
+    useState<boolean>(false);
 
   const selectRef = useRef<HTMLDivElement>(null);
+  const selectMenuRef = useRef<HTMLDivElement>(null);
 
   const handleClickOutside = (event: MouseEvent) => {
     if (
@@ -60,6 +63,15 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
     window.removeEventListener("click", handleClickOutside);
   };
 
+  useEffect(() => {
+    if (!selectMenuRef.current) {
+      return;
+    }
+    const rect: DOMRect = selectMenuRef.current.getBoundingClientRect();
+    const viewportHeight: number = window.innerHeight;
+    setIsMenuOverflowingBottom(rect.bottom > viewportHeight);
+  }, [isOpen]);
+
   return (
     <div ref={selectRef} className="select">
       <button
@@ -75,7 +87,10 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
       </button>
       {isOpen && (
         <div
-          className={`select-menu${props.align ? ` align-${props.align}` : ""}`}
+          className={`select-menu${props.align ? ` align-${props.align}` : ""}${
+            isMenuOverflowingBottom ? " overflowing-bottom" : ""
+          }`}
+          ref={selectMenuRef}
         >
           {props.options.map((option: SelectOption) => (
             <button
