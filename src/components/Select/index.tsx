@@ -65,6 +65,7 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
 
   useEffect(() => {
     if (!selectMenuRef.current) {
+      setIsMenuOverflowingBottom(false);
       return;
     }
     const rect: DOMRect = selectMenuRef.current.getBoundingClientRect();
