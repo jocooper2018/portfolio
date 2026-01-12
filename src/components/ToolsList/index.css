@@ -17,6 +17,10 @@
  */
 
 .tools-list {
+  position: relative;
+}
+
+.tools-list ul {
   display: flex;
   gap: 1rem;
   padding: 0;
@@ -27,7 +31,7 @@
   margin: 0 -2rem;
 }
 
-.tools-list {
+.tools-list ul {
   padding: 0.5rem 2rem 2rem 2rem;
   margin: -0.5rem -2rem -2rem -2rem;
 }
@@ -82,4 +86,27 @@
   display: block;
   opacity: 1;
   transform: translate(-50%, 0);
+}
+
+.tools-list button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  z-index: 1;
+  background-color: unset;
+  box-shadow: unset;
+  border-radius: 0;
+}
+
+.tools-list .left-button {
+  left: -2rem;
+  background: linear-gradient(to left, transparent, var(--bg));
+}
+.tools-list .right-button {
+  right: -2rem;
+  background: linear-gradient(to right, transparent, var(--bg));
 }
