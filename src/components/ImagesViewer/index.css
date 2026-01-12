@@ -75,7 +75,7 @@
   transform: unset;
 }
 
-.images-viewer .image-container button.close svg {
+.images-viewer .image-container button svg {
   width: 2rem;
   height: 2rem;
 }

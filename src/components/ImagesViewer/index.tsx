@@ -21,6 +21,8 @@ import { useState } from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import CloseIcon from "../../assets/icons/CloseIcon";
 import type Project from "../../interfaces/Project";
+import KeyboardArrowLeftIcon from "../../assets/icons/KeyboardArrowLeftIcon";
+import KeyboardArrowRightIcon from "../../assets/icons/KeyboardArrowRightIcon";
 
 interface ImageViewerProps {
   readonly project: Project | undefined;
@@ -68,10 +70,10 @@ const ImagesViewer: React.FC<ImageViewerProps> = (props: ImageViewerProps) => {
           <CloseIcon />
         </button>
         <button type="button" className="previous" onClick={previousImage}>
-          &lt;
+          <KeyboardArrowLeftIcon />
         </button>
         <button type="button" className="next" onClick={nextImage}>
-          &gt;
+          <KeyboardArrowRightIcon />
         </button>
         <img
           src={props.project.images[imageIndex].url}

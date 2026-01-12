@@ -95,7 +95,7 @@
   align-items: center;
   width: 2rem;
   height: 2rem;
-  padding: 0;
+  padding: 0.25rem;
   z-index: 1;
   background-color: unset;
   box-shadow: unset;
@@ -109,4 +109,9 @@
 .tools-list .right-button {
   right: -2rem;
   background: linear-gradient(to right, transparent, var(--bg));
+}
+
+.tools-list button svg {
+  width: 100%;
+  height: 100%;
 }
