@@ -77,6 +77,7 @@ const ImagesViewer: React.FC<ImageViewerProps> = (props: ImageViewerProps) => {
           src={props.project.images[imageIndex].url}
           alt={props.project.images[imageIndex].alt[lang]}
           title={props.project.images[imageIndex].title[lang]}
+          className="project-image"
         />
         <div className="current-index">
           {imageIndex + 1} / {props.project.images.length}
