@@ -26,6 +26,7 @@ export interface SelectOption {
   readonly value: string;
   readonly label: string;
   readonly iconUrl?: string;
+  readonly title?: string;
 }
 
 interface SelectProps {
@@ -87,6 +88,7 @@ const Select: React.FC<SelectProps> = (props: SelectProps) => {
                 props.onChange(option);
                 handleClose();
               }}
+              title={option.title}
             >
               <CheckIcon />
               {option.iconUrl && <img src={option.iconUrl} alt="" />}

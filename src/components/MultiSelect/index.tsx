@@ -98,6 +98,7 @@ const MultiSelect: React.FC<MultiSelectProps> = (props: MultiSelectProps) => {
               onClick={() => {
                 props.onChange(option);
               }}
+              title={option.title}
             >
               <CheckIcon />
               {option.iconUrl && <img src={option.iconUrl} alt="" />}

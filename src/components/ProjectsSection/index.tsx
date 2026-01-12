@@ -176,6 +176,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
                   return {
                     value: skill.id.toString(),
                     label: skill.shortName[lang],
+                    title: skill.fullName[lang],
                   };
                 }
               )}
@@ -250,28 +251,30 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = (
         </div>
         <div className="input-container">
           <span>{t("sortBy")}</span>
-          <Select
-            options={sortByOptions}
-            selectedOption={
-              sortByOptions.find(
-                (option: SelectOption) => option.value === sortBy
-              ) as SelectOption
-            }
-            onChange={(option: SelectOption) => {
-              setSortBy(option.value as SortByType);
-            }}
-          />
-          <Select
-            options={orderByOptions}
-            selectedOption={
-              orderByOptions.find(
-                (option: SelectOption) => option.value === sortOrder
-              ) as SelectOption
-            }
-            onChange={(option: SelectOption) => {
-              setSortOrder(option.value as SortOrderType);
-            }}
-          />
+          <div className="input-container">
+            <Select
+              options={sortByOptions}
+              selectedOption={
+                sortByOptions.find(
+                  (option: SelectOption) => option.value === sortBy
+                ) as SelectOption
+              }
+              onChange={(option: SelectOption) => {
+                setSortBy(option.value as SortByType);
+              }}
+            />
+            <Select
+              options={orderByOptions}
+              selectedOption={
+                orderByOptions.find(
+                  (option: SelectOption) => option.value === sortOrder
+                ) as SelectOption
+              }
+              onChange={(option: SelectOption) => {
+                setSortOrder(option.value as SortOrderType);
+              }}
+            />
+          </div>
         </div>
       </div>
       <div className="project-list">
