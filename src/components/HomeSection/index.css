@@ -61,3 +61,30 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (max-height: 500px) {
+  #home .status {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  #home h1 {
+    font-size: 2rem;
+  }
+  #home .status {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-height: 340px) {
+  #home .status {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-height: 315px) {
+  #home h1 {
+    font-size: 1rem;
+  }
+}
