@@ -67,7 +67,7 @@ const Burger: React.FC<BurgerProps> = (props: BurgerProps) => {
           {t("contact")}
         </a>
         <a
-          href="/assets/documents/CV_2026-01-10_Matthieu_LE BOUT.pdf"
+          href="/assets/documents/CV_2026-02-03_Matthieu_LE BOUT.pdf"
           className="button"
           target="_blank"
         >
